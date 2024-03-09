@@ -1106,6 +1106,12 @@ p.error-2{
   font-style: italic;
   background: #FFF;
 }
+.page-nhanthuong-05 .md-content{
+  background: transparent;
+}
+.page-nhanthuong-05 .md-content .ui.search.selection.dropdown>input.search{
+  padding: 15px;
+}
 .page-nhanthuong-05 .md-content .ui.dropdown .default.text{
   color: #787878;
   font-size: calc(8px + 1vw);

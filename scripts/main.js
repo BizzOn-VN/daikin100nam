@@ -36,6 +36,9 @@ jQuery(document).ready(function ($) {
             ;
             new WOW().init();
             $('.ui.checkbox').checkbox();
+            $('#search-select')
+              .dropdown()
+            ;
         }
         var fancybox = function(){
             $("#md-wheel-1").fancybox().trigger('click');
