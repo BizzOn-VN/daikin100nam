@@ -712,6 +712,7 @@ p.error-2{
   margin-top: 20px;
   overflow-y: visible;
   padding: 0px;
+  height: auto;
 }
 .page-nhanthuong .md-content .main-content p{
   text-align: left;
