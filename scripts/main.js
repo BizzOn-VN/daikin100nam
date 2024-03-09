@@ -35,7 +35,7 @@ jQuery(document).ready(function ($) {
               .dropdown()
             ;
             new WOW().init();
-
+            $('.ui.checkbox').checkbox();
         }
         var fancybox = function(){
             $("#md-wheel-1").fancybox().trigger('click');
@@ -43,6 +43,15 @@ jQuery(document).ready(function ($) {
             $("#md-wheel-3").fancybox().trigger('click');
             $("#md-wheel-4").fancybox().trigger('click');
             $("#md-wheel-5").fancybox().trigger('click');
+            $("#md-wheel-6").fancybox().trigger('click');
+            $("#md-wheel-7").fancybox().trigger('click');
+            $("#md-wheel-8").fancybox().trigger('click');
+            $("#md-wheel-9").fancybox().trigger('click');
+            $("#md-wheel-10").fancybox().trigger('click');
+            $("#md-wheel-11").fancybox().trigger('click');
+            $("#md-wheel-12").fancybox().trigger('click');
+            $("#md-wheel-13").fancybox().trigger('click');
+            $("#md-wheel-14").fancybox().trigger('click');
         }
 
         return{
@@ -61,4 +70,5 @@ jQuery(document).ready(function ($) {
 });    
 
 
-$('.ui.checkbox').checkbox();
+
+
