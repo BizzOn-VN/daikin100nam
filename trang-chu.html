@@ -13,6 +13,7 @@
     <link href="vendor/fancybox/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/semantic/semantic.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/hieu-ung.css" rel="stylesheet" media="screen">
 </head>
 <body>
     <header class="page-header">
@@ -44,12 +45,24 @@
     </header>
     <div class="page-main">
         <div class="top-banner">
-            <img src="./images/banner.png" alt="" class="bg-banner">
+            <img src="./images/vong-quay/bg-3.jpg" alt="" class="bg-banner">
             <a href="#" class="btn-cl md-bt-1">quay trúng liền tay</a>
             <a href="#" class="btn-cl md-bt-2">mua hàng săn giải vàng*</a>
+            <img class="vong-quay-hl" src="./images/vong-quay/vong-quay.png">
+            <img class="light-hlc9" src="./images/vong-quay/light.png">
+             <img class="light-3l29" src="./images/vong-quay/light.png">
+            <img class="vang-1" src="./images/vong-quay/vang-1.png">
+            <img class="vang-2" src="./images/vong-quay/vang-2.png">
+            <img class="limbs" src="./images/vong-quay/limbs.png">
+            <img class="vang-3" src="./images/vong-quay/vang-3.png">
+            <img class="vang-5" src="./images/vong-quay/vang-5.png">
+            <img class="vang-6" src="./images/vong-quay/vang-6.png">
+            <img class="text-1lca" src="./images/vong-quay/text-1.png">
+            <img class="text-2lca" src="./images/vong-quay/text-2.png">
+            <img class="text-3lca" src="./images/vong-quay/text-3.png">
         </div>
         <div class="bot-banner clearfix">
-            <p class="md-number">12300</p>
+            <p class="md-number" id="counter-number">12300</p>
             <p class="md-text">NGƯỜI CHƠI <span>ĐÃ NHẬN ĐƯỢC QUÀ</span></p>
         </div>
     </div>
@@ -65,4 +78,20 @@
 <script src="vendor/semantic/semantic.js" type="text/javascript" ></script>
 <script src="vendor/semantic/semantic.min.js" type="text/javascript" ></script>
 <script src="scripts/main.js"></script>
+<script type="text/javascript">
+   setTimeout(function() {
+     $('#counter-number').each(function () {
+             $(this).prop('Counter',0).animate({
+                 Counter: $(this).text()
+             }, {
+                 duration: 4000,
+                 easing: 'swing',
+                 step: function (now) {
+                     $(this).text(Math.ceil(now));
+                 }
+             });
+         });
+   }, 1000);
+    
+</script>
 </html>
