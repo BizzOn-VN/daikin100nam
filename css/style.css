@@ -551,8 +551,8 @@ p.error-2{
 }
 .page-vongquay .img-wheel{
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 4.5%;
+  transform: rotate(0deg);
   top: 34.5%;
   width: 91%;
 }
@@ -1344,6 +1344,13 @@ p.error-2{
   width: auto;
   text-decoration: underline;
   margin: 0px;
+}
+.stop-wheel{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2%;
+  width: 30%;
 }
 
 @media screen and (min-width: 768px){
