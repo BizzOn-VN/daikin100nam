@@ -6,13 +6,16 @@
 @keyframes zoomk {
     from {
          transform: scale(3.5);
+         opacity: 0.7;
     }
    
-    3% {
+    4.7% {
        transform: scale(1);
+       opacity: 1;
     }
     100% {
        transform: scale(1);
+        opacity: 1;
     }
 }
 .top-banner{
@@ -43,35 +46,35 @@
 }
 .light-3l29{
   position: absolute;
-  width: 17%;
+  width: 14%;
   left: 0%;
-  top:1%;
+  top:2.6%;
   z-index: 2;
   animation: light-hl linear infinite 10s;
 }
 @keyframes light-hl {
     from {
-        left: 0%;
+        left: 0.8%;
         opacity: 0;
     }
     30%{
-      left: 0%;
+      left: 0.8%;
       opacity: 0;
     }
     31%{
-       left: 0%;
+       left: 0.8%;
       opacity: 1;
     }
     45%{
-       left: 80%;
+       left: 82%;
         opacity: 1;
     }
     46%{
-       left: 80%;
+       left: 82%;
         opacity: 0;
     }
     to {
-        left: 80%;
+        left: 82%;
         opacity: 0;
     }
 }
@@ -82,6 +85,7 @@
   
     to {
        transform: rotate(360deg);
+       opacity: 1;
     }
 }
 
@@ -91,6 +95,7 @@
   right: 0px;
   top: 10%;
   width: 10%;
+  display: none;
 }
 @keyframes vang-1 {
     from {
@@ -139,6 +144,7 @@
   right: 0px;
   top: 5%;
   width: 10%;
+  display: none;
 }
 @keyframes vang-2 {
     from {
@@ -184,6 +190,7 @@
   left: 0px;
   top: 5%;
   width: 10%;
+  display: none;
 }
 @keyframes vang-3 {
     from {
@@ -229,6 +236,7 @@
   left: 0px;
   top: 45%;
   width: 10%;
+  display: none;
 }
 @keyframes vang-5 {
     from {
@@ -269,6 +277,7 @@
     
 }
 .vang-6{
+  display: none;
   animation: vang-6 linear infinite 10s;
   position: absolute;
   right: 0px;
@@ -320,11 +329,11 @@
       opacity:0;
       transform:scale3d(.3,.3,.3);
     }
-    4%{
+    7%{
       opacity:0;
       transform:scale3d(.3,.3,.3);
     }
-    8%{
+    11%{
       opacity:1;
       transform:scale3d(1,1,1);
     }
@@ -347,11 +356,11 @@
       opacity:0;
       transform:scale3d(.3,.3,.3);
     }
-    8%{
+    12%{
       opacity:0;
       transform:scale3d(.3,.3,.3);
     }
-    12%{
+    15%{
       opacity:1;
       transform:scale3d(1,1,1);
     }
@@ -393,11 +402,11 @@
       opacity:0;
       transform:scale3d(.3,.3,.3);
     }
-    13%{
+    16%{
       opacity:0;
       transform:scale3d(.3,.3,.3);
     }
-    17%{
+    20%{
       opacity:1;
       transform:scale3d(1,1,1);
     }
@@ -406,4 +415,5 @@
       transform:scale3d(1,1,1);
     }
 }
+
 
