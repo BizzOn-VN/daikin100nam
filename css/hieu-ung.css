@@ -26,7 +26,7 @@
   position: absolute;
   width: 34%;
   left: 23%;
-  top: 8%;
+  top: 9%;
   animation: vong-quay-hl linear infinite 20s;
   animation-delay: 0s;
 }
@@ -34,14 +34,14 @@
   position: absolute;
   left: 25%;
   width: 30%;
-  top: 19%;
+  top: 19.9%;
   z-index: 3;
 }
 .light-hlc9{
   position: absolute;
   width: 17%;
   left: 31.8%;
-  top: 13.5%;
+  top: 14%;
   z-index: 5;
 }
 .light-3l29{
