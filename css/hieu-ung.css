@@ -1,3 +1,15 @@
+.page-home{
+  position: relative;
+ min-height: 160vw;
+  overflow: hidden;
+ 
+/*  background: #001865;*/
+background-image: linear-gradient(to right, #001865 50%,#002172);
+}
+.blk-home{
+  position: relative;
+  
+}
 .page-main .bg-banner{
   transform: scale(4.5);
   z-index: 3;
@@ -26,7 +38,7 @@
   position: absolute;
   width: 34%;
   left: 23%;
-  top: 9%;
+  top: 14.5vw;
   animation: vong-quay-hl linear infinite 20s;
   animation-delay: 0s;
 }
@@ -34,21 +46,21 @@
   position: absolute;
   left: 25%;
   width: 30%;
-  top: 19.9%;
+  top: 32.5vw;
   z-index: 3;
 }
 .light-hlc9{
   position: absolute;
   width: 17%;
   left: 31.8%;
-  top: 14%;
+  top: 23vw;
   z-index: 5;
 }
 .light-3l29{
   position: absolute;
   width: 14%;
   left: 0%;
-  top:2.6%;
+  top:4vw;
   z-index: 2;
   animation: light-hl linear infinite 10s;
 }
@@ -320,7 +332,7 @@
   position: absolute;
   width: 80%;
   position: absolute;
-  top: 35.5%;
+  top: 58vw;
   left: 10%;
    animation: zoomIn1 linear infinite 10s;
 }
@@ -347,7 +359,7 @@
   position: absolute;
   width: 80%;
   position: absolute;
-  top: 42%;
+  top: 69vw;
   left: 10%;
    animation: zoomIn2 linear infinite 10s;
 }
@@ -393,7 +405,7 @@
   position: absolute;
   width: 80%;
   position: absolute;
-  top: 59%;
+  top: 97vw;
   left: 10%;
   animation: zoomIn3 linear infinite 10s;
 }
@@ -415,5 +427,20 @@
       transform:scale3d(1,1,1);
     }
 }
-
+.page-main .md-bt-1{
+  top: 105vw;
+  font-size: 4vw;
+  height: 12vw;
+  line-height: 12vw;
+  display: block;
+  padding: 0 2vw;
+}
+.page-main .md-bt-2{
+  top: 122vw;
+  font-size: 4vw;
+  height: 12vw;
+  line-height: 12vw;
+  display: block;
+  padding: 0 2vw;
+}
 
