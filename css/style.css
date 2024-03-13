@@ -563,6 +563,12 @@ p.error-2{
     width: 92%;
     animation: wheel-4 infinite 1s;
 }
+.page-vongquay .md-tagline{
+  position: absolute;
+  width: 82%;
+  top: 2%;
+  left: 9%;
+}
 @keyframes wheel-4{0%,25%,to{opacity:1}12.5%,37.5%{opacity:0},50%{opacity: 1}}
 .page-vongquay .img-wheel-2{
   position: absolute;
