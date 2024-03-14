@@ -43,20 +43,20 @@ App.Site = function () {
       ;
   }
   var fancybox = function () {
-    // $("#md-wheel-1").fancybox().trigger('click');
-    // $("#md-wheel-2").fancybox().trigger('click');
-    // $("#md-wheel-3").fancybox().trigger('click');
-    // $("#md-wheel-4").fancybox().trigger('click');
-    // $("#md-wheel-5").fancybox().trigger('click');
-    // $("#md-wheel-6").fancybox().trigger('click');
-    // $("#md-wheel-7").fancybox().trigger('click');
-    // $("#md-wheel-8").fancybox().trigger('click');
-    // $("#md-wheel-9").fancybox().trigger('click');
-    // $("#md-wheel-10").fancybox().trigger('click');
-    // $("#md-wheel-11").fancybox().trigger('click');
-    // $("#md-wheel-12").fancybox().trigger('click');
-    // $("#md-wheel-13").fancybox().trigger('click');
-    // $("#md-wheel-14").fancybox().trigger('click');
+    $("#md-wheel-1").fancybox().trigger('click'); //trang vong-quay
+    $("#md-wheel-2").fancybox().trigger('click'); //trang vong-quay
+    $("#md-wheel-3").fancybox().trigger('click'); //trang câu hỏi
+    $("#md-wheel-4").fancybox().trigger('click'); //trang câu hỏi
+    $("#md-wheel-5").fancybox().trigger('click'); //trang form-bo-sung-thong-tin-1
+    $("#md-wheel-6").fancybox().trigger('click'); //trang vong-quay-2
+    $("#md-wheel-7").fancybox().trigger('click'); //trang vong-quay-2
+    $("#md-wheel-8").fancybox().trigger('click'); //trang vong-quay-2
+    $("#md-wheel-9").fancybox().trigger('click'); //trang-xac-nhan-sdt-2
+    $("#md-wheel-10").fancybox().trigger('click'); //trang xac-nhan-sdt-1
+    $("#md-wheel-11").fancybox().trigger('click'); //trang nhap-otp
+    $("#md-wheel-12").fancybox().trigger('click'); //trang-quet-ma
+    $("#md-wheel-13").fancybox().trigger('click'); //trang-quet-ma
+    $("#md-wheel-14").fancybox().trigger('click'); //trang-quet-ma
   }
 
 
