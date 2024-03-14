@@ -59,6 +59,10 @@ App.Site = function () {
     $("#md-wheel-6").fancybox().trigger('click'); //trang vong-quay-2
     $("#md-wheel-7").fancybox().trigger('click'); //trang vong-quay-2
     $("#md-wheel-8").fancybox().trigger('click'); //trang vong-quay-2
+    $("#md-wheel-20").fancybox().trigger('click'); //trang vong-quay-2
+    $("#md-wheel-21").fancybox().trigger('click'); //trang vong-quay-2
+    $("#md-wheel-22").fancybox().trigger('click'); //trang vong-quay-2
+    $("#md-wheel-23").fancybox().trigger('click'); //trang vong-quay-2
 
     $("#md-wheel-9").fancybox().trigger('click'); //trang-xac-nhan-sdt-2
 
@@ -91,3 +95,13 @@ App.Site = function () {
 
 
 
+  // $(function(){
+  //     $('#timeline').timelinev({
+  //         containerDivs:    '.timelineCont',
+  //         dateDiv:         '.date',
+  //         textDiv:         '.text',
+  //         dateHtml:        'h2',
+  //         textHtml:        'p',
+  //         dateActiveClass: '.active',
+  //     });
+  // });
