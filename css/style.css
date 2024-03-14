@@ -86,10 +86,13 @@ input[type=submit] {
         font-size: calc(10px + 1vw);
     }
 }
+.container{
+  max-width: none !important;
+}
 
 
 .page-header .top-header{
-    padding: 15px 0px;
+    padding: 20px 0px;
 }
 .page-header .logo{
     float: left;
@@ -100,22 +103,32 @@ input[type=submit] {
     min-width: 80px;
 }
 .page-header .main-menu{
-    float: right;
-    width: 80%;
+    float: left;
+    width: 66%;
+    margin-left: 2%;
 }
 .page-header .main-menu ul{
-    display: flex;
-    justify-content: end;
-    align-items: center
+    display: table;
+    margin: 0 auto;
+    width: 100%;
 }
 .page-header .main-menu ul li{
-    float: left;
-    padding: 15px 20px;
+    display: table-cell;
+    padding: 0px 10px;
 }
 .page-header .main-menu ul li a{
-    color: #333;
-    font-weight: 400;
-    font-size: calc(4px + 1vw);
+    color: #00123d;
+    font-weight: 500;
+    font-size: calc(2px + 0.7vw);
+    display: inline-block;
+    text-transform: uppercase;
+}
+.page-header .md-hotline{
+  width: 15%;
+  float: right;
+}
+.page-header .md-hotline img{
+  width: 100%;
 }
 .page-header .toggle-menu{
     float: right;
@@ -308,6 +321,7 @@ p.error-2{
   border-radius: 0px 50px 0px 0px;
   padding: 15px 50px;
   border-top: 1px solid #f0d67a;
+  z-index: 6;
 
 }
 .page-main .bot-banner .md-number{
@@ -348,7 +362,7 @@ p.error-2{
 }
 .page-thele .md-content .main-content{
  overflow-y: scroll;
- height: 100%;
+ height: 90%;
  padding: 0px 15px 0px 0px;
  
 }
@@ -356,20 +370,22 @@ p.error-2{
   text-transform: uppercase;
   color: #001e6b;
   font-size: calc(12px + 2vw);
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   margin-top: 0px;
   line-height: 1.2;
   font-weight: 800;
 }
 .page-thele .md-content .main-content h6{
   text-transform: uppercase;
-  margin: 20px 0px;
-  font-weight: 700;
+  margin: 0px 0px 15px 0px;
+  font-weight: 800;
   text-align: justify;
+  font-size: calc(6px + 1vw);
 }
 .page-thele .md-content .main-content p{
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   text-align: justify;
+  letter-spacing: -1px;
 }
 .page-lienhe .md-content .main-content{
   overflow-y: visible;
@@ -956,6 +972,7 @@ p.error-2{
   background: transparent;
   padding: 40px 20px 20px;
 }
+
 .md-quetma .md-content{
   background: #FFF;
   padding: 15px;
@@ -988,9 +1005,17 @@ p.error-2{
 .md-quetma .fancybox-button svg{
   display: none;
 }
+.page-quetma .bg-banner{
+  position: absolute;
+  left: 50%;
+  top: 28%;
+  width: 82%;
+  transform: translateX(-50%);
+}
 .page-quetma .md-content{
-  height: 100%;
+  position: static;
   background: rgba(0,0,0,0.3);
+  padding-bottom: 20px;
 }
 .page-quetma .md-content h3{
   text-align: center;
@@ -1007,22 +1032,16 @@ p.error-2{
 .page-quetma .md-content .ctn-button-quetma{
   display: block;
   width: 45%;
+  margin-bottom: 10px;
 }
 .page-quetma .md-content .ctn-button-quetma img{
   width: 100%;
 }
 .page-quetma .md-content .img-camera{
-  position: absolute;
-  left: 50%;
-  top: 28%;
-  width: 82%;
-  transform: translateX(-50%);
+  width: 100%;
 }
 .page-quetma .md-content .bot-content{
-  position: absolute;
-  left: 50%;
-  bottom: 5%;
-  transform: translateX(-50%);
+  margin-top: 20px;
   width: 100%;
   padding: 0px 40px;
 }
@@ -1366,10 +1385,308 @@ p.error-2{
   bottom: 2%;
   width: 30%;
 }
-
 @media screen and (min-width: 768px){
-  body{
-    display: none;
+  .page-main .md-bt-1{
+    width: 26.5%;
+    position: absolute;
+    left: 52.5%;
+     transform: translateX(0%); 
+    top: 11.5%;
+    padding: 1.5% 0px;
   }
-}
+  .page-main .md-bt-2{
+    width: 26.5%;
+    position: absolute;
+    left: 52.5%;
+     transform: translateX(0%); 
+    top: 25%;
+    padding: 1.5% 0px;
+  }
+  .vong-quay-hl{
+    position: absolute;
+    width: 24%;
+    left: 31%;
+    top: 38%;
+  }
+  .light-hlc9{
+    position: absolute;
+    width: 11%;
+    left: 37.5%;
+    top: 50.5%;
+    z-index: 5;
+  }
+  .light-3l29{
+    position: absolute;
+    width: 9%;
+    left: 14%;
+    top: -1%;
+    z-index: 2;
+  }
+  @keyframes light-hl {
+      from {
+          left: 14%;
+          opacity: 0;
+      }
+      30%{
+        left: 14%;
+        opacity: 0;
+      }
+      31%{
+         left: 14%;
+        opacity: 1;
+      }
+      38%{
+         left: 45%;
+          opacity: 1;
+      }
+      39%{
+         left: 45%;
+          opacity: 0;
+      }
+      to {
+          left: 50%;
+          opacity: 0;
+      }
+  }
 
+  .limbs{
+    position: absolute;
+        left: 35%;
+    width: 16.3%;
+    top: 62%;
+        z-index: 3;
+  }
+  .text-1lca{
+    width: 28.3%;
+        position: absolute;
+        top: 10.9%;
+        left: 21%;
+  }
+  .text-2lca{
+    width: 28.5%;
+    position: absolute;
+    top: 18.5%;
+    left: 21%;
+
+  }
+  .text-3lca{
+    width: 27%;
+        position: absolute;
+        top: 5%;
+        left: 52.3%;
+  }
+  .page-main .bot-banner{
+    background: url(../images/vong-quay/line-bottom.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0px;
+    border: none;
+    padding: 0px;
+    height: 34%;
+  }
+  .page-main .bot-banner .md-number{
+    position: absolute;
+    left: 21.5%;
+    bottom: 6%;
+    width: 10.5%;
+    font-size: 3vw;
+  }
+  .page-thele .md-content .md-back{
+    width: 15%;
+  }
+  .page-thele .md-content{
+    padding: 0px 20%;
+  }
+  .page-thele .md-content .main-content{
+    height: 70%;
+  }
+  .page-trungthuong-02 .md-content .img-title{
+    position: absolute;
+    width: 22%;
+    right: 19%;
+    top: 0%;
+    max-width: 400px;
+  }
+  .page-trungthuong-02 .md-content h3{
+    width: 69%;
+    font-size: calc(5px + 1.5vw);
+  }
+  .page-trungthuong-02 form input[type="search"]{
+    width: 69%;
+  }
+  .page-trungthuong-02 form input[type="button"]{
+    left: 2%;
+  }
+  .page-trungthuong-02 .md-content .main-content .md-col{
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+  .page-trungthuong-02 .md-content .main-content .md-col span{
+    display: inline-block;
+  }
+  .page-trungthuong-02 .md-content .main-content .md-col span.mgr{
+    margin-right: 10px;
+  }
+  .page-trungthuong-02 .md-content .main-content .md-col p{
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 10px;
+  }
+  .page-trungthuong-02 .md-content .main-content .md-col .md-right{
+    width: 40%;
+  }
+  .page-trungthuong-02 .md-content .main-content .md-col .md-left{
+    width: 60%;
+  }
+  .page-trungthuong .bot-banner{
+    background: url(../images/vong-quay/line-bottom-2.png) no-repeat;
+    background-size: 100% 100%;
+  }
+  .page-trungthuong .bot-banner .md-number{
+    left: 34.5%;
+    bottom: 3%;
+    width: 10.5%;
+  }
+  .page-trungthuong-02 .md-content .main-content{
+    height: 90%;
+  }
+  .page-trungthuong-des .md-content .main-content{
+    overflow: visible;
+    padding: 0px;
+    height: auto;
+  }.page-trungthuong-des .md-content .main-content .top-content{
+    margin-bottom: 15px;
+  }
+  .page-trungthuong-des .md-content .main-content .top-content .md-col{
+    margin-bottom: 0px;
+  }
+  .page-trungthuong-des .md-content .main-content .top-content .md-col{
+    float: left;
+    width: 50%;
+  }
+  .page-trungthuong-des .md-content .main-content .bot-content .md-col{
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+  }
+  .page-trungthuong-des .md-content .main-content .bot-content .md-col:last-child{
+    margin-right: 0%;
+  }
+  .page-nhanthuong .md-content .img-gift-2{
+    width: 25%;
+    margin: -3% auto 0 auto;
+  }
+  .page-nhanthuong01 .bot-content{
+    background: url(../images/vong-quay/line-bottom-3.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0px;
+    border: none;
+    height: 40%;
+  }
+  .page-nhanthuong01 .bot-content h6{
+    position: absolute;
+    left: 20%;
+    bottom: 32%;
+    font-size: calc(4px + 1vw);
+  }
+  .page-nhanthuong01 .bot-content p{
+    position: absolute;
+    left: 20%;
+    bottom: 17%;
+    font-size: calc(4px + 0.6vw);
+    width: 60%;
+  }
+  .page-nhanthuong01 .bot-content a{
+    position: absolute;
+    left: 20%;
+    bottom: 0%;
+  }
+  .page-nhanthuong .md-content h3{
+    font-size: calc(10px + 1vw);
+  }
+  .page-nhanthuong01 .md-content .top-content a{
+    width: 50%;
+    display: table;
+    margin: 2% auto;
+  }
+  .page-nhanthuong01 .md-content .top-content h6{
+    font-size: calc(8px + 1vw);
+  }
+  .page-nhanthuong01 .md-content p{
+    font-size: calc(4px + 1vw);
+  }
+  .page-nhanthuong01 .md-content .top-content p span{
+    font-size: calc(8px + 1vw);
+  }
+  .page-nhanthuong01 .md-content .top-content p.text-ct{
+    text-align: center;
+  }
+  .fancybox-content img{
+    width: 30% !important;
+    left: 50% !important;
+  }
+  .fancybox-content a{
+    width: 20%;
+    left: 49%;
+    padding: 10px 0px;
+    font-size: calc(4px + 0.8vw);
+  }
+  .md-wheel-2 a{
+    width: 17%;
+    left: 50%;
+    top: 60%;
+    padding: 8px 0px;
+
+  }
+  .md-wheel-6 a{
+    left: 50%;
+    width: 18%;
+  }
+  .md-wheel-7 a{
+    left: 50%;
+    width: 18%;
+  }
+  .md-wheel-8 a{
+    left: 50%;
+    width: 18%;
+    padding: 9px 0px;
+    top: 64%;
+  }
+  .page-vongquay .img-wheel{
+    position: absolute;
+    left: 34.5%;
+    transform: rotate(0deg);
+    top: 26%;
+    width: 31%;
+  }
+  .page-vongquay .img-wheel-2{
+    width: 23%;
+  }
+  .page-vongquay .img-quay{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 52%;
+    width: 5%;
+  }
+  .page-vongquay .img-arrow{
+    top: 80%;
+    width: 5%;
+  }
+  .page-vongquay .img-wheel-4{
+     position: absolute;
+    left: 34.5%;
+    transform: rotate(0deg);
+    top: 26%;
+    width: 31%;
+  }
+  .page-vongquay .md-tagline{
+    width: 53%;
+    top: 4%;
+    left: 23.3%;
+  }
+  .page-vongquay p.md-text{
+    top: 21%;
+    font-size: calc(4px + 1vw);
+  }
+
+}
