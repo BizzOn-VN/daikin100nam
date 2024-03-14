@@ -1186,6 +1186,10 @@ p.error-2{
   display: block;
   margin: 0 0 15px 0;
 }
+.page-nhanthuong-05 .md-content .main-content .ctn-button-quetma img{
+  display: block;
+  margin: 0;
+}
 .md-wheel-9{
   display: none;
   position: absolute;
@@ -1688,5 +1692,74 @@ p.error-2{
     top: 21%;
     font-size: calc(4px + 1vw);
   }
-
+  .page-nhanthuong-05 .md-content .top-main-content{
+    float: left;
+    width: 40%;
+  }
+  .page-nhanthuong-05 .md-content .bot-main-content{
+    float: right;
+    width: 50%;
+    margin: 0px;
+    
+  }
+  .page-nhanthuong-05 .md-content .main-content{
+    height: auto;
+  }
+  .page-nhanthuong-05 .md-content .top-main-content h3{
+    text-align: left;
+  }
+  .page-nhanthuong-03 .md-content .main-content p{
+    font-size: calc(4px + 1vw);
+    text-align: center;
+  }
+  .page-nhanthuong-05 .md-content .main-content p{
+    text-align: left;
+  }
+  .page-nhanthuong-05 .md-content .ui.dropdown .default.text{
+    font-size: calc(4px + 1vw);
+  }
+  .page-nhanthuong-05 .md-content .main-content .md-row{
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+  }
+  .page-nhanthuong-05 .md-content .main-content .md-row-2{
+    float: left;
+    margin-right: 0%;
+    margin-bottom: 20px;
+  }
+  .page-nhanthuong-05 .md-content .ui.dropdown .menu>.item{
+    font-size: calc(4px + 1vw);
+  }
+  .page-nhanthuong-06 .md-content .main-content{
+    margin-top: 0px;
+  }
+  .page-nhanthuong-06 .md-content .main-content p{
+    text-align: center;
+  }
+  .page-nhanthuong-06 .md-content h3{
+    margin-bottom: 10px;
+  }
+  .page-nhanthuong-06 .md-content .main-content input[type='button']{
+    width: 50%;
+    display: table;
+    margin: 0px auto 10px auto;
+  }
+  .page-nhanthuong-03 .form-sdt{
+    padding: 0px 25%;
+  }
+  .page-nhanthuong-03 .ui.checkbox label{
+    font-size: calc(3px + 0.8vw);
+    padding-left: 3em;
+  }
+  .page-nhanthuong-03 .md-content .md-note{
+    font-size: calc(3px + 0.8vw) !important;
+    text-align: left !important;
+  }
+  .page-nhanthuong-03 .md-content .main-content input[type='button']{
+    margin: 10px 0px 10px 0px;
+  }
+  .page-nhanthuong-03 .md-content .main-content p.md-remind{
+    margin-bottom: 0px;
+  }
 }

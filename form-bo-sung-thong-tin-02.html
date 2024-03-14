@@ -45,99 +45,103 @@
             </div>
         </div>
     </header>
-    <div class="page-main page-thele page-nhanthuong page-nhanthuong-03 page-nhanthuong-05 page-quetma">
-        <img src="./images/bg-gift.png" alt="" class="bg-banner">
+    <div class="page-main page-thele page-nhanthuong page-nhanthuong-03 page-nhanthuong-05 page-nhanthuong-06">
+        <img src="./images/bg-gift.png" alt="" class="bg-banner md-mobile">
+        <img src="./images/img-thele-des.png" alt="" class="bg-banner md-desktop">
         <div class="md-content">
             <a href="#"><img src="./images/md-back.png" alt="" class="md-back"></a>
             <h3>Vui lòng cung cấp thêm thông tin</h3>
-            <div class="main-content">
+            <div class="main-content clearfix">
                 <form action="">
                     <p>Vui lòng bổ sung thông tin vào các ô dưới đây:</p>
-                    <div class="md-col">
-                         <input type="text" placeholder ="Số model của sản phẩm*">
-                         <!-- <p class="error">Vui lòng nhập số model của sản phẩm</p> -->
+                    <div class="md-row">
+                      <div class="md-col">
+                           <input type="text" placeholder ="Số model của sản phẩm*">
+                           <!-- <p class="error">Vui lòng nhập số model của sản phẩm</p> -->
+                      </div>
+                      <div class="md-col">
+                           <input type="text" placeholder ="Số series của sản phẩm*">
+                           <!-- <p class="error">Vui lòng nhập số series của sản phẩm</p> -->
+                      </div>
+                      <a href="#" class="ctn-button-quetma" data-fancybox="" data-src="#md-quetma" href="javascript:;"><img src="./images/md-quetma.png" alt=""></a>
                     </div>
-                    <div class="md-col">
-                         <input type="text" placeholder ="Số series của sản phẩm*">
-                         <!-- <p class="error">Vui lòng nhập số series của sản phẩm</p> -->
-                    </div>
-                    <a href="#" class="ctn-button-quetma" data-fancybox="" data-src="#md-quetma" href="javascript:;"><img src="./images/md-quetma.png" alt=""></a>
-                    <div class="md-col">
-                        <input type="text" placeholder ="Họ và tên*">
-                        <!-- <p class="error">Vui lòng nhập họ và tên</p> -->
-                    </div>
-                    <div class="md-col">
-                        <input type="text" placeholder="Đại lý bán*">
-                        <!-- <p class="error">Vui lòng nhập đại lý bán</p> -->
-                    </div>
-                    <select class="ui search selection dropdown" id="search-select">
-                      <option value="">Chọn tỉnh thành*</option>
-                      <option value="An Giang">An Giang</option>
-                      <option value="Bà Rịa Vũng Tàu">Bà Rịa Vũng Tàu</option>
-                      <option value="Bạc Liêu">Bạc Liêu</option>
-                      <option value="Bắc Giang">Bắc Giang</option>
-                      <option value="Bắc Kạn">Bắc Kạn</option>
-                      <option value="Bắc Ninh">Bắc Ninh</option>
-                      <option value="Bến Tre">Bến Tre</option>
-                      <option value="Bình Dương">Bình Dương</option>
-                      <option value="Bình Định">Bình Định</option>
-                      <option value="Bình Phước">Bình Phước</option>
-                      <option value="Bình Thuận">Bình Thuận</option>
-                      <option value="Cà Mau">Cà Mau</option>
-                      <option value="Cao Bằng">Cao Bằng</option>
-                      <option value="Cần Thơ">Cần Thơ</option>
-                      <option value="Đà Nẵng">Đà Nẵng</option>
-                      <option value="Đắk Lắk">Đắk Lắk</option>
-                      <option value="Đắk Nông">Đắk Nông</option>
-                      <option value="Điện Biên">Điện Biên</option>
-                      <option value="Đồng Nai">Đồng Nai</option>
-                      <option value="Đồng Tháp">Đồng Tháp</option>
-                      <option value="Gia Lai">Gia Lai</option>
-                      <option value="Hà Giang">Hà Giang</option>
-                      <option value="Hà Nam">Hà Nam</option>
-                      <option value="Hà Nội">Hà Nội</option>
-                      <option value="Hà Tĩnh">Hà Tĩnh</option>
-                      <option value="Hải Dương">Hải Dương</option>
-                      <option value="Hải Phòng">Hải Phòng</option>
-                      <option value="Hậu Giang">Hậu Giang</option>
-                      <option value="Hòa Bình">Hòa Bình</option>
-                      <option value="Hưng Yên">Hưng Yên</option>
-                      <option value="Khánh Hòa">Khánh Hòa</option>
-                      <option value="Kiên Giang">Kiên Giang</option>
-                      <option value="Kon Tum">Kon Tum</option>
-                      <option value="Lai Châu">Lai Châu</option>
-                      <option value="Lạng Sơn">Lạng Sơn</option>
-                      <option value="Lào Cai">Lào Cai</option>
-                      <option value="Lâm Đồng">Lâm Đồng</option>
-                      <option value="Long An">Long An</option>
-                      <option value="Nam Định">Nam Định</option>
-                      <option value="Nghệ An">Nghệ An</option>
-                      <option value="Ninh Bình">Ninh Bình</option>
-                      <option value="Ninh Thuận">Ninh Thuận</option>
-                      <option value="Phú Thọ">Phú Thọ</option>
-                      <option value="Phú Yên">Phú Yên</option>
-                      <option value="Quảng Bình">Quảng Bình</option>
-                      <option value="Quảng Nam">Quảng Nam</option>
-                      <option value="Quảng Ngãi">Quảng Ngãi</option>
-                      <option value="Quảng Ninh">Quảng Ninh</option>
-                      <option value="Quảng Trị">Quảng Trị</option>
-                      <option value="Sóc Trăng">Sóc Trăng</option>
-                      <option value="Sơn La">Sơn La</option>
-                      <option value="Tây Ninh">Tây Ninh</option>
-                      <option value="Thái Bình">Thái Bình</option>
-                      <option value="Thái Nguyên">Thái Nguyên</option>
-                      <option value="Thanh Hóa">Thanh Hóa</option>
-                      <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
-                      <option value="Tiền Giang">Tiền Giang</option>
-                      <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
-                      <option value="Trà Vinh">Trà Vinh</option>
-                      <option value="Tuyên Quang">Tuyên Quang</option>
-                      <option value="Vĩnh Long">Vĩnh Long</option>
-                      <option value="Vĩnh Phúc">Vĩnh Phúc</option>
-                      <option value="Yên Bái">Yên Bái</option>
-                    </select>
-                    <input type="button" value="quay trúng quà ngay">
-                    
+                    <div class="md-row md-row-2">
+                      <div class="md-col">
+                          <input type="text" placeholder ="Họ và tên*">
+                          <!-- <p class="error">Vui lòng nhập họ và tên</p> -->
+                      </div>
+                      <div class="md-col">
+                          <input type="text" placeholder="Đại lý bán*">
+                          <!-- <p class="error">Vui lòng nhập đại lý bán</p> -->
+                      </div>
+                      <select class="ui search selection dropdown" id="search-select">
+                        <option value="">Chọn tỉnh thành*</option>
+                        <option value="An Giang">An Giang</option>
+                        <option value="Bà Rịa Vũng Tàu">Bà Rịa Vũng Tàu</option>
+                        <option value="Bạc Liêu">Bạc Liêu</option>
+                        <option value="Bắc Giang">Bắc Giang</option>
+                        <option value="Bắc Kạn">Bắc Kạn</option>
+                        <option value="Bắc Ninh">Bắc Ninh</option>
+                        <option value="Bến Tre">Bến Tre</option>
+                        <option value="Bình Dương">Bình Dương</option>
+                        <option value="Bình Định">Bình Định</option>
+                        <option value="Bình Phước">Bình Phước</option>
+                        <option value="Bình Thuận">Bình Thuận</option>
+                        <option value="Cà Mau">Cà Mau</option>
+                        <option value="Cao Bằng">Cao Bằng</option>
+                        <option value="Cần Thơ">Cần Thơ</option>
+                        <option value="Đà Nẵng">Đà Nẵng</option>
+                        <option value="Đắk Lắk">Đắk Lắk</option>
+                        <option value="Đắk Nông">Đắk Nông</option>
+                        <option value="Điện Biên">Điện Biên</option>
+                        <option value="Đồng Nai">Đồng Nai</option>
+                        <option value="Đồng Tháp">Đồng Tháp</option>
+                        <option value="Gia Lai">Gia Lai</option>
+                        <option value="Hà Giang">Hà Giang</option>
+                        <option value="Hà Nam">Hà Nam</option>
+                        <option value="Hà Nội">Hà Nội</option>
+                        <option value="Hà Tĩnh">Hà Tĩnh</option>
+                        <option value="Hải Dương">Hải Dương</option>
+                        <option value="Hải Phòng">Hải Phòng</option>
+                        <option value="Hậu Giang">Hậu Giang</option>
+                        <option value="Hòa Bình">Hòa Bình</option>
+                        <option value="Hưng Yên">Hưng Yên</option>
+                        <option value="Khánh Hòa">Khánh Hòa</option>
+                        <option value="Kiên Giang">Kiên Giang</option>
+                        <option value="Kon Tum">Kon Tum</option>
+                        <option value="Lai Châu">Lai Châu</option>
+                        <option value="Lạng Sơn">Lạng Sơn</option>
+                        <option value="Lào Cai">Lào Cai</option>
+                        <option value="Lâm Đồng">Lâm Đồng</option>
+                        <option value="Long An">Long An</option>
+                        <option value="Nam Định">Nam Định</option>
+                        <option value="Nghệ An">Nghệ An</option>
+                        <option value="Ninh Bình">Ninh Bình</option>
+                        <option value="Ninh Thuận">Ninh Thuận</option>
+                        <option value="Phú Thọ">Phú Thọ</option>
+                        <option value="Phú Yên">Phú Yên</option>
+                        <option value="Quảng Bình">Quảng Bình</option>
+                        <option value="Quảng Nam">Quảng Nam</option>
+                        <option value="Quảng Ngãi">Quảng Ngãi</option>
+                        <option value="Quảng Ninh">Quảng Ninh</option>
+                        <option value="Quảng Trị">Quảng Trị</option>
+                        <option value="Sóc Trăng">Sóc Trăng</option>
+                        <option value="Sơn La">Sơn La</option>
+                        <option value="Tây Ninh">Tây Ninh</option>
+                        <option value="Thái Bình">Thái Bình</option>
+                        <option value="Thái Nguyên">Thái Nguyên</option>
+                        <option value="Thanh Hóa">Thanh Hóa</option>
+                        <option value="Thừa Thiên Huế">Thừa Thiên Huế</option>
+                        <option value="Tiền Giang">Tiền Giang</option>
+                        <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+                        <option value="Trà Vinh">Trà Vinh</option>
+                        <option value="Tuyên Quang">Tuyên Quang</option>
+                        <option value="Vĩnh Long">Vĩnh Long</option>
+                        <option value="Vĩnh Phúc">Vĩnh Phúc</option>
+                        <option value="Yên Bái">Yên Bái</option>
+                      </select>                    
+                    </div>                    
+                    <input type="button" value="quay trúng quà ngay">                    
                 </form>
                 <div id="md-quetma" class="md-quetma">
                      <div class="md-content">
