@@ -110,3 +110,52 @@
 /* .table-the-le .table{
 
  }*/
+ .col-sg1{
+  min-width: 20vw;
+ }
+  .col-sg2{
+  min-width: 100vw;
+ }
+  .col-sg3{
+
+ }
+  .col-sg4{
+  min-width: 39vw;
+ }
+  .col-sg5{
+  min-width: 20vw;
+ }
+ @media screen and (min-width: 768px){
+    .page-thele .md-content .main-content h6{
+       margin: 0.5rem 0 0.5rem;
+       color: #000;
+       font-size: calc(6px + 1.2vw);
+    }
+    .pd-l{
+      padding-left: 2vw;
+    }
+    .row-l{
+      padding-left: 2vw;
+    }
+    .page-thele .md-content h4{
+      margin: 0.5rem 0px 0.9rem;
+    }
+    .col-sg1{
+     min-width: 18vw;
+    }
+     .col-sg2{
+      min-width: 60vw;
+    }
+     .col-sg3{
+
+    }
+     .col-sg4{
+     min-width: 20vw;
+    }
+     .col-sg5{
+     min-width: 17vw;
+    }
+    .table-the-le .table td, .table th{
+      padding: 0.4rem .75rem;
+    }
+ }

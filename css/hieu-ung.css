@@ -1,11 +1,11 @@
+
 .page-home{
   position: relative;
- min-height: 160vw;
+  
   overflow: hidden;
- 
-/*  background: #001865;*/
-background-image: linear-gradient(to right, #001865 50%,#002172);
+  background-image: linear-gradient(to right, #001865 50%,#002172);
 }
+
 .blk-home{
   position: relative;
   
@@ -64,32 +64,7 @@ background-image: linear-gradient(to right, #001865 50%,#002172);
   z-index: 2;
   animation: light-hl linear infinite 10s;
 }
-@keyframes light-hl {
-    from {
-        left: 0.8%;
-        opacity: 0;
-    }
-    30%{
-      left: 0.8%;
-      opacity: 0;
-    }
-    31%{
-       left: 0.8%;
-      opacity: 1;
-    }
-    45%{
-       left: 82%;
-        opacity: 1;
-    }
-    46%{
-       left: 82%;
-        opacity: 0;
-    }
-    to {
-        left: 82%;
-        opacity: 0;
-    }
-}
+
 @keyframes vong-quay-hl {
     from {
         transform: rotate(0deg);
@@ -104,47 +79,46 @@ background-image: linear-gradient(to right, #001865 50%,#002172);
 .vang-1{
   animation: vang-1 linear infinite 10s;
   position: absolute;
-  right: 0px;
-  top: 10%;
-  width: 10%;
-  display: none;
+  right: 19%;
+  top: 37vw;
+  width: 11.5%;
 }
 @keyframes vang-1 {
     from {
       opacity: 0;
-        right: 15%;
-        top: 25%;
+        right: 19%;
+        top: 37vw;
         width: 3%;
     }
-    20%{
+    22%{
         opacity: 0;
-        right: 15%;
-        top: 25%;
+        right: 19%;
+        top: 37vw;
         width: 3%;
     }
     27%{
       opacity: 1;
-       right: -13%;
-       top: 21%;
+       right: -9%;
+       top: 34vw;
        width: 36%;
     }
     30%,40%,50%,60%,70%,80%,90%,100%{
       opacity: 1;
-      right: -13%;
-      top: 20%;
+      right: -9%;
+      top: 33vw;
       width: 34%;
 /*      transform: rotate(2deg);*/
     }
     35%,45%,55%,65%,75%,85%,95%{
       opacity: 1;
-       right: -13%;
-       top: 23%;
+       right: -9%;
+       top: 36vw;
        width: 34%;
 /*       transform: rotate(-2deg);*/
     }
     100%{
        right: -13%;
-       top: 21%;
+       top: 34vw;
        width: 36%;
     }
 }
@@ -154,45 +128,44 @@ background-image: linear-gradient(to right, #001865 50%,#002172);
   animation: vang-2 linear infinite 10s;
   position: absolute;
   right: 0px;
-  top: 5%;
-  width: 10%;
-  display: none;
+  top: 5vw;
+  width: 8%;
 }
 @keyframes vang-2 {
     from {
         right: 15%;
-        top: 14%;
-        width: 5%;
+        top: 14vw;
+        width: 4%;
         opacity: 0;
     }
-    20% {
+    22% {
       opacity: 0;
         right: 15%;
-        top: 14%;
-        width: 5%;
+        top: 14vw;
+        width: 4%;
     }
     27%{
       opacity: 1;
-       right: 2%;
-       top: 6%;
-       width: 27%;
+       right: 0%;
+       top: 6vw;
+       width: 23%;
     }
     30%,40%,50%,60%,70%,80%,90%,100%{
       opacity: 1;
-       right: 2%;
-       top: 5%;
-       width: 28%;
+       right: 0%;
+       top: 5vw;
+       width: 24%;
     }
     35%,45%,55%,65%,75%,85%,95%{
        opacity: 1;
-       right: 2%;
-       top: 7%;
-       width: 26%;
+       right: 0%;
+       top: 7vw;
+       width: 22%;
     }
     100%{
-       right: 2%;
-       top: 6%;
-       width: 27%;
+       right: 0%;
+       top: 6vw;
+       width: 23%;
     }
     
 }
@@ -200,44 +173,43 @@ background-image: linear-gradient(to right, #001865 50%,#002172);
   animation: vang-3 linear infinite 10s;
   position: absolute;
   left: 0px;
-  top: 5%;
+  top: 5vw;
   width: 10%;
-  display: none;
 }
 @keyframes vang-3 {
     from {
         left: 15%;
-        top: 12%;
+        top: 15vw;
         width: 5%;
         opacity: 0;
     }
-    20% {
+    22% {
       opacity: 0;
         left: 15%;
-        top: 12%;
+        top: 15vw;
         width: 5%;
     }
     27%{
       opacity: 1;
        left: -9%;
-       top: -3%;
+       top: -2vw;
        width: 22%;
     }
     30%,40%,50%,60%,70%,80%,90%,100%{
        opacity: 1;
        left: -9%;
-       top: -2%;
+       top: -1vw;
        width: 23%;
     }
     35%,45%,55%,65%,75%,85%,95%{
      opacity: 1;
-       left: -9%;
-       top: -4%;
+       left: -8.5%;
+       top: -4vw;
        width: 25%;
     }
     100%{
        left: -9%;
-       top: -3%;
+       top: -1%;
        width: 22%;
     }
     
@@ -246,85 +218,83 @@ background-image: linear-gradient(to right, #001865 50%,#002172);
   animation: vang-5 linear infinite 10s;
   position: absolute;
   left: 0px;
-  top: 45%;
+  top: 55vw;
   width: 10%;
-  display: none;
 }
 @keyframes vang-5 {
     from {
         left: 12%;
-        top: 47%;
+        top: 77vw;
         width: 5%;
         opacity: 0;
     }
-    20% {
+    22% {
       opacity: 0;
         left: 12%;
-        top: 47%;
+        top: 77vw;
         width: 5%;
     }
     27%{
       opacity: 1;
        left: -14%;
-       top: 47%;
+       top: 77vw;
        width: 22%;
     }
     30%,40%,50%,60%,70%,80%,90%,100%{
        opacity: 1;
        left: -14%;
-       top: 45%;
+       top: 75vw;
        width: 23%;
     }
     35%,45%,55%,65%,75%,85%,95%{
      opacity: 1;
       left: -14%;
-      top: 49%;
+      top: 79vw;
        width: 21%;
     }
     100%{
        left: -14%;
-       top: 47%;
+       top: 77vw;
        width: 22%;
     }
     
 }
 .vang-6{
-  display: none;
   animation: vang-6 linear infinite 10s;
   position: absolute;
   right: 0px;
-  top: 10%;
+  top: 55vw;
   width: 10%;
 }
 @keyframes vang-6 {
     from {
       opacity: 0;
         right: 15%;
-        top: 55%;
+        top: 95vw;
         width: 3%;
     }
     20%{
         opacity: 0;
         right: 15%;
-        top: 55%;
+        top: 95vw;
         width: 3%;
     }
     27%{
       opacity: 1;
-       right: -11%;
-       top: 55%;
+       right: -14%;
+       top: 95vw;
        width: 25%;
     }
     30%,40%,50%,60%,70%,80%,90%,100%{
        opacity: 1;
-       right: -11%;
-       top: 54%;
+       right: -14%;
+       top: 94vw;
        width: 26%;
     }
     35%,45%,55%,65%,75%,85%,95%{
      opacity: 1;
-       right: -11%;
-       top: 56%;
+       right: -14%;
+       top: 96vw;
        width: 24%;
     }
 }
@@ -444,3 +414,311 @@ background-image: linear-gradient(to right, #001865 50%,#002172);
   padding: 0 2vw;
 }
 
+@media screen and (max-width: 767px){
+  .page-home .bg-desktop{
+    display: none;
+  }
+  .voucher-lca{
+    display: none;
+  }
+  .page-home .bg-mb{
+    display: block;
+  }
+  .page-home{
+    min-height: 160vw;
+  }
+  @keyframes light-hl {
+      from {
+          left: 0.8%;
+          opacity: 0;
+      }
+      30%{
+        left: 0.8%;
+        opacity: 0;
+      }
+      31%{
+         left: 0.8%;
+        opacity: 1;
+      }
+      45%{
+         left: 82%;
+          opacity: 1;
+      }
+      46%{
+         left: 82%;
+          opacity: 0;
+      }
+      to {
+          left: 82%;
+          opacity: 0;
+      }
+  }
+}
+@media screen and (min-width: 768px){
+  .page-home {
+    max-height:100000px !important;
+  }
+  .page-home .bg-desktop{
+     display: block;
+   }
+   .page-home .bg-mb{
+     display: none;
+   }
+   .vong-quay-hl{
+       width: 23%;
+       left: 31.7vw;
+       top: 19vw;
+   }
+   .light-hlc9{
+      width: 15%;
+      left: 35.8vw;
+      top: 23vw;
+   }
+   .limbs{
+      left: 33vw;
+      width: 20%;
+      top: 31vw;
+   }
+   .light-3l29{
+    width: 4vw;
+    left: 0%;
+    top: 2.7vw;
+    z-index: 2;
+    animation: light-hl linear infinite 10s;
+   }
+   @keyframes light-hl {
+       from {
+           left: 18%;
+           opacity: 0;
+       }
+       30%{
+         left: 18%;
+         opacity: 0;
+       }
+       31%{
+          left: 18%;
+         opacity: 1;
+       }
+       45%{
+          left: 47%;
+           opacity: 1;
+       }
+       46%{
+          left: 47%;
+           opacity: 0;
+       }
+       to {
+           left: 47%;
+           opacity: 0;
+       }
+   }
+   .text-1lca{
+      width: 28.5%;
+      position: absolute;
+      top: 5.5vw;
+      left: 21%;
+   }
+   .text-2lca{
+      width: 28.5%;
+      position: absolute;
+      top: 9.3vw;
+      left: 21%;
+   }
+   .vang-1{
+      animation: vang-1 linear infinite 10s;
+      ight: 19%;
+      top: 13vw;
+      z-index: 9;
+      width: 11.5%;
+   }
+   @keyframes vang-1 {
+       from {
+         opacity: 0;
+           right: 28%;
+           top: 29vw;
+           width: 2%;
+       }
+       22%{
+           opacity: 0;
+           right: 28%;
+           top: 29vw;
+           width: 2%;
+       }
+       27%{
+         opacity: 1;
+          right: 1.5%;
+          top: 26vw;
+          width: 25%;
+       }
+       30%,40%,50%,60%,70%,80%,90%,100%{
+         opacity: 1;
+         right: 1.5%;
+         top: 26vw;
+         width: 26%;
+       }
+       35%,45%,55%,65%,75%,85%,95%{
+         opacity: 1;
+          right: 1.5%;
+          top: 28vw;
+          width: 25%;
+       }
+       100%{
+          right: 1.5%;
+          top: 26vw;
+          width: 25%;
+       }
+   }
+   .vang-2{
+      animation: vang-2 linear infinite 10s;
+   }
+   @keyframes vang-2 {
+       from {
+           right: 28%;
+           top: 30vw;
+           width: 4%;
+           opacity: 0;
+       }
+       22% {
+         opacity: 0;
+           right: 28%;
+           top: 30vw;
+           width: 4%;
+       }
+       27%{
+         opacity: 1;
+          right: 12%;
+          top: 21vw;
+          width: 16%;
+       }
+       30%,40%,50%,60%,70%,80%,90%,100%{
+         opacity: 1;
+          right: 12%;
+          top: 21vw;
+          width: 15%;
+       }
+       35%,45%,55%,65%,75%,85%,95%{
+          opacity: 1;
+          right: 12%;
+          top: 21vw;
+          width: 14%;
+       }
+       100%{
+          right: 12%;
+          top: 21vw;
+          width: 14%;
+       }
+       
+   }
+   .vang-3{
+      animation: vang-3 linear infinite 10s;
+      transform: rotate(-15deg);
+   }
+   @keyframes vang-3 {
+       from {
+           left: 20%;
+           top: 35vw;
+           width: 0%;
+           opacity: 0;
+       }
+       22% {
+         opacity: 0;
+           left: 20%;
+           top: 35vw;
+           width: 0%;
+       }
+       27%{
+         opacity: 1;
+          left: 6%;
+          top: 18vw;
+          width: 17%;
+       }
+       30%,40%,50%,60%,70%,80%,90%,100%{
+          opacity: 1;
+          left: 6%;
+          top: 18vw;
+          width: 18%;
+       }
+       35%,45%,55%,65%,75%,85%,95%{
+        opacity: 1;
+          left: 6.5%;
+          top: 18vw;
+          width: 17%;
+       }
+      /* 100%{
+          left: 6%;
+          top: 19%;
+          width: 17%;
+       }*/
+       
+   }
+   .voucher-lca{
+      animation: voucher linear infinite 10s;
+      position: absolute;
+      top: 35vw;
+      left: 13vw;
+      z-index: 15;
+      width: 8vw;
+   }
+   @keyframes voucher {
+       from {
+           left: 22vw;
+           top: 27vw;
+           width: 2%;
+           opacity: 0;
+       }
+       25% {
+         opacity: 0;
+           left: 22vw;
+           top: 27vw;
+           width: 2%;
+       }
+       29%{ 
+          left: 13vw;
+          top: 30vw;
+          width: 10%;
+          opacity: 1;
+       }
+       30%,40%,50%,60%,70%,80%,90%,100%{
+         opacity: 1;
+          left: 13vw;
+          top: 30vw;
+          width: 9%;
+       }
+       35%,45%,55%,65%,75%,85%,95%{
+          opacity: 1;
+          left: 13vw;
+          top: 30vw;
+          width: 10%;
+       }
+   }
+   .text-3lca{
+      width: 25%;
+      position: absolute;
+      top: 2.5vw;
+      left: 52%;
+   }
+   .page-main .md-bt-1{
+      top: 5.5vw;
+      font-size: 1vw;
+      height: 4.5vw;
+      line-height: 4.5vw;
+      display: block;
+      padding: 0 2vw;
+   }
+   .page-main .md-bt-2{
+      top: 12vw;
+      font-size: 1vw;
+      height: 4.5vw;
+      line-height: 4.5vw;
+      display: block;
+      padding: 0 2vw;
+   }
+   .page-main .bot-banner .md-number{
+    left: auto;
+    right: 68%;
+    text-align: right;
+   }
+   .page-main .bot-banner .md-text{
+    display: none;
+   }
+}
