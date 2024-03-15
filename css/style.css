@@ -728,7 +728,7 @@ p.error-2{
 .page-nhanthuong .md-content img{
   width: 50%;
   display: table;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .page-nhanthuong .md-content p{
   text-align: center;
@@ -788,6 +788,7 @@ p.error-2{
 .page-nhanthuong .md-content .main-content .md-the-le{
   display: none;
 }
+
 .md-the-le{
   height: 80%;
   border-radius: 10px;
@@ -912,7 +913,7 @@ p.error-2{
 }
 
 .page-nhanthuong01 .md-content .top-content h3{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-weight: 800;
 }
 .page-nhanthuong01 .md-content p{
@@ -1617,7 +1618,7 @@ p.error-2{
   .page-nhanthuong01 .md-content .top-content a{
     width: 50%;
     display: table;
-    margin: 2% auto;
+    margin: 10px auto;
   }
   .page-nhanthuong01 .md-content .top-content h6{
     font-size: calc(8px + 1vw);
@@ -1828,21 +1829,80 @@ p.error-2{
   .page-quetma .md-content .md-main-content{
     padding: 0 20%;
   }
+  .page-50k .md-content{
+    padding: 5% 20% 0px;
+  }
+  .page-50k .md-content .main-content p{
+    margin-bottom: 20px;
+  }
+  .page-50k .ui.checkbox{
+    display: table;
+    margin: 0 auto;
+  }
+  .page-50k .md-content .main-content .md-col{
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+  }
+  .page-50k .md-content .main-content .md-col-2{
+    margin-right: 0;
+  }
+  .page-50k .md-content .main-content .md-col-3{
+    float: none;
+  }
+  .page-50k .md-content .main-content input[type='button']{
+    width: 50%;
+    display: table;
+    margin: 20px auto 10px auto;
+  }
+  .page-50k .md-content img{
+    position: absolute;
+    right: 20%;
+    top: 5%;
+    width: 18%;
+  }
+  .page-50k .md-content p{
+    text-align: left;
+  }
+  .page-50k .md-content h3{
+    text-align: left;
+  }
   .page-quetma .md-content .bot-content{
     padding: 0px;
   }
   .page-hanhtrinh .md-content h3 span{
     display: inline-block;
   }
+  .page-dapdung .md-content .main-content {
+    height: auto;
+    margin: 0 20%;
+  }
+  .page-dapdung .md-content input[type='button']{
+    width: 60%;
+  }
+  .page-dapdung .md-content h3{
+    text-align: center;
+    width: 100%;
+  }
+  .page-thele .md-content h2{
+    font-size: calc(10px + 1vw) !important;
+  }
+  .page-thele .md-content h4{
+    font-size: calc(10px + 1vw) !important;
+  }
+  .page-thele .md-content .main-content h6{
+    font-size: calc(10px + 1vw) !important;
+  }
    #timeline{
     padding: 0px;
+    height: 90%;
    }
   #timeline div{
     height: auto;
   }
   #timeline div .date h2{
     margin: 0px;
-    font-size: calc(10px + 2vw);
+    font-size: calc(10px + 2vw) !important;
     text-align: center;
     line-height: 1.7;
     color: #FFF;
@@ -1857,7 +1917,7 @@ p.error-2{
     opacity: 1;
   }
   #timeline div.active .date h2{
-    font-size: calc(20px + 2vw);
+    font-size: calc(20px + 2vw) !important;
     color: #3e8d7f;
     font-weight: 800;
     line-height: 1.7;
@@ -1880,9 +1940,18 @@ p.error-2{
     transform: translateY(-50%);
     border-radius: 0;
   }
-  #timeline .timelineCont{
-    /*height: 30%;*/
-/*    margin-bottom: 30px;*/
+  #timeline .timelineCont-end .date::before{
+   display: none;
+  }
+  .page-hanhtrinh .md-content h3{
+    margin-left: 25%;
+    font-size: calc(5px + 1vw);
+  }
+  .page-hanhtrinh .btn-cl{
+    width: 40%;
+  }
+  .page-hanhtrinh .md-content h3 span{
+    font-size: calc(10px + 2vw);
   }
   #timeline .md-row{
     margin-bottom: 20px;
@@ -1898,5 +1967,11 @@ p.error-2{
   #timeline .md-col-9{
     float: right;
     width: 78%;
+  }
+
+}
+@media screen and (max-width: 767px){
+  #timeline{
+    display: none;
   }
 }

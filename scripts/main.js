@@ -41,6 +41,16 @@ App.Site = function () {
     $('#search-select')
       .dropdown()
       ;
+    $(function(){
+        $('#timeline').timelinev({
+            containerDivs:    '.timelineCont',
+            dateDiv:         '.date',
+            textDiv:         '.text',
+            dateHtml:        'h2',
+            textHtml:        'p',
+            dateActiveClass: '.active',
+        });
+    });
   }
   var fancybox = function () {
     $("#md-wheel-1").fancybox().trigger('click'); //trang vong-quay
@@ -95,13 +105,4 @@ App.Site = function () {
 
 
 
-  $(function(){
-      $('#timeline').timelinev({
-          containerDivs:    '.timelineCont',
-          dateDiv:         '.date',
-          textDiv:         '.text',
-          dateHtml:        'h2',
-          textHtml:        'p',
-          dateActiveClass: '.active',
-      });
-  });
+  

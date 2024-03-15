@@ -17,7 +17,7 @@ jQuery.fn.timelinev = function(options){
         dateHtml: 		 'h2',
         textHtml: 		 'p',
         dateActiveClass: '.active',
-        datesSpeed:      '750',
+        datesSpeed:      '500',
     }, options);
         
     console.log();
