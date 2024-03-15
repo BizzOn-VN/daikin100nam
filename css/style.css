@@ -1834,7 +1834,69 @@ p.error-2{
   .page-hanhtrinh .md-content h3 span{
     display: inline-block;
   }
+   #timeline{
+    padding: 0px;
+   }
   #timeline div{
-    height: 30%;
+    height: auto;
+  }
+  #timeline div .date h2{
+    margin: 0px;
+    font-size: calc(10px + 2vw);
+    text-align: center;
+    line-height: 1.7;
+    color: #FFF;
+  }
+  #timeline div .text p{
+    margin: 0px;
+    width: 100%;
+    opacity: 0.2;
+    display: block;
+  }
+  #timeline div.active .text p{
+    opacity: 1;
+  }
+  #timeline div.active .date h2{
+    font-size: calc(20px + 2vw);
+    color: #3e8d7f;
+    font-weight: 800;
+    line-height: 1.7;
+  }
+  #timeline div .date{
+    border-right: 0px;
+    /*padding: 0px 30px;*/
+  }
+  #timeline div .date::before{
+    opacity: 0;
+  }
+  #timeline div.active .date::before{
+    background: url(../images/ico-active.png) no-repeat;
+    background-size: 100% 100%;
+    width: 80px;
+    height: 12px;
+    opacity: 1;
+    left: 16%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 0;
+  }
+  #timeline .timelineCont{
+    /*height: 30%;*/
+/*    margin-bottom: 30px;*/
+  }
+  #timeline .md-row{
+    margin-bottom: 20px;
+  }
+  #timeline p img{
+    width: 100%;
+    padding: 0px 30px;
+  }
+  #timeline .md-col-3{
+    float: left;
+    width: 20%;
+  }
+  #timeline .md-col-9{
+    float: right;
+    width: 78%;
   }
 }

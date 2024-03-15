@@ -95,13 +95,13 @@ App.Site = function () {
 
 
 
-  // $(function(){
-  //     $('#timeline').timelinev({
-  //         containerDivs:    '.timelineCont',
-  //         dateDiv:         '.date',
-  //         textDiv:         '.text',
-  //         dateHtml:        'h2',
-  //         textHtml:        'p',
-  //         dateActiveClass: '.active',
-  //     });
-  // });
+  $(function(){
+      $('#timeline').timelinev({
+          containerDivs:    '.timelineCont',
+          dateDiv:         '.date',
+          textDiv:         '.text',
+          dateHtml:        'h2',
+          textHtml:        'p',
+          dateActiveClass: '.active',
+      });
+  });
