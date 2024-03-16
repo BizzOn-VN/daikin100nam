@@ -10,7 +10,7 @@
   position: relative;
   
 }
-.page-main .bg-banner{
+.page-main .bg-banner-2{
   transform: scale(4.5);
   z-index: 3;
   animation: zoomk linear infinite 10s;
