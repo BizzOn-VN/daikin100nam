@@ -183,6 +183,7 @@ input[type=submit] {
     .page-header .main-menu ul li{
         float: none;
         padding: 0px;
+        display: block;
     }
     .page-header .main-menu a.hotline{
       width: 80%;
@@ -358,7 +359,7 @@ p.error-2{
 }
 .page-thele .md-content .md-back{
   width: 30%;
-  margin-left: -30px;
+  margin: 0px 0px 0px -30px;
 }
 .page-thele .md-content .main-content{
  overflow-y: scroll;
@@ -670,7 +671,7 @@ p.error-2{
   width: 60%;
   position: absolute;
   left: 50%;
-  top: 65%;
+  top: 64%;
   transform: translateX(-50%);
   color: #132d6d;
 }
@@ -856,7 +857,7 @@ p.error-2{
   width: 60%;
   position: absolute;
   left: 50%;
-  top: 72%;
+  top: 70%;
   transform: translateX(-50%);
   color: #132d6d;
 }
@@ -904,12 +905,12 @@ p.error-2{
   width: 60%;
   position: absolute;
   left: 50%;
-  top: 72%;
+  top: 70%;
   transform: translateX(-50%);
   color: #132d6d;
 }
 .md-wheel-mc a{
-  top: 67%;
+  top: 65%;
 }
 
 .page-nhanthuong01 .md-content .top-content h3{
@@ -1867,6 +1868,9 @@ p.error-2{
   .page-50k .md-content h3{
     text-align: left;
   }
+  .md-quetma{
+    width: 40%;
+  }
   .page-quetma .md-content .bot-content{
     padding: 0px;
   }
@@ -1902,7 +1906,7 @@ p.error-2{
   }
   #timeline div .date h2{
     margin: 0px;
-    font-size: calc(10px + 2vw) !important;
+    font-size: calc(15px + 2vw) !important;
     text-align: center;
     line-height: 1.7;
     color: #FFF;
@@ -1917,14 +1921,13 @@ p.error-2{
     opacity: 1;
   }
   #timeline div.active .date h2{
-    font-size: calc(20px + 2vw) !important;
+    font-size: calc(25px + 2vw) !important;
     color: #3e8d7f;
     font-weight: 800;
     line-height: 1.7;
   }
   #timeline div .date{
     border-right: 0px;
-    /*padding: 0px 30px;*/
   }
   #timeline div .date::before{
     opacity: 0;
@@ -1935,10 +1938,16 @@ p.error-2{
     width: 80px;
     height: 12px;
     opacity: 1;
-    left: 16%;
+    left: 18%;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 0;
+  }
+  #timeline .timelineCont{
+    padding: 0px;
+  }
+  #timeline .timelineCont-end{
+    display: none;
   }
   #timeline .timelineCont-end .date::before{
    display: none;
@@ -1958,15 +1967,20 @@ p.error-2{
   }
   #timeline p img{
     width: 100%;
-    padding: 0px 30px;
+    margin-left: 10%;
+  }
+  #timeline .md-row{
+    display: table;
   }
   #timeline .md-col-3{
-    float: left;
+    display: table-cell;
     width: 20%;
+     vertical-align: middle;
   }
   #timeline .md-col-9{
-    float: right;
-    width: 78%;
+    width: 80%;
+    display: table-cell;
+   
   }
 
 }

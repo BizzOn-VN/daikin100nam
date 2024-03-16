@@ -7,7 +7,7 @@ $(function () {
   App.Site.gettoggle();
   App.Site.semanticUI();
   App.Site.fancybox();
-
+  App.Site.timeline();
 });
 
 //--All site
@@ -41,19 +41,10 @@ App.Site = function () {
     $('#search-select')
       .dropdown()
       ;
-    $(function(){
-        $('#timeline').timelinev({
-            containerDivs:    '.timelineCont',
-            dateDiv:         '.date',
-            textDiv:         '.text',
-            dateHtml:        'h2',
-            textHtml:        'p',
-            dateActiveClass: '.active',
-        });
-    });
+
   }
   var fancybox = function () {
-    $("#md-wheel-1").fancybox().trigger('click'); //trang vong-quay
+    $("#md-wheel-1").fancybox({}).trigger('click'); //trang vong-quay
     $("#md-wheel-2").fancybox().trigger('click'); //trang vong-quay
     $("#md-wheel-15").fancybox().trigger('click'); //trang vong-quay
     $("#md-wheel-16").fancybox().trigger('click'); //trang vong-quay
@@ -85,13 +76,23 @@ App.Site = function () {
     $("#md-wheel-14").fancybox().trigger('click'); //trang-quet-ma
   }
 
+  var timeline = function (){
+    $('#timeline').timelinev({
+        containerDivs:    '.timelineCont',
+        dateDiv:         '.date',
+        textDiv:         '.text',
+        dateHtml:        'h2',
+        textHtml:        'p',
+        dateActiveClass: '.active',
+    });
+  }
 
 
   return {
     gettoggle: gettoggle,
     semanticUI: semanticUI,
     fancybox: fancybox,
-
+    timeline: timeline,
 
   };
 

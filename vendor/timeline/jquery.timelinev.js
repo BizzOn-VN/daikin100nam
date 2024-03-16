@@ -107,7 +107,7 @@ jQuery.fn.timelinev = function(options){
 
         //Decrement
         function decrementDate(){
-            $(divsCont[dateActive-1]).animate({ 'margin-top': "-"+divHeight  }, {queue:true, duration:'settings.datesSpeed'});
+            $(divsCont[dateActive]).animate({ 'margin-top': "-"+divHeight  }, {queue:true, duration:'settings.datesSpeed'});
         }
 
     });
