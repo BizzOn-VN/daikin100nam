@@ -626,6 +626,9 @@ p.error-2{
 .fancybox-bg{
   background-color:rgba(0, 0, 0, 0.5);
 }
+.fancybox-content img{
+  width: 100%;
+}
 .md-wheel-1{
   display: none;
   position: absolute;
@@ -1406,12 +1409,66 @@ p.error-2{
   text-decoration: underline;
   margin: 0px;
 }
-.stop-wheel{
-  position: absolute;
+
+.md-wheel-1 a{
+  top: 68%
+}
+.md-wheel-2 a{
+  top: 71%;
   left: 50%;
-  transform: translateX(-50%);
-  bottom: 2%;
-  width: 30%;
+}
+.md-wheel-3 a{
+  top: 70%;
+  left: 48%;
+}
+.md-wheel-4 a{
+  top: 70%;
+  left: 48%;
+}
+.md-wheel-5 a{
+  top: 68%;
+  left: 48%;
+}
+.md-wheel-9 a{
+  top: 68%;
+  left: 48%;
+}
+.md-wheel-10 a{
+  top: 68%;
+  left: 48%;
+}
+.md-wheel-11 a{
+  top: 58%;
+  left: 48%;
+}
+.md-wheel-11 a.popup-back{
+  top: 72%;
+}
+.md-wheel-12 a{
+  top: 58%;
+  left: 48%;
+}
+.md-wheel-12 a.popup-back{
+  top: 73%;
+}
+.md-wheel-13 a{
+  top: 63%;
+  left: 48%;
+}
+.md-wheel-13 a.popup-back{
+  top: 76%;
+}
+.md-wheel-6 a{
+  top: 76%;
+  left: 50%;
+}
+.md-wheel-7 a{
+  top: 65%;
+  left: 50%;
+}
+.md-wheel-8 a{
+  top: 76%;
+  left: 50%;
 }
 @media screen and (min-width: 768px){
   .page-main .md-bt-1{
@@ -1502,6 +1559,15 @@ p.error-2{
         position: absolute;
         top: 5%;
         left: 52.3%;
+  }
+  .md-wheel-11 a.popup-back{
+    top: 70%;
+  }
+  .md-wheel-12 a.popup-back{
+    top: 71%;
+  }
+  .md-wheel-13 a.popup-back{
+    top: 74%;
   }
   .page-main .bot-banner{
     background: url(../images/vong-quay/line-bottom.png) no-repeat;
@@ -1647,41 +1713,20 @@ p.error-2{
   .page-nhanthuong01 .md-content .top-content p.text-ct{
     text-align: center;
   }
-  .fancybox-content img{
+  /*.fancybox-content img{
     width: 30% !important;
     left: 50% !important;
-  }
+  }*/
   .fancybox-content a{
-    width: 20%;
-    left: 49%;
     padding: 10px 0px;
     font-size: calc(4px + 0.8vw);
   }
-  .md-wheel-2 a{
-    width: 20%;
+  
+  .md-wheel .img-popup{
+    width: 30%;
     left: 50%;
-    top: 65%;
-    padding: 10px 0px;
+  }
 
-  }
-  .md-wheel-6 a{
-    left: 50%;
-    width: 18%;
-    top: 72%;
-  }
-  .md-wheel-7 a{
-    left: 50%;
-    width: 18%;
-  }
-  .md-wheel-8 a{
-    left: 50%;
-    width: 18%;
-    padding: 9px 0px;
-    top: 72%;
-  }
-  .md-wheel-mc a{
-    top: 67%;
-  }
   .page-vongquay .img-wheel{
     position: absolute;
     left: 34.5%;
