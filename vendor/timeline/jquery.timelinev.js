@@ -6,7 +6,16 @@ Copyright 2017, Created by Xavier Raspall Gonzalez
 Free under the MIT license.
 http://www.opensource.org/licenses/mit-license.php
 ---------------------------------- */
-
+$(function(){
+            $('#timeline').timelinev({
+                containerDivs:    '.timelineCont',
+                dateDiv:         '.date',
+                textDiv:         '.text',
+                dateHtml:        'h2',
+                textHtml:        'p',
+                dateActiveClass: '.active',
+            });
+        });
 jQuery.fn.timelinev = function(options){
     // plugin settings
     settings = jQuery.extend({

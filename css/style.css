@@ -789,7 +789,22 @@ p.error-2{
 .page-nhanthuong .md-content .main-content .md-the-le{
   display: none;
 }
-
+.page-nhanthuong .md-content .img-gift-2{
+  width: 70%;
+  display: table;
+  margin: 0 auto;
+  position: relative;
+}
+.page-nhanthuong .md-content .img-gift-2 img{
+  width: 100%;
+}
+.page-nhanthuong .md-content .img-gift-2 .img-gift-2-2{
+  position: absolute;
+  right: 22%;
+  top: 46%;
+  width: 17%;
+  margin: 0;
+}
 .md-the-le{
   height: 80%;
   border-radius: 10px;
@@ -1377,9 +1392,9 @@ p.error-2{
 .page-ketthuc-03 .md-content p{
   margin-bottom: 20px;
 }
-.page-ketthuc-04 .md-content img{
+/*.page-ketthuc-04 .md-content img{
   margin: 10px auto 0px auto;
-}
+}*/
 .page-ketthuc-04 .md-content span{
   text-align: center;
   display: block;
@@ -1512,6 +1527,9 @@ p.error-2{
   .page-thele .md-content .main-content{
     height: 70%;
   }
+  .page-nhanthuong .md-content .img-gift-2{
+    width: 30%;
+  }
   .page-trungthuong-02 .md-content .img-title{
     position: absolute;
     width: 22%;
@@ -1583,10 +1601,6 @@ p.error-2{
   }
   .page-trungthuong-des .md-content .main-content .bot-content .md-col:last-child{
     margin-right: 0%;
-  }
-  .page-nhanthuong .md-content .img-gift-2{
-    width: 25%;
-    margin: -3% auto 0 auto;
   }
   .page-nhanthuong01 .bot-content{
     background: url(../images/vong-quay/line-bottom-3.png) no-repeat;
