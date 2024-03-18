@@ -1599,6 +1599,9 @@ p.error-2{
   .page-thele .md-content .main-content{
     height: 70%;
   }
+  .page-nhanthuong-04 .md-content{
+    padding: 0px 5%;
+  }
   .page-nhanthuong-04 .md-content .main-content{
     height: auto;
   }
