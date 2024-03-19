@@ -7,6 +7,8 @@ $(function () {
   App.Site.gettoggle();
   App.Site.semanticUI();
   App.Site.fancybox();
+  App.Site.count_number();
+  App.Site.set_height();
 });
 
 //--All site
@@ -76,13 +78,41 @@ App.Site = function () {
   }
 
   
-
+  var count_number = function(){
+    setTimeout(function() {
+      $('#counter-number').each(function () {
+              $(this).prop('Counter',0).animate({
+                  Counter: $(this).text()
+              }, {
+                  duration: 4000,
+                  easing: 'swing',
+                  step: function (now) {
+                      $(this).text(Math.ceil(now));
+                  }
+              });
+          });
+    }, 1000);
+  }
+   var set_height = function(){
+    function set_min_height_blk_home(){
+        var min_height=$(window).height()- $(".page-header").height();
+        $(".page-home").css("max-height", min_height);
+    }
+    set_min_height_blk_home();
+     $(window).resize(function(){
+      set_min_height_blk_home();
+    });  
+     window.addEventListener('resize', function(event) {
+       set_min_height_blk_home();
+    });
+   }
 
   return {
     gettoggle: gettoggle,
     semanticUI: semanticUI,
     fancybox: fancybox,
-
+    count_number: count_number,
+    set_height: set_height,
   };
 
 }();
