@@ -9,6 +9,7 @@ $(function () {
   App.Site.fancybox();
   App.Site.count_number();
   App.Site.set_height();
+  App.Site.timeline();
 });
 
 //--All site
@@ -106,6 +107,20 @@ App.Site = function () {
        set_min_height_blk_home();
     });
    }
+   var timeline = function(){
+    if ($('#timeline').length) {
+        let itemHeight = $('#timeline .timelineCont').height();
+        $('#timeline').scroll(function(){
+            let timelinePos = $(this).scrollTop();
+            let pos = Math.round((timelinePos - (itemHeight / 2)) / itemHeight) + 2;
+            pos = timelinePos ? pos : 1;
+
+            $('#timeline .timelineCont').removeClass('active');
+            $('#timeline .timelineCont:nth-child('+ pos +')').addClass('active');
+        });
+        
+      }
+   }
 
   return {
     gettoggle: gettoggle,
@@ -113,6 +128,7 @@ App.Site = function () {
     fancybox: fancybox,
     count_number: count_number,
     set_height: set_height,
+    timeline: timeline,
   };
 
 }();
@@ -122,9 +138,7 @@ App.Site = function () {
 
 
 
-  // $('#timeline').scroll(function(){
-  //     $('#timeline .timelineCont').addClass('active');
-  // });
+
 
 
 
