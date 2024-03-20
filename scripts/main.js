@@ -118,8 +118,17 @@ App.Site = function () {
             $('#timeline .timelineCont').removeClass('active');
             $('#timeline .timelineCont:nth-child('+ pos +')').addClass('active');
         });
-        
+         
       }
+      var timelineDate = document.querySelectorAll("#timeline .timelineCont .md-row");
+      for (var i = 0, length = timelineDate.length; i < length; i++) {
+        timelineDate[i].onclick = function() {
+          var b = document.querySelector("#timeline .timelineCont.active");
+          if (b) b.classList.remove("active");
+          this.parentNode.classList.add('active');
+        };
+      }
+        
    }
 
   return {
@@ -138,8 +147,9 @@ App.Site = function () {
 
 
 
+// $("#timeline .date").click(function(){
+//   $("#timeline .timelineCont").removeClass('active');
+//   $(this).parent().addClass('active');
+// });
 
 
-
-
-  
