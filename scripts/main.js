@@ -108,28 +108,37 @@ App.Site = function () {
     });
    }
    var timeline = function(){
-    if ($('#timeline').length) {
-        let itemHeight = $('#timeline .timelineCont').height();
-        $('#timeline').scroll(function(){
-            let timelinePos = $(this).scrollTop();
-            let pos = Math.round((timelinePos - (itemHeight / 2)) / itemHeight) + 2;
-            pos = timelinePos ? pos : 1;
+       if ($('#timeline').length) {
+           let scrolling = 0;
+           let itemHeight = $('#timeline .timelineCont').height();
+           $('#timeline').scroll(function(){
+             if (!scrolling) {
+                 let timelinePos = $(this).scrollTop();
+                 let pos = Math.round((timelinePos - (itemHeight / 2)) / itemHeight) + 2;
+                 pos = timelinePos ? pos : 1;
 
-            $('#timeline .timelineCont').removeClass('active');
-            $('#timeline .timelineCont:nth-child('+ pos +')').addClass('active');
-        });
-         
+                 $('#timeline .timelineCont').removeClass('active');
+                 $('#timeline .timelineCont:nth-child('+ pos +')').addClass('active');
+             }
+           });
+             
+           var timelineDate = document.querySelectorAll("#timeline .timelineCont .md-row");
+           for (var i = 0, length = timelineDate.length; i < length; i++) {
+             timelineDate[i].onclick = function(i) {
+               var b = document.querySelector("#timeline .timelineCont.active");
+               if (b) b.classList.remove("active");
+               this.parentNode.classList.add('active');
+               
+               scrolling = 1;
+               let distance = $(this).offset().top - itemHeight * 2 + 30;
+               let curPos = $('#timeline').scrollTop();
+               $('#timeline').animate({scrollTop: curPos + distance}, 500, function() {
+                 scrolling = 0;
+               });
+             };
+           }
+         }
       }
-      var timelineDate = document.querySelectorAll("#timeline .timelineCont .md-row");
-      for (var i = 0, length = timelineDate.length; i < length; i++) {
-        timelineDate[i].onclick = function() {
-          var b = document.querySelector("#timeline .timelineCont.active");
-          if (b) b.classList.remove("active");
-          this.parentNode.classList.add('active');
-        };
-      }
-        
-   }
 
   return {
     gettoggle: gettoggle,
