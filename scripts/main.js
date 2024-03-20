@@ -122,6 +122,9 @@ App.Site = function () {
 
 
 
+  // $('#timeline').scroll(function(){
+  //     $('#timeline .timelineCont').addClass('active');
+  // });
 
 
 

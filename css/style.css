@@ -1979,6 +1979,13 @@ p.error-2{
    #timeline{
     padding: 0px;
     height: 90%;
+    overflow-y: scroll;
+   }
+   #timeline::-webkit-scrollbar-track{
+    display: none;
+   }
+   #timeline::-webkit-scrollbar{
+    display: none;
    }
   #timeline div{
     height: auto;
@@ -2011,7 +2018,7 @@ p.error-2{
   #timeline div .date::before{
     opacity: 0;
   }
-  #timeline div.active .date::before{
+  /*#timeline div.active .date::before{
     background: url(../images/ico-active.png) no-repeat;
     background-size: 100% 100%;
     width: 80px;
@@ -2021,7 +2028,7 @@ p.error-2{
     top: 50%;
     transform: translateY(-50%);
     border-radius: 0;
-  }
+  }*/
   #timeline .timelineCont{
     padding: 0px;
   }
