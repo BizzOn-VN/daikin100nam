@@ -9,7 +9,6 @@ $(function () {
   App.Site.fancybox();
   App.Site.count_number();
   App.Site.set_height();
-  App.Site.timeline();
 });
 
 //--All site
@@ -107,38 +106,7 @@ App.Site = function () {
        set_min_height_blk_home();
     });
    }
-   var timeline = function(){
-       if ($('#timeline').length) {
-           let scrolling = 0;
-           let itemHeight = $('#timeline .timelineCont').height();
-           $('#timeline').scroll(function(){
-             if (!scrolling) {
-                 let timelinePos = $(this).scrollTop();
-                 let pos = Math.round((timelinePos - (itemHeight / 2)) / itemHeight) + 2;
-                 pos = timelinePos ? pos : 1;
 
-                 $('#timeline .timelineCont').removeClass('active');
-                 $('#timeline .timelineCont:nth-child('+ pos +')').addClass('active');
-             }
-           });
-             
-           var timelineDate = document.querySelectorAll("#timeline .timelineCont .md-row");
-           for (var i = 0, length = timelineDate.length; i < length; i++) {
-             timelineDate[i].onclick = function(i) {
-               var b = document.querySelector("#timeline .timelineCont.active");
-               if (b) b.classList.remove("active");
-               this.parentNode.classList.add('active');
-               
-               scrolling = 1;
-               let distance = $(this).offset().top - itemHeight * 2 + 30;
-               let curPos = $('#timeline').scrollTop();
-               $('#timeline').animate({scrollTop: curPos + distance}, 500, function() {
-                 scrolling = 0;
-               });
-             };
-           }
-         }
-      }
 
   return {
     gettoggle: gettoggle,
@@ -146,7 +114,6 @@ App.Site = function () {
     fancybox: fancybox,
     count_number: count_number,
     set_height: set_height,
-    timeline: timeline,
   };
 
 }();
@@ -154,11 +121,5 @@ App.Site = function () {
   //--End All site
 
 
-
-
-// $("#timeline .date").click(function(){
-//   $("#timeline .timelineCont").removeClass('active');
-//   $(this).parent().addClass('active');
-// });
 
 
