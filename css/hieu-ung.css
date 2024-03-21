@@ -458,6 +458,12 @@
   .page-home {
     max-height:100000px !important;
   }
+  .page-main .bot-banner{
+    height: 10vw;
+    width: 56.25%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   .page-home .bg-desktop{
      display: block;
    }
@@ -465,64 +471,66 @@
      display: none;
    }
    .vong-quay-hl{
-       width: 23%;
-       left: 31.7vw;
-       top: 19vw;
+       width: 23.4%;
+       left: 31.5vw;
+       top: 16vw;
    }
    .light-hlc9{
       width: 15%;
       left: 35.8vw;
-      top: 23vw;
+      top: 20vw;
+      animation: vong-quay-hl linear infinite 20s;
+      animation-delay: 0s;
    }
    .limbs{
-      left: 33vw;
+      left: 33.2vw;
       width: 20%;
-      top: 31vw;
+      top: 28.3vw;
    }
    .light-3l29{
-    width: 4vw;
+    width: 7vw;
     left: 0%;
-    top: 2.7vw;
+    top: 2.3vw;
     z-index: 2;
     animation: light-hl linear infinite 10s;
    }
    @keyframes light-hl {
        from {
-           left: 18%;
+           left: 20%;
            opacity: 0;
        }
        30%{
-         left: 18%;
+         left: 20%;
          opacity: 0;
        }
        31%{
-          left: 18%;
+          left: 20%;
          opacity: 1;
        }
-       45%{
-          left: 47%;
+       48%{
+          left: 71%;
            opacity: 1;
        }
-       46%{
-          left: 47%;
+       49%{
+          left: 71%;
            opacity: 0;
        }
        to {
-           left: 47%;
+           left: 71%;
            opacity: 0;
        }
    }
    .text-1lca{
-      width: 28.5%;
+      width: 51.5%;
       position: absolute;
-      top: 5.5vw;
-      left: 21%;
+      top: 1vw;
+      left: 24.4%;
    }
    .text-2lca{
-      width: 28.5%;
+      width: 48%;
       position: absolute;
-      top: 9.3vw;
-      left: 21%;
+      top: 6.5vw;
+      left: 26%;
    }
    .vang-1{
       animation: vang-1 linear infinite 10s;
@@ -609,6 +617,48 @@
        }
        
    }
+   .vang-2-2{
+      animation: vang-2-2 linear infinite 10s;
+      position: absolute;
+   }
+   @keyframes vang-2-2 {
+       from {
+           right: 56%;
+           top: 26vw;
+           width: 2%;
+           opacity: 0;
+       }
+       22% {
+         opacity: 0;
+           right: 56%;
+           top: 26vw;
+           width: 2%;
+       }
+       27%{
+         opacity: 1;
+          right: 41%;
+          top: 17vw;
+          width: 8%;
+       }
+       30%,40%,50%,60%,70%,80%,90%,100%{
+         opacity: 1;
+          right: 41%;
+          top: 17vw;
+          width: 7%;
+       }
+       35%,45%,55%,65%,75%,85%,95%{
+          opacity: 1;
+          right: 41%;
+          top: 17vw;
+          width: 6%;
+       }
+       100%{
+          right: 41%;
+          top: 17vw;
+          width: 6%;
+       }
+       
+   }
    .vang-3{
       animation: vang-3 linear infinite 10s;
       transform: rotate(-15deg);
@@ -692,33 +742,79 @@
        }
    }
    .text-3lca{
-      width: 25%;
+      width: 34%;
       position: absolute;
-      top: 2.5vw;
-      left: 52%;
+      top: 12.5vw;
+      left: 33%;
    }
    .page-main .md-bt-1{
-      top: 5.5vw;
-      font-size: 1vw;
+      top: auto;
+      bottom: 3.8vw;
+      width: 25%;
+      left: 23.5%;
+      z-index: 15;
+      font-size: 1.3vw;
       height: 4.5vw;
       line-height: 4.5vw;
       display: block;
       padding: 0 2vw;
    }
    .page-main .md-bt-2{
-      top: 12vw;
-      font-size: 1vw;
+      top: auto;
+      bottom: 3.8vw;
+      left: 51.2%;
+      z-index: 15;
+      font-size: 1.3vw;
       height: 4.5vw;
       line-height: 4.5vw;
       display: block;
       padding: 0 2vw;
+      width: 25%;
+      border-radius: 0.5vw;
    }
    .page-main .bot-banner .md-number{
+    right: 45vw;
     left: auto;
-    right: 68%;
+    bottom: 1vw;
     text-align: right;
+    font-size: 2vw;
    }
    .page-main .bot-banner .md-text{
-    display: none;
+    /*display: none;*/
+    position: absolute;
+    left: 13vw;
+    bottom: 1.5vw;
+    font-size: 0.7vw;
+    display: inline-block;
+    float: left;
+   } 
+   .page-main .bot-banner .md-text span{
+    display: inline-block;
+   }
+   .page-main .bot-banner .md-desktop{
+    color: #FFF;
+    position: absolute;
+    bottom: 1.5vw;
+    right: 2vw;
+    font-size: 0.7vw;
+     font-family: "Montserrat", sans-serif;
+   }
+   .page-home{
+    background: #2d84da;
+    min-height: calc(100vh - 10vw);
+   }
+   .page-home .top-banner{
+    position: initial;
+   }
+   .page-home .bg-opacity{
+    z-index: 4;
+    position: absolute;
+    top: 35.9vw;
+    left: 0vw;
+    width: 100%;
    }
 }
+
+
+
+

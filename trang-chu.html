@@ -57,19 +57,25 @@
                  <img class="light-3l29" src="./images/vong-quay/light-2.png">
                 <img class="vang-1" src="./images/vong-quay/vang-1.png">
                 <img class="vang-2" src="./images/vong-quay/vang-2.png">
+                <img class="vang-2-2 md-desktop" src="./images/vong-quay/vang-2-2.png">
+                <img class="bg-opacity md-desktop" src="./images/vong-quay/bg-opacity.png">
                 <img class="limbs" src="./images/vong-quay/limbs.png">
                 <img class="vang-3" src="./images/vong-quay/vang-3.png">
                 <img class="vang-5" src="./images/vong-quay/vang-5.png">
                 <img class="vang-6" src="./images/vong-quay/vang-6.png">
                 <img class="voucher-lca" src="./images/vong-quay/voucher.png">
-                <img class="text-1lca" src="./images/vong-quay/text-1.png">
-                <img class="text-2lca" src="./images/vong-quay/text-2.png">
-                <img class="text-3lca" src="./images/vong-quay/text-3.png">
+                <img class="text-1lca md-desktop" src="./images/vong-quay/text-dt-1.png">
+                <img class="text-1lca md-mobile" src="./images/vong-quay/text-1.png">
+                <img class="text-2lca md-desktop" src="./images/vong-quay/text-dt-2.png">
+                <img class="text-2lca md-mobile" src="./images/vong-quay/text-2.png">
+                <img class="text-3lca md-desktop" src="./images/vong-quay/text-dt-3.png">
+                <img class="text-3lca md-mobile" src="./images/vong-quay/text-3.png">
             </div>
         
         <div class="bot-banner clearfix">
             <p class="md-number" id="counter-number">12300</p>
-            <p class="md-text">NGƯỜI CHƠI <span>ĐÃ NHẬN ĐƯỢC QUÀ</span></p>
+            <p class="md-text">NGƯỜI CHƠI ĐÃ NHẬN ĐƯỢC QUÀ</p>
+            <p class="text-hl md-desktop">*Dành riêng cho khách hàng  đã mua sản phẩm DAIKIN từ 15/04/2024</p>
         </div>
     </div>
     <footer class="footer clearfix">
@@ -84,4 +90,20 @@
 <script src="vendor/semantic/semantic.js" type="text/javascript" ></script>
 <script src="vendor/semantic/semantic.min.js" type="text/javascript" ></script>
 <script src="scripts/main.js"></script>
+<script type="text/javascript">
+    function set_min_height_blk_home(){
+        var min_height=$(window).height()- $(".page-header").height();
+        $(".page-home").css("max-height", min_height);
+        $(".page-home").css("min-height", min_height);
+    }
+    set_min_height_blk_home();
+     $(window).resize(function(){
+      set_min_height_blk_home();
+    });  
+     window.addEventListener('resize', function(event) {
+       set_min_height_blk_home();
+    });
+
+    
+</script>
 </html>
