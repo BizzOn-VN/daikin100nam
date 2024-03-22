@@ -159,3 +159,24 @@
       padding: 0.4rem .75rem;
     }
  }
+/* page-dieu-khoan*/
+
+@media screen and (min-width: 768px){
+    .page-dieu-khoan .md-content .main-content p{
+        margin: 0px 0px 1vw;
+    }
+    .page-dieu-khoan .md-content .main-content h6 {
+        margin: 0px 0px 1.5vw;
+    }
+    .page-dieu-khoan .md-content h3{
+        font-size: calc(1px + 2.3vw);
+    }
+}
+@media screen and (max-width: 768px){
+    .page-dieu-khoan .md-content .main-content p{
+        margin: 0px 0px 2vw;
+    }
+    .page-dieu-khoan .md-content .main-content h6 {
+        margin: 0px 0px 1.7vw;
+    }
+}
