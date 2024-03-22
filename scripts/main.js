@@ -94,9 +94,10 @@ App.Site = function () {
     }, 1000);
   }
    var set_height = function(){
-    function set_min_height_blk_home(){
+   function set_min_height_blk_home(){
         var min_height=$(window).height()- $(".page-header").height();
         $(".page-home").css("max-height", min_height);
+        $(".page-home").css("min-height", min_height);
     }
     set_min_height_blk_home();
      $(window).resize(function(){
