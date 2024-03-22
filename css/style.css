@@ -416,6 +416,7 @@ p.error-2{
   position: relative;
   margin-bottom: 15px;
 }
+
 .page-trungthuong .md-content .main-content .md-col a{
   position: absolute;
   left: 3%;
@@ -637,6 +638,12 @@ p.error-2{
   color: #00417f;
   font-weight: 700;
 }
+/*.page-vongquay .md-back{
+  position: absolute;
+  left: 5%;
+  top: 0;
+  width: 30%;
+}*/
 .fancybox-bg{
   background-color:rgba(0, 0, 0, 0.5);
 }
@@ -746,7 +753,7 @@ p.error-2{
 .page-nhanthuong .md-content img{
   width: 50%;
   display: table;
-  margin: 0px auto;
+  margin: 0px auto 10px auto;
 }
 .page-nhanthuong .md-content p{
   text-align: center;
@@ -1064,7 +1071,6 @@ p.error-2{
   text-align: center;
   margin-bottom: 10px;
   font-size: calc(15px + 2vw);
-  margin-top: -20px;
   color: #001e6b;
 }
 .page-quetma .md-content p{
@@ -1110,10 +1116,11 @@ p.error-2{
   margin-left: 10%;
   margin-top: 15px;
 }
+
 .page-nhanthuong-03 .md-content .main-content p{
   font-weight: 300;
-  font-size: calc(8px + 1vw);
-  margin-bottom: 20px;
+  font-size: calc(10px + 1vw);
+  margin-bottom: 20px !important;
 }
 .page-nhanthuong-03 .md-content .main-content p span{
   font-weight: 800;
@@ -1207,7 +1214,7 @@ p.error-2{
 }
 .page-nhanthuong-05 .md-content p{
   text-align: left;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .page-nhanthuong-05 .md-content p span{
   font-weight: 800;
@@ -1381,7 +1388,8 @@ p.error-2{
   display: inline-block;
   padding-top: 10px;
   margin-bottom: 0px;
-  font-size: calc(5px + 1vw);
+  font-size: calc(8px + 1vw);
+  text-align: left;
 }
 .page-nhanthuong-08 .md-content .main-content .md-col .md-upload img{
   display: block;
@@ -1399,8 +1407,9 @@ p.error-2{
 }
 .page-ketthuc-03 .md-content p{
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
 }
+
 /*.page-ketthuc-04 .md-content img{
   margin: 10px auto 0px auto;
 }*/
@@ -1509,6 +1518,19 @@ p.error-2{
 .page-dieu-khoan .md-content{
   padding: 0px 5vw;
 }
+.page-nhanthuong .md-content .md-back{
+    position: absolute;
+    left: 5%;
+    top: 0;
+    width: 30%;
+  }
+  .page-50k .md-content .md-back{
+    position: static;
+    width: 30%;
+  }
+.page-nhanthuong-03 .md-content{
+  padding-top: 15%;
+}  
 @media screen and (min-width: 768px){
   .page-main .md-bt-1{
     width: 26.5%;
@@ -1648,9 +1670,19 @@ p.error-2{
     top: 0%;
     max-width: 400px;
   }
-  .page-trungthuong-02 .md-content h3{
-/*    width: 69%;
-    font-size: calc(5px + 1.5vw);*/
+  .page-nhanthuong .md-content .md-back{
+    position: absolute;
+    left: 20%;
+    top: 0;
+    width: 10%;
+  }
+
+
+  .page-nhanthuong .md-content .img-gift-2 img{
+    margin-bottom: 0px;
+  }
+  .page-nhanthuong .md-content p{
+    font-size: calc(4px + 1vw);
   }
   .page-trungthuong-02 form input[type="search"]{
     width: 69%;
@@ -1739,7 +1771,8 @@ p.error-2{
     bottom: 0%;
   }
   .page-nhanthuong .md-content h3{
-    font-size: calc(15px + 2vw);
+    font-size: calc(10px + 2vw);
+    margin-bottom: 5px;
   }
   .page-nhanthuong01 .md-content .top-content a{
     width: 50%;
@@ -1762,7 +1795,7 @@ p.error-2{
     width: 30%;
     left: 50%;
   }
-
+  
   .page-vongquay .img-wheel{
     position: absolute;
     left: 34.5%;
@@ -1821,13 +1854,12 @@ p.error-2{
     display: table;
     margin: 0 auto;
   }
-  .page-nhanthuong-03 .md-content .main-content p{
-    font-size: calc(10px + 1vw);
-    text-align: center;
-    margin-bottom: 10px !important;
-  }
+  
   .page-nhanthuong-05 .md-content .ui.dropdown .default.text{
     font-size: calc(4px + 1vw);
+  }
+  .page-nhanthuong-05 .md-content .main-content p{
+    text-align: center;
   }
   .page-nhanthuong-05 .md-content .main-content .md-row{
     float: left;
@@ -1843,11 +1875,11 @@ p.error-2{
     font-size: calc(4px + 1vw);
   }
   .page-nhanthuong-05 .md-content .main-content .ctn-button-quetma img{
-    width: 50%;
+    width: 40%;
   }
   .page-nhanthuong-06 .md-content .main-content{
     margin-top: 0px;
-    padding: 0px 15%;
+    padding: 0px 20%;
   }
   .page-nhanthuong-06 .md-content .main-content p{
     text-align: center;
@@ -1856,15 +1888,17 @@ p.error-2{
     margin-bottom: 10px;
   }
   .page-nhanthuong-06 .md-content .main-content input[type='button']{
-    width: 50%;
-    display: table;
+    width: 100%;
     margin: 0px auto 10px auto;
   }
+  .page-nhanthuong-03 .md-content{
+    padding: 5% 20% 0px;
+  }
   .page-nhanthuong-03 .form-sdt{
-    padding: 0px 25%;
+    padding: 0px 20%;
   }
   .page-nhanthuong-03 .md-content .md-note{
-    font-size: calc(5px + 1vw) !important;
+    font-size: calc(2px + 1vw) !important;
   }
   .page-nhanthuong-03 .md-content .main-content input[type='button']{
     margin: 10px auto;
@@ -1872,6 +1906,10 @@ p.error-2{
   .page-nhanthuong-03 .md-content .main-content p.md-remind{
     margin-bottom: 0px;
     font-size: calc(4px + 1vw);
+  }
+  .page-nhanthuong-03 .md-content .main-content p{
+    text-align: center;
+    font-size: calc(6px + 1vw);
   }
   .page-nhanthuong-08 .md-content .main-content .md-col{
     float: left;
@@ -1897,6 +1935,9 @@ p.error-2{
   .page-ketthuc-03 .md-content img{
     width: 40%;
   }
+  .page-ketthuc-03 .md-content .top-content{
+    padding: 0px 10%;
+  }
   .page-ketthuc-04 .md-content p{
     margin-bottom: 10px;
   }
@@ -1910,6 +1951,10 @@ p.error-2{
     position: absolute;
     background: transparent;
     height: 100%;
+    padding: 0px;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .page-quetma .md-content p{
     color: #000;
@@ -1928,10 +1973,10 @@ p.error-2{
     padding: 0 10%;
   }
   .page-50k .md-content{
-    padding: 5% 20% 0px;
+    padding: 0% 20% 0px;
   }
   .page-50k .md-content .main-content p{
-    margin-bottom: 20px;
+    margin-bottom: 15px !important;
   }
   .page-50k .ui.checkbox{
     display: table;
@@ -1953,10 +1998,10 @@ p.error-2{
     display: table;
     margin: 20px auto 10px auto;
   }
-  .page-50k .md-content img{
+  .page-50k .md-content .img-50k{
     position: absolute;
     right: 20%;
-    top: 5%;
+    top: 10%;
     width: 18%;
   }
   .page-50k .md-content p{
@@ -1964,6 +2009,8 @@ p.error-2{
   }
   .page-50k .md-content h3{
     text-align: left;
+    font-size: calc(12px + 1.5vw);
+    margin-bottom: 5px;
   }
   .md-quetma{
     width: 80%;
@@ -1982,23 +2029,34 @@ p.error-2{
   .page-hanhtrinh .md-content h3 span{
     display: inline-block;
   }
+  .page-dapdung .md-content .md-back{
+    position: absolute;
+    width: 10%;
+    left: 20%;
+    top: 0;
+  }
   .page-dapdung .md-content .main-content {
     height: auto;
     margin: 0 20%;
-    padding: 3%;
+    padding: 15px 3%;
+  }
+  .page-dapdung .md-content .main-content .ui.radio label{
+    margin-bottom: 5px;
   }
   .page-dapdung .ui.checkbox{
     margin-bottom: 0px;
   }
   .page-dapdung .md-content input[type='button']{
-    width: 60%;
+    width: 50%;
+    margin-top: 20px;
   }
   .page-dapdung .md-content h3{
     text-align: center;
     width: 100%;
+    margin: 3% 0px 2%;
   }
   .page-dapdung .ui.form .grouped.fields>label{
-    font-size: calc(10px + 1vw);
+    font-size: calc(4px + 1vw);
   }
   .page-thele .md-content h2{
     font-size: calc(10px + 1vw) !important;
@@ -2009,7 +2067,26 @@ p.error-2{
   .page-thele .md-content .main-content h6{
     font-size: calc(10px + 1vw) !important;
   }
-
+  .page-nhanthuong-05 .md-content .main-content p{
+    font-size: calc(6px + 1vw);
+    text-align: center;
+    margin-bottom: 20px !important;
+  }
+  .page-nhanthuong-05 .md-content .main-content .md-note{
+    margin-left: 25%;
+    text-align: left;
+  }
+  .page-nhanthuong-08 .md-content .main-content .md-col p{
+    font-size: calc(4px + 1vw);
+  }
+  .page-nhanthuong-06 .md-content p{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .page-50k .md-content .md-back{
+    position: static;
+    width: 15%;
+  }
   .page-hanhtrinh .md-content h3{
     width: 100%;
     text-align: center;
