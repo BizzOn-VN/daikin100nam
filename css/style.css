@@ -699,7 +699,22 @@ p.error-2{
   transform: translateX(-50%);
   color: #132d6d;
 }
-
+.md-wheel-2 .md-text{
+  position: absolute;
+  left: 50%;
+  top: 37%;
+  transform: translateX(-50%);
+  width: 74%;
+  text-align: center;
+}
+.md-wheel-2 p{
+  padding: 0px 20px;
+}
+.md-wheel-2 h6{
+  color: #001e6b;
+  font-weight: 800;
+  text-transform: uppercase;
+}
 .md-wheel-3{
   display: none;
   position: absolute;
@@ -1429,7 +1444,7 @@ p.error-2{
   top: 68%
 }
 .md-wheel-2 a{
-  top: 71%;
+  top: 65%;
   left: 50%;
 }
 .md-wheel-3 a{
@@ -1531,7 +1546,14 @@ p.error-2{
 .page-nhanthuong-03 .md-content{
   padding-top: 15%;
 }  
+.md-wheel-2 h6{
+  font-size: calc(7px + 2vw);
+}
+.md-wheel-2 p{
+    font-size: calc(5px + 2vw);
+  }
 @media screen and (min-width: 768px){
+
   .page-main .md-bt-1{
     width: 26.5%;
     position: absolute;
@@ -1792,7 +1814,7 @@ p.error-2{
   }
   
   .md-wheel .img-popup{
-    width: 30%;
+    width: 35%;
     left: 50%;
   }
   
@@ -2253,6 +2275,12 @@ p.error-2{
   }
   .page-hanhtrinh .main-content .md-row .md-col:hover .md-year{
     opacity: 1;
+  }
+  .md-wheel-2 h6{
+    font-size: calc(5px + 1vw);
+  }
+  .md-wheel-2 p{
+    font-size: calc(4px + 1vw);
   }
 }
 
