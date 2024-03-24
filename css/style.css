@@ -1391,14 +1391,14 @@ p.error-2{
     border-radius: 0px;
     border: none;
     padding: 0px;
-    height: 34%;
+    height: 30%;
   }
   .page-main .bot-banner .md-number{
     position: absolute;
     left: 21.5%;
     bottom: 6%;
     width: 10.5%;
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
   .page-thele .md-content .md-back{
     width: 15%;
@@ -1466,17 +1466,33 @@ p.error-2{
   .page-trungthuong-02 .md-content .main-content .md-col .md-left{
     width: 60%;
   }
+
   .page-trungthuong .bot-banner{
-    background: url(../images/vong-quay/line-bottom-2.png) no-repeat;
-    background-size: 100% 100%;
+    background: none;
+  }
+  .page-trungthuong-02 .bot-banner{
+   background: url(../images/vong-quay/line-bottom-3.png) no-repeat;
+   background-size: 100% 100%; 
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
   }
   .page-trungthuong .bot-banner .md-number{
-    left: 34.5%;
-    bottom: 3%;
+    left: 20%;
+    bottom: 10%;
     width: 10.5%;
   }
+
+  .page-main .bot-banner .md-text{
+    position: absolute;
+    float: none;
+    left: 20%;
+    bottom: 0%;
+    font-size: calc(4px + 1vw);
+  }
   .page-trungthuong-02 .md-content .main-content{
-    height: 90%;
+    height: 75%;
   }
   .page-trungthuong-des .md-content .main-content{
     overflow: visible;
@@ -1725,41 +1741,43 @@ p.error-2{
   .page-50k .md-content{
     padding: 0% 20% 0px;
   }
+  .page-50k .md-content .top-content{
+    float: left;
+    width: 45%;
+  }
+  .page-50k .md-content .main-content{
+    float: right;
+    width: 50%;
+  }
   .page-50k .md-content .main-content p{
     margin-bottom: 15px !important;
   }
   .page-50k .ui.checkbox{
     display: table;
-    margin: 30px auto 0 auto;
-  }
-  .page-50k .md-content .main-content .md-col{
-    float: left;
-    width: 48%;
-    margin-right: 4%;
-  }
-  .page-50k .md-content .main-content .md-col-2{
-    margin-right: 0;
+    margin: 30px 0px 0px 0px;
   }
   .page-50k .md-content .main-content .md-col-3{
     float: none;
   }
   .page-50k .md-content .main-content input[type='button']{
-    width: 50%;
-    display: table;
+    /*width: 50%;
+    display: table;*/
     margin: 20px auto 10px auto;
   }
   .page-50k .md-content .img-50k{
-    position: absolute;
+    /*position: absolute;
     right: 20%;
     top: 10%;
-    width: 18%;
+    width: 18%;*/
+    width: 60%;
+    margin: 0px 0px 20px;
   }
   .page-50k .md-content p{
     text-align: left;
   }
   .page-50k .md-content h3{
     text-align: left;
-    font-size: calc(12px + 1.5vw);
+    font-size: calc(8px + 1.5vw);
     margin-bottom: 5px;
   }
   .md-quetma{
@@ -3030,8 +3048,9 @@ p.error-2{
     font-size: 0.7vw;
      font-family: "Montserrat", sans-serif;
    }
-   .page-home{
-    background: #2d84da;
+   .page-main{
+    background: url(../images/vong-quay/line-bottom-4.png) no-repeat;
+    background-size: 100% 100%;
     min-height: calc(100vh - 10vw);
    }
    .page-home .top-banner{
@@ -3043,6 +3062,10 @@ p.error-2{
     top: 35.9vw;
     left: 0vw;
     width: 100%;
+   }
+   .page-trungthuong {
+     background: url(../images/vong-quay/line-bottom-5.png) no-repeat;
+     background-size: 100% 100%;
    }
 }
 
