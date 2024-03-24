@@ -99,6 +99,7 @@ App.Site = function () {
         var min_height=$(window).height()- $(".page-header").height();
         $(".page-main").css("max-height", min_height);
         $(".page-main").css("min-height", min_height);
+        $(".page-main").css("height", min_height);
     }
     set_min_height_blk_home();
      $(window).resize(function(){

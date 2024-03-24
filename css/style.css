@@ -1147,10 +1147,10 @@ p.error-2{
   top: 50%;
   transform: translate(-50%,-50%);
   width: 90%;
-  height: 40%;
+  height: auto !important;
   background: #FFF;
   border-radius: 20px;
-  padding: 25px;
+  padding: 30px;
   overflow: visible;
   display: none;
 }
