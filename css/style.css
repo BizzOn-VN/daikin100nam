@@ -309,6 +309,7 @@ p.error-2{
 }
 .page-main .bg-banner{
   width: 100%;
+  height: 100%;
 }
 .page-main .md-bt-1{
   width: 80%;
@@ -1391,14 +1392,14 @@ p.error-2{
     border-radius: 0px;
     border: none;
     padding: 0px;
-    height: 30%;
+    height: 20%;
   }
   .page-main .bot-banner .md-number{
     position: absolute;
     left: 21.5%;
     bottom: 6%;
     width: 10.5%;
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
   .page-thele .md-content .md-back{
     width: 15%;
@@ -1473,7 +1474,7 @@ p.error-2{
   .page-trungthuong-02 .bot-banner{
    background: url(../images/vong-quay/line-bottom-3.png) no-repeat;
    background-size: 100% 100%; 
-   position: fixed;
+   position: absolute;
    left: 0;
    bottom: 0;
    width: 100%;
@@ -1489,10 +1490,10 @@ p.error-2{
     float: none;
     left: 20%;
     bottom: 0%;
-    font-size: calc(4px + 1vw);
+    font-size: calc(2px + 0.8vw);
   }
   .page-trungthuong-02 .md-content .main-content{
-    height: 75%;
+    height: 62%;
   }
   .page-trungthuong-des .md-content .main-content{
     overflow: visible;
@@ -2022,6 +2023,12 @@ p.error-2{
   }
   .page-hanhtrinh .main-content .md-row .md-col:hover .md-year{
     opacity: 1;
+  }
+  .page-main .bg-banner{
+    height: auto;
+  }
+  .page-trungthuong .bg-banner{
+    height: 100%;
   }
 }
 
