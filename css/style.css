@@ -1518,7 +1518,7 @@ p.error-2{
     margin-right: 0%;
   }
   .page-nhanthuong01 .bot-content{
-    background: url(../images/vong-quay/line-bottom-3.png) no-repeat;
+    background: url(../images/vong-quay/line-bottom-6.png) no-repeat;
     background-size: 100% 100%;
     border-radius: 0px;
     border: none;
@@ -2027,8 +2027,12 @@ p.error-2{
   .page-main .bg-banner{
     height: auto;
   }
-  .page-trungthuong .bg-banner{
+/*  .page-trungthuong .bg-banner{
     height: 100%;
+  }*/
+  .page-nhanthuong01{
+    height: auto !important;
+    min-height: auto !important ;
   }
 }
 
