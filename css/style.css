@@ -416,7 +416,10 @@ p.error-2{
   position: relative;
   margin-bottom: -10px;
 }
-
+.page-trungthuong .bot-banner{
+  background: none;
+  border: none;
+}
 .page-trungthuong .md-content .main-content .md-col a{
   position: absolute;
   left: 3%;
