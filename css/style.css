@@ -339,6 +339,7 @@ p.error-2{
   z-index: 6;
 
 }
+
 .page-main .bot-banner .md-number{
   color: #ecd36a;
   float: left;
@@ -347,13 +348,13 @@ p.error-2{
   line-height: 1;
   font-weight: 700;
   letter-spacing: 3px;
-  width: 50%;
+  width: 45%;
 }
 .page-main .bot-banner .md-text{
   color: #FFF;
   float: right;
   margin-bottom: 0px;
-  width: 50%;
+  width: 45%;
   font-size: calc(8px + 1vw);
 }
 
@@ -415,10 +416,10 @@ p.error-2{
 .page-trungthuong .md-content .main-content .md-col{
   position: relative;
 }
-.page-trungthuong .bot-banner{
+/*.page-trungthuong .bot-banner{
   background: none;
   border: none;
-}
+}*/
 .page-trungthuong .md-content .main-content .md-col a{
   position: absolute;
   left: 3%;
@@ -459,7 +460,7 @@ p.error-2{
 }
 .page-trungthuong-02 .md-content .main-content .md-col{
   border-bottom: 1px solid #7d7d7d;
-  padding-bottom: 10px;
+  padding: 10px 0px;
 }
 .page-trungthuong-02 .md-content .main-content .md-col .md-left{
   float: left;
@@ -754,7 +755,8 @@ p.error-2{
 }
 .md-the-le h6{
   text-align: justify;
-  font-weight: 600;
+  font-weight: 800;
+  font-size: calc(10px + 1vw);
 }
 .md-the-le::-webkit-scrollbar{
   width: 4px;
@@ -872,6 +874,7 @@ p.error-2{
   position: static;
   background: rgba(0,0,0,0.3);
   padding-bottom: 20px;
+  height: 100%;
 }
 .page-quetma .md-content h3{
   text-align: center;
@@ -1263,6 +1266,12 @@ p.error-2{
 .md-wheel-7 .md-text{
   margin-top: 20%;
 }
+.page-nhanthuong-04 .md-content .main-content p.error-2{
+  font-size: calc(10px + 1vw);
+}
+.page-nhanthuong-08 .md-content .main-content .ctn-button-quetma img{
+  width: 60%;
+}
 @media screen and (min-width: 768px){
   .md-wheel{
     width: 30%;
@@ -1545,8 +1554,9 @@ p.error-2{
     bottom: 0%;
   }
   .page-nhanthuong .md-content h3{
-    font-size: calc(10px + 2vw);
-    margin-bottom: 5px;
+    font-size: calc(6px + 2vw);
+    margin-bottom: 10px;
+    text-align: left;
   }
   .page-nhanthuong01 .md-content .top-content a{
     width: 50%;
@@ -1606,49 +1616,23 @@ p.error-2{
     margin-bottom: 10px;
   }
   .page-nhanthuong-05 .md-content .top-main-content p{
-    float: left;
-    font-size: calc(12px + 1vw);
-    width: 50%;
-    text-align: center;
-  }
-  .page-nhanthuong-05 .md-content .top-main-content p:last-child{
-    float: right;
-    border-left: 5px solid #000;
+    font-size: calc(6px + 1vw);
   }
   .page-nhanthuong-05 .md-content .main-content{
     height: auto;
   }
   .page-nhanthuong-05 .md-content .main-content input[type='button']{
-    width: 50%;
-    display: table;
-    margin: 0 auto;
+    margin: 15px 0px;
   }
   
   .page-nhanthuong-05 .md-content .ui.dropdown .default.text{
     font-size: calc(4px + 1vw);
   }
-  .page-nhanthuong-05 .md-content .main-content p{
-    text-align: center;
-  }
-  .page-nhanthuong-05 .md-content .main-content .md-row{
-    float: left;
-    width: 48%;
-    margin-right: 4%;
-  }
-  .page-nhanthuong-05 .md-content .main-content .md-row-2{
-    float: left;
-    margin-right: 0%;
-    margin-bottom: 20px;
-  }
   .page-nhanthuong-05 .md-content .ui.dropdown .menu>.item{
     font-size: calc(4px + 1vw);
   }
-  .page-nhanthuong-05 .md-content .main-content .ctn-button-quetma img{
-    width: 40%;
-  }
   .page-nhanthuong-06 .md-content .main-content{
     margin-top: 0px;
-    padding: 0px 20%;
   }
   .page-nhanthuong-06 .md-content .main-content p{
     text-align: center;
@@ -1663,11 +1647,9 @@ p.error-2{
   .page-nhanthuong-03 .md-content{
     padding: 5% 20% 0px;
   }
-  .page-nhanthuong-03 .form-sdt{
-    padding: 0px 20%;
-  }
   .page-nhanthuong-03 .md-content .md-note{
     font-size: calc(2px + 1vw) !important;
+    text-align: left;
   }
   .page-nhanthuong-03 .md-content .main-content input[type='button']{
     margin: 10px auto;
@@ -1677,7 +1659,7 @@ p.error-2{
     font-size: calc(4px + 1vw);
   }
   .page-nhanthuong-03 .md-content .main-content p{
-    text-align: center;
+    text-align: left;
     font-size: calc(6px + 1vw);
   }
   .page-nhanthuong-08 .md-content .main-content .md-col{
@@ -1727,6 +1709,9 @@ p.error-2{
   }
   .page-quetma .md-content p{
     color: #000;
+  }
+  .page-quetma .md-content h3{
+    font-size: calc(6px + 2vw);
   }
   .page-quetma .md-content .bot-content img{
     background: #FFF;
@@ -1840,11 +1825,10 @@ p.error-2{
   }
   .page-nhanthuong-05 .md-content .main-content p{
     font-size: calc(6px + 1vw);
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px !important;
   }
   .page-nhanthuong-05 .md-content .main-content .md-note{
-    margin-left: 25%;
     text-align: left;
   }
   .page-nhanthuong-08 .md-content .main-content .md-col p{
@@ -2029,9 +2013,63 @@ p.error-2{
   .page-main .bg-banner{
     height: auto;
   }
-/*  .page-trungthuong .bg-banner{
-    height: 100%;
-  }*/
+  .page-nhanthuong .top-content{
+    float: left;
+    width: 48%;
+  }
+  .page-nhanthuong .main-content{
+    float: right;
+    width: 48%;
+  }
+  .page-nhanthuong01 .top-content{
+    float: none;
+    width: 100%;
+  } 
+  .page-nhanthuong01 .md-content .top-content h3{
+    text-align: center;
+  }
+  .page-otp .main-content{
+    float: none;
+    width: 100%;
+  }
+  .page-otp .md-content h3{
+    text-align: center;
+  }
+  .page-otp .md-content .main-content p.error-2{
+    font-size: calc(4px + 1vw);
+  }
+  .page-otp .md-content .main-content .form-sdt{
+    padding: 0 20%;
+  }
+  .page-sdt-02 .main-content{
+    float: none;
+    width: 100%;
+  }
+  .page-sdt-02 .form-sdt{
+    padding: 0 25%;
+  }
+  .page-sdt-02 .md-content h3{
+    text-align: center;
+  }
+  .page-sdt-02 .md-content .main-content p{
+    text-align: center;
+  }
+  .page-nhanthuong-08 .md-content .main-content{
+    float: none;
+    width: 100%;
+  }
+  .page-nhanthuong-08 .md-content h3{
+    text-align: center;
+  }
+  .page-nhanthuong-08 .md-content .main-content p{
+    margin-bottom: 0px !important;
+  }
+  .page-nhanthuong-08 .md-content .main-content .ctn-button-quetma{
+    margin: 5px 0 10px;
+  }
+  .page-nhanthuong-08 .md-content .main-content .ctn-button-quetma img{
+    width: 35%;
+  }
   .page-nhanthuong01{
     height: auto !important;
     min-height: auto !important ;
