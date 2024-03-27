@@ -1335,6 +1335,7 @@ p.error-2{
     left: 14%;
     top: -1%;
     z-index: 2;
+    display: none;
   }
   @keyframes light-hl {
       from {
@@ -3024,6 +3025,7 @@ p.error-2{
       line-height: 4.5vw;
       display: block;
       padding: 0 2vw;
+      border-radius: 0.5vw;
    }
    .page-main .md-bt-2{
       top: auto;
