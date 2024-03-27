@@ -1320,6 +1320,7 @@ p.error-2{
     width: 24%;
     left: 31%;
     top: 38%;
+    z-index: 3;
   }
   .light-hlc9{
     position: absolute;
@@ -2724,9 +2725,7 @@ p.error-2{
   .page-home .bg-desktop{
     display: none;
   }
-  .voucher-lca{
-    display: none;
-  }
+
   .page-home .bg-mb{
     display: block;
   }
@@ -3007,46 +3006,7 @@ p.error-2{
        }*/
        
    }
-   .voucher-lca{
-      animation: voucher linear infinite 10s;
-      position: absolute;
-      top: 35vw;
-      left: 13vw;
-      z-index: 15;
-      width: 8vw;
-   }
-   @keyframes voucher {
-       from {
-           left: 22vw;
-           top: 27vw;
-           width: 2%;
-           opacity: 0;
-       }
-       25% {
-         opacity: 0;
-           left: 22vw;
-           top: 27vw;
-           width: 2%;
-       }
-       29%{ 
-          left: 13vw;
-          top: 30vw;
-          width: 10%;
-          opacity: 1;
-       }
-       30%,40%,50%,60%,70%,80%,90%,100%{
-         opacity: 1;
-          left: 13vw;
-          top: 30vw;
-          width: 9%;
-       }
-       35%,45%,55%,65%,75%,85%,95%{
-          opacity: 1;
-          left: 13vw;
-          top: 30vw;
-          width: 10%;
-       }
-   }
+   
    .text-3lca{
       width: 34%;
       position: absolute;
@@ -3125,7 +3085,182 @@ p.error-2{
      background-size: 100% 100%;
    }
 }
+.text-1damb{
+  display: none;
+}
+.voucher-lca{
+   animation: voucher linear infinite 10s;
+   position: absolute;
+   top: 35vw;
+   left: 13vw;
+   z-index: 15;
+   width: 8vw;
+}
+@keyframes voucher {
+    from {
+        left: 22vw;
+        top: 27vw;
+        width: 2%;
+        opacity: 0;
+    }
+    25% {
+      opacity: 0;
+        left: 22vw;
+        top: 27vw;
+        width: 2%;
+    }
+    29%{ 
+       left: 13vw;
+       top: 30vw;
+       width: 10%;
+       opacity: 1;
+    }
+    30%,40%,50%,60%,70%,80%,90%,100%{
+      opacity: 1;
+       left: 13vw;
+       top: 30vw;
+       width: 9%;
+    }
+    35%,45%,55%,65%,75%,85%,95%{
+       opacity: 1;
+       left: 13vw;
+       top: 30vw;
+       width: 10%;
+    }
+}
 
+@media screen and (max-width: 768px){
+  .text-1lca{
+    width: 81%;
+    top: 3.8vw;
+  }
+  .light-3l29{
+    display: none;
+  }
+  .text-1damb{
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 57vw;
+    left: 10%;
+    width: 80%;
+    animation: qtq linear infinite 10s;
+  }
+  @keyframes  qtq{
+      0%{
+        opacity:0;
+        transform:scale3d(.3,.3,.3);
+      }
+      12%{
+        opacity:0;
+        transform:scale3d(.3,.3,.3);
+      }
+      15%{
+        opacity:1;
+        transform:scale3d(1,1,1);
+      }
+      57%{
+        opacity:1;
+        transform:scale3d(1,1,1);
+      }
+      100%{
+        opacity:1;
+        transform:scale3d(1,1,1);
+      }
+  }
+  .text-2lca{
+    animation: zoom-text-2 linear infinite 10s;
+  }
+  @keyframes  zoom-text-2{
+      0%{
+        opacity:0;
+        transform:scale3d(.3,.3,.3);
+      }
+      16%{
+        opacity:0;
+        transform:scale3d(.3,.3,.3);
+      }
+      19%{
+        opacity:1;
+        transform:scale3d(1,1,1);
+      }
+      57%{
+        opacity:1;
+        transform:scale3d(1,1,1);
+      }
+      100%{
+        opacity:1;
+        transform:scale3d(1,1,1);
+      }
+  }
+  .text-3lca{
+     animation: zoom-text-3 linear infinite 10s;
+  }
+  @keyframes  zoom-text-3{
+      0%{
+        opacity:0;
+        transform:scale3d(.3,.3,.3);
+      }
+      20%{
+        opacity:0;
+        transform:scale3d(.3,.3,.3);
+      }
+      23%{
+        opacity:1;
+        transform:scale3d(1,1,1);
+      }
+      57%{
+        opacity:1;
+        transform:scale3d(1,1,1);
+      }
+      100%{
+        opacity:1;
+        transform:scale3d(1,1,1);
+      }
+  }
+  @keyframes voucher {
+      from {
+          left: 23vw;
+          top: 38vw;
+          width: 1%;
+          opacity: 0;
+      }
+      25% {
+        opacity: 0;
+          left: 23vw;
+          top: 38vw;
+          width: 1%;
+      }
+      29%{ 
+         left: 14vw;
+         top: 38.5vw;
+         width: 18%;
+         opacity: 1;
+      }
+      30%,40%,50%,60%,70%,80%,90%,100%{
+        opacity: 1;
+         left: 14vw;
+         top: 38.5vw;
+         width: 16%;
+      }
+      35%,45%,55%,65%,75%,85%,95%{
+         opacity: 1;
+         left: 14vw;
+         top: 38.5vw;
+         width: 18%;
+      }
+  }
+  .text-hl{
+    font-family: "Montserrat", sans-serif;
+    top: 138vw;
+    position: absolute;
+    color: #FFF;
+    font-weight: 300;
+    left: 10%;
+    z-index: 1;
+    font-size: 2.32vw;
+  }
+}
 
 
 
