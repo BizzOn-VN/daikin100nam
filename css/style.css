@@ -2455,24 +2455,24 @@ p.error-2{
       opacity: 1;
        left: -9%;
        top: -2vw;
-       width: 22%;
+       width: 24%;
     }
     30%,40%,50%,60%,70%,80%,90%,100%{
        opacity: 1;
        left: -9%;
        top: -1vw;
-       width: 23%;
+       width: 25%;
     }
     35%,45%,55%,65%,75%,85%,95%{
      opacity: 1;
        left: -8.5%;
        top: -4vw;
-       width: 25%;
+       width: 27%;
     }
     100%{
        left: -9%;
        top: -1%;
-       width: 22%;
+       width: 24%;
     }
     
 }
