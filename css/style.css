@@ -3355,45 +3355,44 @@ p.error-2{
 
 @media screen and (max-width: 767px){
   .page-main{
-      background-image: url(../images/bg-gift.png);
+     background-image: url(../images/bg-gift.png), linear-gradient(to right, #7dceff, #80cfff);
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #84d1ff;
+    
   }
   .page-dapdung{
-      background-image: url(../images/img-thele.png);
+      background-image: url(../images/img-thele.png), linear-gradient(to right, #7dceff, #80cfff);
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #84d1ff;
+    
   }
   .page-dieu-khoan{
-     background-image: url(../images/img-thele.png);
+     background-image: url(../images/img-thele.png), linear-gradient(to right, #7dceff, #80cfff);
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #81cfff;
   }
   .page-hanhtrinh{
-     background-image: url(../images/bg-hanhtrinh-mb.jpg);
+     background-image: url(../images/bg-hanhtrinh-mb.jpg), linear-gradient(to right, #7dceff, #80cfff);
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #84d1ff;
+    
   }
   .page-nhanthuong01{
-    background-image: url(../images/bg-form-gift.png);
+    background-image: url(../images/bg-form-gift.png), linear-gradient(to right, #7dceff, #80cfff);
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #84d1ff;
+    
   }
   .page-ketthuc-03{
-    background-image: url(../images/img-thele.png);
+    background-image: url(../images/img-thele.png), linear-gradient(to right, #7dceff, #80cfff);
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #84d1ff;
+    
   }
 }
