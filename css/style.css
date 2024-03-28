@@ -419,7 +419,7 @@ p.error-2{
 }
 .page-trungthuong .md-content .main-content .md-col .img-giaithuong{
   width: 100%;
-  box-shadow: 10px 10px 69px -30px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 40px -30px rgba(0,0,0,0.75);
   border-radius: 10px;
 }
 .page-trungthuong .md-content .main-content .md-col .bg-giaithuong{
@@ -3394,5 +3394,22 @@ p.error-2{
         background-position: center bottom;
     background-repeat: no-repeat;
     
+  }
+  .page-hanhtrinh .md-content h3 span{
+    font-size: calc(30px + 2vw);
+  }
+  .page-hanhtrinh .md-content .main-content .md-col{
+    margin-bottom: 0px;
+    margin-top: -10px;
+  }
+  .page-hanhtrinh .md-content .main-content{
+    padding: 10px 0px 0px 0px;
+  }
+  .page-hanhtrinh .md-content .main-content .md-col .img-giaithuong{
+    box-shadow: none;
+    border-radius: 0px;
+  }
+  .page-trungthuong-des .md-content{
+    height: 85%;
   }
 }
