@@ -3409,4 +3409,7 @@ p.error-2{
     box-shadow: none;
     border-radius: 0px;
   }
+  .page-trungthuong-des .md-content{
+    height: 75%;
+  }
 }
