@@ -2321,7 +2321,9 @@ p.error-2{
     }
  }
 /* page-dieu-khoan*/
-
+.page-dieu-khoan .md-content .main-content p{
+  text-align: justify;
+}
 @media screen and (min-width: 768px){
     .page-dieu-khoan .md-content .main-content p{
         margin: 0px 0px 1vw;
@@ -3354,41 +3356,41 @@ p.error-2{
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #82d0ff;
+    background-color: #84d1ff;
   }
   .page-dapdung{
       background-image: url(../images/img-thele.png);
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #82d0ff;
+    background-color: #84d1ff;
   }
   .page-dieu-khoan{
      background-image: url(../images/img-thele.png);
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #82d0ff;
+    background-color: #81cfff;
   }
   .page-hanhtrinh{
      background-image: url(../images/bg-hanhtrinh-mb.jpg);
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #82d0ff;
+    background-color: #84d1ff;
   }
   .page-nhanthuong01{
     background-image: url(../images/bg-form-gift.png);
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #82d0ff;
+    background-color: #84d1ff;
   }
   .page-ketthuc-03{
     background-image: url(../images/img-thele.png);
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
-    background-color: #82d0ff;
+    background-color: #84d1ff;
   }
 }
