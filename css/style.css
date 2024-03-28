@@ -335,7 +335,7 @@ p.error-2{
   background: linear-gradient(90deg, #00249e 30%, #0044e5 100%);
   border-radius: 0px 50px 0px 0px;
   padding: 15px 50px;
-  border-top: 1px solid #f0d67a;
+  border-top: 2px solid #f0d67a;
   z-index: 6;
 
 }
@@ -366,6 +366,10 @@ p.error-2{
   height: 65%;
   padding: 0px 30px;
 }
+.page-trungthuong-des .md-content{
+  padding: 0px 20px 0px 30px;
+}
+
 .page-thele .md-content .main-content::-webkit-scrollbar-track{
   background: #FFF;
 }
@@ -378,9 +382,12 @@ p.error-2{
 }
 .page-thele .md-content .main-content{
  overflow-y: scroll;
- height: 90%;
- padding: 0px 15px 0px 0px;
+ height: 80%;
+ padding: 25px 10px 0px 0px;
  
+}
+.page-trungthuong .md-content .main-content{
+  height: 90%;
 }
 .page-thele .md-content h3{
   text-transform: uppercase;
@@ -395,12 +402,12 @@ p.error-2{
   text-transform: uppercase;
   margin: 0px 0px 15px 0px;
   font-weight: 800;
-  text-align: justify;
+  text-align: left;
   font-size: calc(6px + 1vw);
 }
 .page-thele .md-content .main-content p{
   margin-bottom: 15px;
-  text-align: justify;
+  text-align: left;
   letter-spacing: -1px;
 }
 .page-lienhe .md-content .main-content{
@@ -412,9 +419,26 @@ p.error-2{
 }
 .page-trungthuong .md-content .main-content .md-col .img-giaithuong{
   width: 100%;
+  box-shadow: 10px 10px 69px -30px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+.page-trungthuong .md-content .main-content .md-col .bg-giaithuong{
+  position: absolute;
+  right: 0%;
+  top: -20%;
+  width: 40%;
+}
+.page-trungthuong .md-content .main-content .md-col .bg-giaithuong-2{
+  right: auto;
+  left: 0;
+}
+.page-trungthuong .md-content .main-content .md-col .bg-giaithuong-4{
+  right: auto;
+  left: 0;
 }
 .page-trungthuong .md-content .main-content .md-col{
   position: relative;
+  margin-bottom: 30px;
 }
 /*.page-trungthuong .bot-banner{
   background: none;
@@ -445,6 +469,9 @@ p.error-2{
   right: 5%;
   top: 0%;
 }
+.page-trungthuong-02{
+  overflow: hidden;
+}
 .page-trungthuong .md-content h3{
   margin-bottom: 20px;
 }
@@ -454,7 +481,7 @@ p.error-2{
 .page-trungthuong-02 .md-content .main-content{
   margin-top: 20px;
   background: #FFF;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 15px 5px 15px 15px;
   height: 90%;
 }
@@ -477,6 +504,12 @@ p.error-2{
 }
 .page-trungthuong-02 .md-content .main-content .md-col span{
   display: block;
+}
+.page-trungthuong-02 .md-content .main-content  .md-col .md-left p{
+  width: auto;
+}
+.page-trungthuong-02 .md-content .main-content  .md-col .md-left span{
+  width: auto;
 }
 .page-trungthuong-02 .md-content .main-content{
   overflow-y: visible;
@@ -517,7 +550,12 @@ p.error-2{
   top: 50%;
   transform: translateY(-50%);
 }
-
+.page-hanhtrinh .md-content{
+  padding: 0px;
+}
+.page-hanhtrinh .md-content .md-back{
+  margin: 0px;
+}
 .page-hanhtrinh .md-bt-3{
   width: 80%;
   display: table;
@@ -528,30 +566,47 @@ p.error-2{
 }
 .page-hanhtrinh .md-content .main-content{
   margin-bottom: 20px;
+  padding: 0px;
 }
 .page-hanhtrinh .md-content h3 span{
   display: block;
 }
+.page-hanhtrinh .md-content .main-content .md-col{
+  margin-left: 15px;
+}
 .page-hanhtrinh .md-content .main-content .md-col-2{
-  float: right;
+  margin-left: 0px;
+  margin-right: 15px;
 }
 .page-hanhtrinh .md-content h3{
   font-size: calc(15px + 2vw);
   font-weight: 800;
+  margin-left: 20px;
 }
 .page-dapdung .md-content .main-content{
   height: auto;
+  box-shadow: 10px 10px 55px -20px rgba(0,0,0,0.75);
 }
 .page-dapdung .md-content .main-content .ui.radio{
   width: 100%;
 }
 .page-dapdung .md-content .main-content .ui.radio label{
   padding: 15px;
-  border-radius: 20px;
+  border-radius: 10px;
   width: 100%;
   border: 1px solid #ccc;
   color: #787878;
-  font-weight: 700;
+  font-family: 'Montserrat-Medium';
+}
+.page-dapdung .md-content .ui.form .grouped.fields>label{
+  font-weight: 500;
+  font-family: 'Montserrat-Medium';
+}
+.page-dapdung .md-content .ui.form .grouped.fields .field{
+  margin-bottom: 0px;
+}
+.page-dapdung .md-content .ui.radio.checkbox{
+  margin-bottom: 0px;
 }
 .page-dapdung .md-content .main-content .ui.radio label:before{
   display: none;
@@ -560,7 +615,7 @@ p.error-2{
   display: none;
 }
 .page-dapdung .md-content .main-content{
-  padding: 5%;
+  padding: 15px 5% 10px;
 }
 .page-dapdung .md-content .main-content .ui.radio.checked label{
   background: rgb(52,102,192);
@@ -574,11 +629,11 @@ p.error-2{
   width: 100%;
 }
 .page-dapdung .md-content input[type='button']{
-  width: 84%;
+  width: 100%;
   border: none;
   background: #052167;
   color: #a7e0ff;
-  border-radius: 10px;
+  border-radius: 5px;
   text-transform: uppercase;
   display: table;
   margin: 20px auto 0 auto;
@@ -616,8 +671,8 @@ p.error-2{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 84%;
-  width: 13%;
+  top: 85%;
+  width: 11%;
 }
 .page-vongquay .img-quay{
   position: absolute;
@@ -1272,6 +1327,10 @@ p.error-2{
 .page-nhanthuong-08 .md-content .main-content .ctn-button-quetma img{
   width: 60%;
 }
+.fancybox-is-open .fancybox-bg{
+  background: #000;
+  opacity: 0.9;
+}
 @media screen and (min-width: 768px){
   .md-wheel{
     width: 30%;
@@ -1474,6 +1533,12 @@ p.error-2{
     margin-bottom: 0px;
     margin-right: 10px;
   }
+  .page-trungthuong-02 .md-content .main-content .md-col .md-left p{
+    width: 45%;
+  }
+  .page-trungthuong-02 .md-content .main-content .md-col .md-left span{
+    width: 45%;
+  }
   .page-trungthuong-02 .md-content .main-content .md-col .md-right{
     width: 40%;
   }
@@ -1512,23 +1577,40 @@ p.error-2{
     overflow: visible;
     padding: 0px;
     height: auto;
-  }.page-trungthuong-des .md-content .main-content .top-content{
-    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+  .page-trungthuong-des .md-content .main-content .top-content{
+    margin-bottom: 30px;
   }
   .page-trungthuong-des .md-content .main-content .top-content .md-col{
     margin-bottom: 0px;
   }
   .page-trungthuong-des .md-content .main-content .top-content .md-col{
     float: left;
-    width: 50%;
+    width: 48%;
+  }
+  .page-trungthuong-des .md-content .main-content .top-content .md-col-2{
+    float: right;
   }
   .page-trungthuong-des .md-content .main-content .bot-content .md-col{
     float: left;
     width: 32%;
     margin-right: 2%;
   }
+  .page-trungthuong .md-content .main-content .md-col-2 a{
+    right: auto;
+    left: 3%;
+  }
   .page-trungthuong-des .md-content .main-content .bot-content .md-col:last-child{
     margin-right: 0%;
+  }
+  .page-trungthuong .md-content .main-content .md-col .bg-giaithuong-2{
+    right: 0;
+    left: auto;
+  }
+  .page-trungthuong .md-content .main-content .md-col .bg-giaithuong-4{
+    right: 0;
+    left: auto;
   }
   .page-nhanthuong01 .bot-content{
     background: url(../images/vong-quay/line-bottom-6.png) no-repeat;
@@ -1595,8 +1677,8 @@ p.error-2{
     width: 5%;
   }
   .page-vongquay .img-arrow{
-    top: 80%;
-    width: 5%;
+    top: 83%;
+    width: 4%;
   }
   .page-vongquay .img-wheel-4{
      position: absolute;
@@ -1866,8 +1948,8 @@ p.error-2{
   .page-hanhtrinh .md-content .main-content{
     overflow-y: inherit;
     height: auto;
-    padding: 0px;
-    margin-bottom: 10px;
+    padding: 0px 5%;
+    margin-bottom: 0px;
   }
   .page-hanhtrinh .main-content .md-row{
     margin-bottom: 30px;
@@ -1879,8 +1961,7 @@ p.error-2{
   .page-hanhtrinh .main-content .md-row .md-col{
     width: 24%;
     float: left;
-    opacity: 0.2;
-    margin-bottom: 0px;   
+    margin: 0px;   
     border-radius: 10px;
     margin-right: 1.3%;
     transition-duration: 0.3s;
@@ -2104,7 +2185,7 @@ p.error-2{
  .page-thele .md-content .main-content h6{
     margin: 0.5rem 0 0.5rem;
     color: #000;
-    font-size: calc(6px + 2vw);
+    font-size: calc(10px + 2vw);
  }
  .page-thele .md-content .main-content p.dot{
     position: relative;
@@ -2255,6 +2336,7 @@ p.error-2{
 @media screen and (max-width: 768px){
     .page-dieu-khoan .md-content .main-content p{
         margin: 0px 0px 2vw;
+        font-size: calc(12px + 1vw);
     }
     .page-dieu-khoan .md-content .main-content h6 {
         margin: 0px 0px 1.7vw;
@@ -3266,3 +3348,47 @@ p.error-2{
 
 
 
+@media screen and (max-width: 767px){
+  .page-main{
+      background-image: url(../images/bg-gift.png);
+      background-size: 100% auto;
+        background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #82d0ff;
+  }
+  .page-dapdung{
+      background-image: url(../images/img-thele.png);
+      background-size: 100% auto;
+        background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #82d0ff;
+  }
+  .page-dieu-khoan{
+     background-image: url(../images/img-thele.png);
+      background-size: 100% auto;
+        background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #82d0ff;
+  }
+  .page-hanhtrinh{
+     background-image: url(../images/bg-hanhtrinh-mb.jpg);
+      background-size: 100% auto;
+        background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #82d0ff;
+  }
+  .page-nhanthuong01{
+    background-image: url(../images/bg-form-gift.png);
+      background-size: 100% auto;
+        background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #82d0ff;
+  }
+  .page-ketthuc-03{
+    background-image: url(../images/img-thele.png);
+      background-size: 100% auto;
+        background-position: center bottom;
+    background-repeat: no-repeat;
+    background-color: #82d0ff;
+  }
+}
