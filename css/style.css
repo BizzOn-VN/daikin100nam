@@ -2324,6 +2324,9 @@ p.error-2{
 .page-dieu-khoan .md-content .main-content p{
   text-align: justify;
 }
+.page-lienhe .md-content .main-content p{
+  text-align: left;
+}
 @media screen and (min-width: 768px){
     .page-dieu-khoan .md-content .main-content p{
         margin: 0px 0px 1vw;
