@@ -90,25 +90,4 @@
 <script src="vendor/semantic/semantic.js" type="text/javascript" ></script>
 <script src="vendor/semantic/semantic.min.js" type="text/javascript" ></script>
 <script src="scripts/main.js"></script>
-<script type="text/javascript">
-    function set_height_top_banner(){
-        var max_height=$("html").height()- $(".page-header").height();
-        $(".page-home .top-banner").css("height",max_height);
-    }
-     set_height_top_banner();
-      window.addEventListener('resize', function(event) {
-         set_height_top_banner();
-     });
-</script>
-<style type="text/css">
-    @media screen and (max-width: 767px){
-        .page-home .top-banner .bg-banner{
-            height: auto;
-        }
-         .page-home .top-banner{
-            min-height: 160vw !important;
-         }
-    }
-   
-</style>
 </html>

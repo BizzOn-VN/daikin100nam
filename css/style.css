@@ -3413,3 +3413,11 @@ p.error-2{
     height: 85%;
   }
 }
+@media screen and (max-width: 767px){
+    .page-home .top-banner .bg-banner{
+        height: auto;
+    }
+     .page-home .top-banner{
+        min-height: 160vw !important;
+     }
+}

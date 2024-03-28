@@ -107,6 +107,14 @@ App.Site = function () {
      window.addEventListener('resize', function(event) {
        set_min_height_blk_home();
     });
+     function set_height_top_banner(){
+         var max_height=$("html").height()- $(".page-header").height();
+         $(".page-home .top-banner").css("height",max_height);
+     }
+      set_height_top_banner();
+       window.addEventListener('resize', function(event) {
+          set_height_top_banner();
+      });
    }
 
 
