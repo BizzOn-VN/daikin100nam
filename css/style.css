@@ -419,7 +419,7 @@ p.error-2{
 }
 .page-trungthuong .md-content .main-content .md-col .img-giaithuong{
   width: 100%;
-  box-shadow: 10px 10px 69px -30px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 40px -30px rgba(0,0,0,0.75);
   border-radius: 10px;
 }
 .page-trungthuong .md-content .main-content .md-col .bg-giaithuong{
@@ -3410,6 +3410,6 @@ p.error-2{
     border-radius: 0px;
   }
   .page-trungthuong-des .md-content{
-    height: 75%;
+    height: 85%;
   }
 }
