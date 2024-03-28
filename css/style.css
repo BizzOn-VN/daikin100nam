@@ -415,7 +415,7 @@ p.error-2{
 }
 .page-lienhe .md-content .main-content a img{
   width: 100%;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .page-trungthuong .md-content .main-content .md-col .img-giaithuong{
   width: 100%;
@@ -3419,5 +3419,25 @@ p.error-2{
     }
      .page-home .top-banner{
         min-height: 160vw !important;
+     }
+     #md-the-le{
+      background: #fff;
+     }
+}
+
+@media screen and (max-width: 360px){
+  .page-lienhe .md-content .main-content{
+      padding: 0px;
+     }
+     .page-lienhe .md-content .main-content a img{
+      margin-top: 5px;
+     }
+     .ui.checkbox label{
+      font-size: 0.9em;
+     }
+}
+@media screen and (max-width: 320px){
+   .ui.checkbox label{
+      font-size: 0.8em;
      }
 }
