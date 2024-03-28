@@ -3395,4 +3395,18 @@ p.error-2{
     background-repeat: no-repeat;
     
   }
+  .page-hanhtrinh .md-content h3 span{
+    font-size: calc(30px + 2vw);
+  }
+  .page-hanhtrinh .md-content .main-content .md-col{
+    margin-bottom: 0px;
+    margin-top: -10px;
+  }
+  .page-hanhtrinh .md-content .main-content{
+    padding: 10px 0px 0px 0px;
+  }
+  .page-hanhtrinh .md-content .main-content .md-col .img-giaithuong{
+    box-shadow: none;
+    border-radius: 0px;
+  }
 }
