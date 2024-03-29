@@ -1329,7 +1329,7 @@ p.error-2{
 }
 .fancybox-is-open .fancybox-bg{
   background: #000;
-  opacity: 0.9;
+  opacity: 0.97;
 }
 @media screen and (min-width: 768px){
   .md-wheel{
@@ -1657,6 +1657,7 @@ p.error-2{
   .fancybox-content a{
     padding: 10px 0px;
     font-size: calc(4px + 0.8vw);
+    width: 90%;
   }
   
   .page-vongquay .img-wheel{
