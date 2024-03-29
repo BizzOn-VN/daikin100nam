@@ -2167,6 +2167,9 @@ p.error-2{
     margin-top: -0.5%;
     width: 80%;
   }
+  .page-header .md-hotline a{
+    text-align: right;
+  }
 }
 
  .page-thele .md-content h2{
