@@ -586,12 +586,13 @@ p.error-2{
 .page-dapdung .md-content .main-content{
   height: auto;
   box-shadow: 10px 10px 55px -20px rgba(0,0,0,0.75);
+  border-radius: 20px;
 }
 .page-dapdung .md-content .main-content .ui.radio{
   width: 100%;
 }
 .page-dapdung .md-content .main-content .ui.radio label{
-  padding: 15px;
+  padding: 10px 15px;
   border-radius: 10px;
   width: 100%;
   border: 1px solid #ccc;
@@ -1881,8 +1882,9 @@ p.error-2{
   }
   .page-dapdung .md-content .main-content {
     height: auto;
-    margin: 0 20%;
+    margin: 0 23%;
     padding: 15px 3%;
+    border-radius: 20px;
   }
   .page-dapdung .md-content .main-content .ui.radio label{
     margin-bottom: 5px;
@@ -1891,13 +1893,14 @@ p.error-2{
     margin-bottom: 0px;
   }
   .page-dapdung .md-content input[type='button']{
-    width: 50%;
+    width: 54%;
     margin-top: 20px;
   }
   .page-dapdung .md-content h3{
     text-align: center;
     width: 100%;
     margin: 3% 0px 2%;
+    font-size: calc(4px + 2vw);
   }
   .page-dapdung .ui.form .grouped.fields>label{
     font-size: calc(4px + 1vw);
