@@ -1333,6 +1333,9 @@ p.error-2{
   opacity: 0.97;
 }
 @media screen and (min-width: 768px){
+  .page-header .main-menu ul li{
+    text-align: center;
+  }
   .md-wheel{
     width: 30%;
   }
