@@ -118,7 +118,7 @@ input[type=submit] {
 .page-header .main-menu{
     float: left;
     width: 66%;
-    margin-left: 2%;
+    margin-left: 6%;
 }
 .page-header .main-menu ul{
     display: table;
@@ -127,7 +127,7 @@ input[type=submit] {
 }
 .page-header .main-menu ul li{
     display: table-cell;
-    padding: 0px 10px;
+    padding: 0px 5px;
 }
 .page-header .main-menu ul li a{
     color: #00123d;
@@ -137,7 +137,7 @@ input[type=submit] {
     text-transform: uppercase;
 }
 .page-header .md-hotline{
-  width: 15%;
+  width: 12%;
   float: right;
 }
 .page-header .md-hotline img{
@@ -644,7 +644,7 @@ p.error-2{
 .page-vongquay .img-wheel{
   position: absolute;
   left: 4.5%;
-  transform: rotate(0deg);
+  transform: rotate(2deg);
   top: 34.5%;
   width: 91%;
 }
@@ -1667,7 +1667,6 @@ p.error-2{
   .page-vongquay .img-wheel{
     position: absolute;
     left: 34.5%;
-    transform: rotate(0deg);
     top: 26%;
     width: 31%;
   }
@@ -2056,49 +2055,49 @@ p.error-2{
     opacity: 1;
   }
   .page-hanhtrinh .main-content .md-row .md-col-1:hover{
-    background: #c0ecfc;
-    box-shadow: 10px 10px 104px -22px rgba(0,0,0,0.75);
+    background: rgba(182,232,252,0.5);
+    box-shadow: 0px 5px 40px -21px rgba(0,0,0,0.75);
     transform: scale(1.1); 
     opacity: 1;    
   }
   .page-hanhtrinh .main-content .md-row .md-col-2:hover{
-    background: #b2d1cc;
-    box-shadow: 10px 10px 104px -22px rgba(0,0,0,0.75);
+    background: rgba(165,205,204,0.5);
+    box-shadow: 0px 5px 40px -21px rgba(0,0,0,0.75);
     transform: scale(1.1); 
     opacity: 1;
   }
   .page-hanhtrinh .main-content .md-row .md-col-3:hover{
-    background: #eec0be;
-    box-shadow: 10px 10px 104px -22px rgba(0,0,0,0.75);
+    background: rgba(221,185,190,0.5);
+    box-shadow: 0px 5px 40px -21px rgba(0,0,0,0.75);
     transform: scale(1.1); 
     opacity: 1;
   }
   .page-hanhtrinh .main-content .md-row .md-col-4:hover{
-    background: #d8e9c5;
-    box-shadow: 10px 10px 104px -22px rgba(0,0,0,0.75);
+    background: rgba(219,235,197,0.5);
+    box-shadow: 0px 5px 40px -21px rgba(0,0,0,0.75);
     transform: scale(1.1); 
     opacity: 1;
   }
   .page-hanhtrinh .main-content .md-row .md-col-5:hover{
-    background: #fbd9b2;
-    box-shadow: 10px 10px 104px -22px rgba(0,0,0,0.75);
+    background: rgba(249,216,177,0.5);
+    box-shadow: 0px 5px 40px -21px rgba(0,0,0,0.75);
     transform: scale(1.1); 
     opacity: 1;
   }
   .page-hanhtrinh .main-content .md-row .md-col-6:hover{
-    background: #fbd9b2;
-    box-shadow: 10px 10px 104px -22px rgba(0,0,0,0.75);
+    background: rgba(186,201,228,0.5);
+    box-shadow: 0px 5px 40px -21px rgba(0,0,0,0.75);
     transform: scale(1.1); 
     opacity: 1;
   }
   .page-hanhtrinh .main-content .md-row .md-col-7:hover{
-    background: #e2c6e7;
-    box-shadow: 10px 10px 104px -22px rgba(0,0,0,0.75);
+    background: rgba(226,198,231,0.5);
+    box-shadow: 0px 5px 40px -21px rgba(0,0,0,0.75);
     transform: scale(1.1); 
     opacity: 1;
   }
   .page-hanhtrinh .main-content .md-row .md-col:hover .md-year{
-    opacity: 1;
+    opacity: 0.7;
   }
   .page-main .bg-banner{
     height: auto;
@@ -2171,8 +2170,7 @@ p.error-2{
     max-height: none  !important;
   }
   .page-header .md-hotline img{
-    margin-top: -0.5%;
-    width: 80%;
+    margin-top: -0.5%;;
   }
   .page-header .md-hotline a{
     text-align: right;
@@ -2716,7 +2714,7 @@ p.error-2{
   position: absolute;
   top: 58vw;
   left: 10%;
-   animation: zoomIn1 linear infinite 10s;
+   animation: zoomIn1 10s;
 }
 @keyframes zoomIn1{
     0%{
@@ -2743,7 +2741,7 @@ p.error-2{
   position: absolute;
   top: 69vw;
   left: 10%;
-   animation: zoomIn2 linear infinite 10s;
+   animation: zoomIn2 10s;
 }
 @keyframes zoomIn2{
     0%{
@@ -3070,7 +3068,7 @@ p.error-2{
        
    }
    .vang-3{
-      animation: vang-3 linear infinite 10s;
+      animation: vang-3  10s;
       transform: rotate(-15deg);
    }
    @keyframes vang-3 {
@@ -3167,7 +3165,7 @@ p.error-2{
     color: #FFF;
     position: absolute;
     bottom: 1.5vw;
-    right: 2vw;
+    left: 52%;
     font-size: 0.7vw;
      font-family: "Montserrat", sans-serif;
    }
