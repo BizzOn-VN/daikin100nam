@@ -1440,19 +1440,21 @@ p.error-2{
         position: absolute;
         top: 10.9%;
         left: 21%;
+        animation: zoomIn1  linear forwards 10s;
   }
   .text-2lca{
     width: 28.5%;
     position: absolute;
     top: 18.5%;
     left: 21%;
-
+    animation: zoom-text-2 linear forwards 10s;
   }
   .text-3lca{
     width: 27%;
-        position: absolute;
-        top: 5%;
-        left: 52.3%;
+    position: absolute;
+    top: 5%;
+    left: 52.3%;
+    animation: zoomIn3 linear forwards  10s;
   }
   .md-wheel-11 a.popup-back{
     top: 70%;
@@ -2726,7 +2728,7 @@ p.error-2{
   position: absolute;
   top: 58vw;
   left: 10%;
-   animation: zoomIn1 10s;
+   animation: zoomIn1  linear infinite 10s;
 }
 @keyframes zoomIn1{
     0%{
@@ -2945,6 +2947,7 @@ p.error-2{
       position: absolute;
       top: 1vw;
       left: 24.4%;
+      animation: zoomIn1  linear forwards 10s;
    }
    .text-2lca{
       width: 48%;
@@ -3127,6 +3130,7 @@ p.error-2{
       position: absolute;
       top: 12.5vw;
       left: 33%;
+      animation: zoomIn3 linear forwards  10s;
    }
    .page-main .md-bt-1{
       top: auto;
