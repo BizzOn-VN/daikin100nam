@@ -3459,6 +3459,7 @@ p.error-2{
      }
      .page-hanhtrinh .md-content .md-line-bottom{
       position: relative;
+      margin-top: 10px;
      }
      .page-hanhtrinh .md-content  .md-line-bottom-2{
         position: absolute;
@@ -3466,7 +3467,7 @@ p.error-2{
         bottom: 120%;
         width: 100%;
         z-index: 2;
-        height: 10px;
+        height: 0px;
         box-shadow: 0px -8px 20px 20px rgb(255 255 255);
      }
      .page-50k .md-content .md-back{
@@ -3480,6 +3481,9 @@ p.error-2{
      }
      .page-nhanthuong .md-content .img-gift-2{
       margin: 20px auto 0px auto;
+     }
+     .page-hanhtrinh .md-content .main-content{
+      margin-bottom: 0px;
      }
 }
 
