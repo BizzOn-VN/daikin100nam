@@ -132,7 +132,7 @@ input[type=submit] {
 .page-header .main-menu ul li a{
     color: #00123d;
     font-weight: 500;
-    font-size: calc(2px + 1vw);
+    font-size: calc(2px + 0.9vw);
     display: inline-block;
     text-transform: uppercase;
 }
