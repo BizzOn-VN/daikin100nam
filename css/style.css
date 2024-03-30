@@ -3496,6 +3496,9 @@ p.error-2{
      .page-main .bot-banner .md-number{
       font-size: calc(30px + 1vw);
      }
+     .page-nhanthuong01 .bot-content{
+      padding: 8px 30px 0px 30px;
+     }
 }
 
 @media screen and (max-width: 360px){
