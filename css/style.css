@@ -3493,6 +3493,9 @@ p.error-2{
      .page-hanhtrinh .md-content .main-content{
       margin-bottom: 0px;
      }
+     .page-main .bot-banner .md-number{
+      font-size: calc(30px + 1vw);
+     }
 }
 
 @media screen and (max-width: 360px){
