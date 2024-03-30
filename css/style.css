@@ -583,8 +583,9 @@ p.error-2{
 }
 .page-hanhtrinh .md-content h3{
   font-size: calc(15px + 2vw);
-  font-weight: 800;
+  font-weight: 500;
   margin-left: 20px;
+  font-family: 'UTMNeutra';
 }
 .page-dapdung .md-content .main-content{
   height: auto;
