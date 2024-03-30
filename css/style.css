@@ -3435,6 +3435,7 @@ p.error-2{
   }
   .page-hanhtrinh .md-content h3{
     margin-left: 7%;
+    font-size: calc(20px + 2vw);
   }
   .page-hanhtrinh .md-content .main-content .md-col{
     margin-bottom: 0px;
