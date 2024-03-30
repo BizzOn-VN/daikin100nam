@@ -117,8 +117,8 @@ input[type=submit] {
 }
 .page-header .main-menu{
     float: left;
-    width: 66%;
-    margin-left: 6%;
+    width: 70%;
+    margin-left: 2%;
 }
 .page-header .main-menu ul{
     display: table;
@@ -132,7 +132,7 @@ input[type=submit] {
 .page-header .main-menu ul li a{
     color: #00123d;
     font-weight: 500;
-    font-size: calc(2px + 0.6vw);
+    font-size: calc(2px + 0.8vw);
     display: inline-block;
     text-transform: uppercase;
 }
@@ -1252,7 +1252,6 @@ p.error-2{
   margin-bottom: 20px;
 }
 .md-wheel-2{
-  top: 60%;
   height: 45%;
 }
 .md-wheel-2 img{
@@ -1331,7 +1330,7 @@ p.error-2{
 }
 .fancybox-is-open .fancybox-bg{
   background: #000;
-  opacity: 0.97;
+  opacity: 0.85;
 }
 @media screen and (min-width: 768px){
   .page-header .main-menu ul li{
