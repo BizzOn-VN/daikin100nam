@@ -3434,8 +3434,12 @@ p.error-2{
     
   }
   .page-hanhtrinh .md-content h3{
-    margin-left: 7%;
-    font-size: calc(20px + 2vw);
+    margin-left: 0px;
+  }
+  .page-hanhtrinh .md-content h3 img{
+    width: 85%;
+    display: table;
+    margin: 0 auto;
   }
   .page-hanhtrinh .md-content .main-content .md-col{
     margin-bottom: 0px;
