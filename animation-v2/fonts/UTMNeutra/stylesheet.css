@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'UTM Neutra';
+    src: url('UTMNeutra.eot');
+    src: url('UTMNeutra.eot?#iefix') format('embedded-opentype'),
+        url('UTMNeutra.woff2') format('woff2'),
+        url('UTMNeutra.woff') format('woff'),
+        url('UTMNeutra.ttf') format('truetype'),
+        url('UTMNeutra.svg#UTMNeutra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
