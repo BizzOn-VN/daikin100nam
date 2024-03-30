@@ -648,7 +648,7 @@ p.error-2{
 .page-vongquay .img-wheel{
   position: absolute;
   left: 4.5%;
-  transform: rotate(2deg);
+  transform: rotate(0deg);
   top: 34.5%;
   width: 91%;
 }
