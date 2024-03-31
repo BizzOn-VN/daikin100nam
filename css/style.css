@@ -3554,7 +3554,7 @@ p.error-2{
 }
 .popup-thele .bg-popup-dk{
   position: absolute;
-  top: 20%;
+  bottom: 62%;
   left: 50%;
   transform: translateX(-50%);
   width: 80%;
@@ -3585,7 +3585,7 @@ p.error-2{
     width: 50%;
   }
   .popup-thele .bg-popup-dk{
-    top: 9%;
+    bottom: 60%;
     width: 65%;
   }
   .popup-thele .fancybox-button{
