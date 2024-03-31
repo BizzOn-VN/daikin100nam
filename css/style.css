@@ -3546,7 +3546,7 @@ p.error-2{
   width: 90%;
   padding: 0px;
   top: auto;
-  bottom: 0;
+  bottom: 5%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
