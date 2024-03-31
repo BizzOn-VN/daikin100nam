@@ -3464,9 +3464,6 @@ p.error-2{
      .page-home .top-banner{
         min-height: 160vw !important;
      }
-     #md-the-le{
-      background: #fff;
-     }
      .page-hanhtrinh .md-content .md-line-bottom{
       position: relative;
       margin-top: 10px;
@@ -3508,6 +3505,24 @@ p.error-2{
      .page-nhanthuong01 .bot-content{
       padding: 8px 30px 0px 30px;
      }
+     .page-huongdan{
+      background-image: url(../images/bg-gift.png), linear-gradient(to right, #7dceff, #80cfff);
+      background-size: 100% auto;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+     }
+     .page-huongdan .md-content{
+      height: 90%;
+     }
+     .page-huongdan .row-l{
+      padding: 0px;
+     }
+     .page-huongdan .pd-l{
+      padding: 0px;
+     }
+     .page-huongdan .md-content .main-content{
+      padding: 10px 10px 0px 0px;
+     }
 }
 
 @media screen and (max-width: 360px){
@@ -3525,4 +3540,55 @@ p.error-2{
    .ui.checkbox label{
       font-size: 0.8em;
      }
+}
+
+.popup-thele{
+  width: 90%;
+  padding: 0px;
+  top: auto;
+  bottom: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+}
+.popup-thele .bg-popup-dk{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+.popup-thele .main-content{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 65%;
+  background: #FFF;
+  overflow-y: scroll;
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+.popup-thele .fancybox-button{
+  background: url(../images/ico-close.png) no-repeat;
+  background-size: 100% 100%;
+  width: 30px;
+  height: 30px;
+  right: 0px;
+  top: 20%;
+}
+.popup-thele .fancybox-button svg{
+  display: none;
+}
+@media screen and (min-width: 768px){
+  .popup-thele{
+    width: 50%;
+  }
+  .popup-thele .bg-popup-dk{
+    top: 9%;
+    width: 65%;
+  }
+  .popup-thele .fancybox-button{
+    top: 9%;
+  }
 }
