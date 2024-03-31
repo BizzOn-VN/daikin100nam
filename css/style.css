@@ -2195,7 +2195,7 @@ p.error-2{
 }
 
  .page-thele .md-content h2{
-     font-size: calc(6px + 3vw);
+     font-size: calc(10px + 2vw);
      font-family: "Montserrat", sans-serif;
      color: #001e6b;
      font-weight: 800;
@@ -3522,6 +3522,9 @@ p.error-2{
      }
      .page-huongdan .md-content .main-content{
       padding: 10px 10px 0px 0px;
+     }
+     .page-thele .md-content h3{
+      font-size: calc(20px + 2vw);
      }
 }
 
