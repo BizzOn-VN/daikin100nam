@@ -203,7 +203,7 @@ input[type=submit] {
       width: 80%;
       position: absolute;
       left: 50%;
-      bottom: 15%;
+      bottom: 20%;
       transform: translateX(-50%);
     }
     .page-header .main-menu a.hotline img{
@@ -321,7 +321,7 @@ p.error-2{
   left: 50%;
   transform: translateX(-50%);
   top: 64%;
-  background: #052268;
+  background: #001446;
   color: #a7e0fe;
 }
 .page-main .md-bt-2{
@@ -391,7 +391,7 @@ p.error-2{
  
 }
 .page-trungthuong .md-content .main-content{
-  height: 78%;
+  height: 81%;
 }
 .page-thele .md-content h3{
   text-transform: uppercase;
@@ -856,7 +856,8 @@ p.error-2{
   font-size: calc(12px + 1vw);
 }
 .page-nhanthuong01 .bot-content{
-  background: linear-gradient(90deg, rgba(52,102,192,1) 50%, rgba(53,164,255,1) 100%);
+  background: url(../images/bg-bottom-2.png) no-repeat;
+  background-size: 100% 100%;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1196,7 +1197,7 @@ p.error-2{
   top: 0;
 }
 .page-dieu-khoan .md-content{
-  padding: 0px 5vw;
+  padding: 0px 10px 0px 20px;
 }
 .page-nhanthuong .md-content .md-back{
     position: absolute;
@@ -3450,7 +3451,7 @@ p.error-2{
     margin-top: -10px;
   }
   .page-hanhtrinh .md-content .main-content{
-    padding: 30px 0px 0px 0px;
+    padding: 30px 0px 20px 0px;
   }
   .page-hanhtrinh .md-content .main-content .md-col .img-giaithuong{
     box-shadow: none;
@@ -3470,12 +3471,15 @@ p.error-2{
      }
      .page-hanhtrinh .md-content .md-line-bottom{
       position: relative;
-      margin-top: 10px;
+      margin-top: 30px;
+     }
+     .page-hanhtrinh .md-content .main-content{
+      height: 90%;
      }
      .page-hanhtrinh .md-content  .md-line-bottom-2{
         position: absolute;
         left: 0;
-        bottom: 120%;
+        bottom: 180%;
         width: 100%;
         z-index: 2;
         height: 0px;
@@ -3499,6 +3503,8 @@ p.error-2{
      }
      .page-nhanthuong .md-content .img-gift-2{
       margin: 20px auto 0px auto;
+      width: 65%;
+      padding: 30px 0px 5px 0px;
      }
      .page-hanhtrinh .md-content .main-content{
       margin-bottom: 0px;
@@ -3517,9 +3523,6 @@ p.error-2{
      }
      .page-huongdan .md-content{
       height: 90%;
-     }
-     .page-huongdan .row-l{
-      padding: 0px;
      }
      .page-huongdan .pd-l{
       padding: 0px;
@@ -3586,6 +3589,9 @@ p.error-2{
 }
 .popup-thele .fancybox-button svg{
   display: none;
+}
+.ta-l{
+  text-align: left !important;
 }
 @media screen and (min-width: 768px){
   .popup-thele{
