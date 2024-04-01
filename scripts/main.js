@@ -82,16 +82,22 @@ App.Site = function () {
   var count_number = function(){
     setTimeout(function() {
       $('#counter-number').each(function () {
-              $(this).prop('Counter',0).animate({
-                  Counter: $(this).text()
-              }, {
-                  duration: 4000,
-                  easing: 'swing',
-                  step: function (now) {
-                      $(this).text(Math.ceil(now));
-                  }
-              });
+          // Lấy giá trị hiện tại và xác định độ dài chuỗi mong muốn
+          var currentText = $(this).text();
+          var desiredLength = currentText.length;
+
+          $(this).prop('Counter',0).animate({
+              Counter: currentText
+          }, {
+              duration: 4000,
+              easing: 'swing',
+              step: function (now) {
+                  // Định dạng lại giá trị 'now' để bao gồm số 0 ở đầu
+                  var formattedNumber = Math.ceil(now).toString().padStart(desiredLength, '0');
+                  $(this).text(formattedNumber);
+              }
           });
+      });
     }, 1000);
   }
    var set_height = function(){
