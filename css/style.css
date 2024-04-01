@@ -443,7 +443,7 @@ p.error-2{
 }
 .page-trungthuong .md-content .main-content .md-col{
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 /*.page-trungthuong .bot-banner{
   background: none;
@@ -484,7 +484,7 @@ p.error-2{
   width: 60%;
 }
 .page-trungthuong-02 .md-content .main-content{
-  margin-top: 20px;
+  margin-top: 40px;
   background: #FFF;
   border-radius: 10px;
   padding: 15px 5px 15px 15px;
@@ -1594,7 +1594,7 @@ p.error-2{
     margin-top: 30px;
   }
   .page-trungthuong-des .md-content .main-content .top-content{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   .page-trungthuong-des .md-content .main-content .top-content .md-col{
     margin-bottom: 0px;
@@ -3603,5 +3603,38 @@ p.error-2{
   }
   .popup-thele .fancybox-button{
     top: 9%;
+  }
+}
+.page-trungthuong .md-remain{
+  position: absolute;
+  padding: 3px 10px;
+  color: #FFF;
+  background: #37aee8;
+  border-radius: 0px 0px 10px 10px;
+  right: 0;
+  top: 100%;
+  font-size: calc(2px + 0.8vw);
+}
+.page-trungthuong-02 .md-content .main-content{
+  position: relative;
+}
+.page-trungthuong-02 .md-remain{
+  border-radius: 10px 10px 0px 0px;
+  top: auto;
+  bottom: 100%;
+  font-size: calc(2px + 1vw);
+  padding: 5px 10px;
+}
+.page-trungthuong .md-remain span{
+  font-weight: 800;
+}
+
+@media screen and (max-width: 767px){
+  .page-trungthuong .md-remain{
+    font-size: calc(8px + 1vw);
+  }
+  .page-trungthuong .md-content .main-content .md-col-2 .md-remain{
+    right: auto !important;
+    left: 0 !important ;
   }
 }
