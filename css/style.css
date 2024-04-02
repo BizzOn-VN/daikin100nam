@@ -12,7 +12,7 @@ body {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Montserrat-Medium';
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: calc(6px + 1vw);
   color: #333;
@@ -118,8 +118,8 @@ input[type=submit] {
 }
 .page-header .main-menu{
     float: left;
-    width: 70%;
-    margin-left: 2%;
+    width: 65%;
+    margin-left: 4%;
 }
 .page-header .main-menu ul{
     display: table;
@@ -132,7 +132,7 @@ input[type=submit] {
 }
 .page-header .main-menu ul li a{
     color: #00123d;
-    font-weight: 500;
+    font-weight: 600;
     font-size: calc(2px + 0.9vw);
     display: inline-block;
     text-transform: uppercase;
@@ -603,11 +603,11 @@ p.error-2{
   width: 100%;
   border: 1px solid #ccc;
   color: #787878;
-  font-family: 'Montserrat-Medium';
+   font-family: "Montserrat", sans-serif;
 }
 .page-dapdung .md-content .ui.form .grouped.fields>label{
   font-weight: 500;
-  font-family: 'Montserrat-Medium';
+   font-family: "Montserrat", sans-serif;
 }
 .page-dapdung .md-content .ui.form .grouped.fields .field{
   margin-bottom: 0px;
@@ -645,7 +645,9 @@ p.error-2{
   display: table;
   margin: 20px auto 0 auto;
   padding: 15px;
-  font-family: 'Montserrat-Medium';
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  
 }
 .page-vongquay .img-wheel{
   position: absolute;
@@ -752,6 +754,9 @@ p.error-2{
   color: #787878;
   font-style: italic;
 }
+.page-nhanthuong .md-content .main-content input::placeholder{
+  font-size: calc(2px + 1vw);
+}
 .page-nhanthuong .md-content .main-content input[type='button']{
   border: none;
   background: #052167;
@@ -762,7 +767,8 @@ p.error-2{
   font-style: normal;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Montserrat-Medium';
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
 .page-nhanthuong .md-content .main-content a{
   color: #000;
@@ -787,7 +793,7 @@ p.error-2{
 .page-nhanthuong .md-content .img-gift-2{
   width: 70%;
   display: table;
-  margin: 0px auto;
+  margin: 3% auto 0 auto;
   position: relative;
   padding: 20px 0px;
 }
@@ -1504,6 +1510,7 @@ p.error-2{
   }
   .page-nhanthuong .md-content .img-gift-2{
     width: 30%;
+
   }
   .page-trungthuong-02 .md-content .img-title{
     position: absolute;
@@ -1661,6 +1668,9 @@ p.error-2{
     display: table;
     margin: 10px auto;
   }
+  .page-nhanthuong01 .md-content .top-content a img{
+    margin-bottom: 0px;
+  }
   .page-nhanthuong01 .md-content .top-content p.text-ct{
     text-align: center;
   }
@@ -1707,7 +1717,7 @@ p.error-2{
     left: 23.3%;
   }
   .page-vongquay p.md-text{
-    top: 21%;
+    top: 18%;
     font-size: calc(4px + 1vw);
   }
   .page-nhanthuong-05 .md-content .top-main-content .md-text{
@@ -1915,13 +1925,13 @@ p.error-2{
     font-size: calc(4px + 1vw);
   }
   .page-thele .md-content h2{
-    font-size: calc(10px + 1vw) !important;
+    font-size: calc(8px + 1vw) !important;
   }
   .page-thele .md-content h4{
-    font-size: calc(10px + 1vw) !important;
+    font-size: calc(8px + 1vw) !important;
   }
   .page-thele .md-content .main-content h6{
-    font-size: calc(10px + 1vw) !important;
+    font-size: calc(8px + 1vw) !important;
   }
   .page-nhanthuong-05 .md-content .main-content p{
     font-size: calc(6px + 1vw);
@@ -1965,7 +1975,6 @@ p.error-2{
     overflow-y: inherit;
     height: auto;
     padding: 0px 5%;
-    margin-bottom: 0px;
   }
   .page-hanhtrinh .main-content .md-row{
     margin-bottom: 30px;
@@ -2323,7 +2332,6 @@ p.error-2{
  @media screen and (min-width: 768px){
     .page-thele .md-content .main-content h6{
        margin: 0.5rem 0 0.5rem;
-       color: #000;
        font-size: calc(6px + 1.2vw);
     }
     .pd-l{
@@ -2367,6 +2375,7 @@ p.error-2{
 @media screen and (min-width: 768px){
     .page-dieu-khoan .md-content .main-content p{
         margin: 0px 0px 1vw;
+        font-size: calc(4px + 1vw);
     }
     .page-dieu-khoan .md-content .main-content h6 {
         margin: 0px 0px 1.5vw;
@@ -2392,7 +2401,13 @@ p.error-2{
   overflow: hidden;
   background-image: linear-gradient(to right, #001865 50%,#002172);
 }
-
+.page-home .line-bg-homepage{
+  position: absolute;
+  left: 0;
+  top: 70%;
+  z-index: 4;
+  width: 100%;
+}
 .blk-home{
   position: relative;
   
@@ -3212,6 +3227,9 @@ p.error-2{
      background: url(../images/vong-quay/line-bottom-5.png) no-repeat;
      background-size: 100% 100%;
    }
+   .page-dapdung .md-content{
+      padding: 3% 20% 0px;
+     }
 }
 .text-1damb{
   display: none;
@@ -3461,6 +3479,9 @@ p.error-2{
   .page-trungthuong-des .md-content{
     height: 85%;
   }
+  .page-nhanthuong .md-content .main-content input::placeholder{
+    font-size: calc(8px + 1vw);
+  }
 }
 @media screen and (max-width: 767px){
     .page-home .top-banner .bg-banner{
@@ -3491,6 +3512,7 @@ p.error-2{
      .page-dapdung .md-content .md-back{
       width: 35.7%;
      }
+
      .page-trungthuong-des .md-content .md-back{
       width: 35.5%;
      }
@@ -3649,4 +3671,12 @@ p.error-2{
   .page-trungthuong .md-content .main-content .md-col-2{
     border-radius: 10px 10px 10px 0px;
   }
+}
+.page-hanhtrinh .md-content .main-content .md-col-2{
+  background: transparent;
+  border-radius: 10px;
+}
+.page-hanhtrinh .md-content .main-content .md-col{
+  background: transparent;
+  border-radius: 10px;
 }
