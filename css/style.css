@@ -1024,7 +1024,7 @@ p.error-2{
 .page-nhanthuong-05 .md-content .main-content .ctn-button-quetma img{
   width: 50%;
 }
-.page-nhanthuong-04 .md-content .main-content input[type='number']{
+.page-nhanthuong-04 .md-content .main-content input[type='text']{
   float: left;
   width: 19%;
   margin-right: 8%;
@@ -1036,7 +1036,7 @@ p.error-2{
   font-style: normal;
   color: #001e6b;
 }
-.page-nhanthuong-04 .md-content .main-content input[type='number']:last-child{
+.page-nhanthuong-04 .md-content .main-content input[type='text']:last-child{
   margin-right: 0%;
 }
 .page-nhanthuong-04 .md-content .main-content a{
