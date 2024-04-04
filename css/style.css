@@ -120,6 +120,7 @@ input[type=submit] {
     float: left;
     width: 65%;
     margin-left: 4%;
+    margin-top: 2px;
 }
 .page-header .main-menu ul{
     display: table;
@@ -190,6 +191,7 @@ input[type=submit] {
         height: 100vh;
         transition-duration: 0.5s;
         border-radius: 40px 0px 0px 0px;
+        margin-top: 0px;
     }
     .page-header .main-menu ul{
         display: block;
@@ -1540,31 +1542,38 @@ p.error-2{
     left: 2%;
   }
   .page-trungthuong-02 .md-content .main-content .md-col{
-    padding: 20px;
+    padding: 10px 20px;
     margin-bottom: 0px;
   }
   .page-trungthuong-02 .md-content .main-content .md-col span{
     display: inline-block;
+    font-size: calc(3px + 1vw);
   }
   .page-trungthuong-02 .md-content .main-content .md-col span.mgr{
-    margin-right: 10px;
+    margin-right: 3%;
   }
   .page-trungthuong-02 .md-content .main-content .md-col p{
     display: inline-block;
     margin-bottom: 0px;
     margin-right: 10px;
+    font-size: calc(3px + 1vw);
   }
   .page-trungthuong-02 .md-content .main-content .md-col .md-left p{
-    width: 45%;
+    width: 38%;
+    margin-right: 3%;
+    float: left;
+    
   }
   .page-trungthuong-02 .md-content .main-content .md-col .md-left span{
-    width: 45%;
+    width: 28%;
+    float: left;   
+    font-size: calc(4px + 1vw);
   }
   .page-trungthuong-02 .md-content .main-content .md-col .md-right{
-    width: 40%;
+    width: 38%;
   }
   .page-trungthuong-02 .md-content .main-content .md-col .md-left{
-    width: 60%;
+    width: 62%;
   }
 
   .page-trungthuong .bot-banner{
@@ -1956,7 +1965,7 @@ p.error-2{
     width: 100%;
     text-align: center;
     font-size: calc(10px + 1vw);
-    margin-top: -7%;
+    margin-top: -3%;
     margin-bottom: 30px;
   }
   .page-hanhtrinh .btn-cl{
@@ -1969,7 +1978,6 @@ p.error-2{
   }
   .page-hanhtrinh .md-content{
     height: auto;
-    top: 2%;
   }
   .page-hanhtrinh .md-content .main-content{
     overflow-y: inherit;
@@ -3681,4 +3689,8 @@ p.error-2{
 .page-hanhtrinh .md-content .main-content .md-col{
   background: transparent;
   border-radius: 10px;
+}
+input{
+  font-family: "Montserrat", sans-serif;
+  font-weigh
 }
