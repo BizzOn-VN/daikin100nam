@@ -3682,6 +3682,9 @@ p.error-2{
   .page-trungthuong .md-content .main-content .md-col-2{
     border-radius: 10px 10px 10px 0px;
   }
+  .page-quetma .md-content{
+    position: absolute;
+  }
 }
 .page-hanhtrinh .md-content .main-content .md-col-2{
   background: transparent;
