@@ -3702,3 +3702,19 @@ input{
   font-family: "Montserrat", sans-serif;
   font-weigh
 }
+@media screen and (min-width: 1600px){ 
+  .md-wheel-2 p.top-text{
+    top: -55%;
+  }
+  .md-wheel-3 p.top-text{
+    top: -43%;
+  }
+}
+@media screen and (min-width: 2000px){ 
+  .md-wheel-2 p.top-text{
+    top: -57%;
+  }
+  .md-wheel-3 p.top-text{
+    top: -45%;
+  }
+}
