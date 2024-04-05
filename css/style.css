@@ -1270,6 +1270,7 @@ p.error-2{
 }
 .md-wheel-2{
   height: 45%;
+  top: 60%;
 }
 .md-wheel-2 img{
   width: 100%;
@@ -2226,7 +2227,7 @@ p.error-2{
  }
  .page-thele .md-content h4{
      margin:0.5rem 0px  0.5rem;
-     font-size: calc(6px + 2vw);
+     font-size: calc(10px + 2vw);
      font-family: "Montserrat", sans-serif;
      color: #001e6b;
      font-weight: 800;
