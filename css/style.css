@@ -945,7 +945,7 @@ p.error-2{
 }
 .page-quetma .md-content{
   position: static;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.85);
   padding-bottom: 20px;
   height: 100%;
 }
@@ -3700,6 +3700,13 @@ p.error-2{
   }
   .page-quetma .md-content{
     position: absolute;
+  }
+  .page-quetma .md-content h3{
+    color: #0098de;
+    font-size: calc(20px + 2vw);
+  }
+  .page-quetma .md-content .ctn-button-quetma{
+    width: 60%;
   }
 }
 .page-hanhtrinh .md-content .main-content .md-col-2{
