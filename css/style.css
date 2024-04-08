@@ -963,7 +963,7 @@ p.error-2{
 .page-quetma .md-content .ctn-button-quetma{
   display: block;
   width: 70%;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .page-quetma .md-content .ctn-button-quetma img{
   width: 100%;
@@ -972,7 +972,7 @@ p.error-2{
   width: 100%;
 }
 .page-quetma .md-content .bot-content{
-  margin-top: 15px;
+  margin-top: 0px;
   width: 100%;
   padding: 0px 40px;
 }
@@ -3472,7 +3472,6 @@ p.error-2{
   }
   .page-quetma{
     background: transparent;
-    height: 100%;
   }
   .page-hanhtrinh .md-content h3 span{
     font-size: calc(30px + 2.5vw);
@@ -3496,7 +3495,7 @@ p.error-2{
   .page-hanhtrinh .md-content .main-content .md-col .img-giaithuong{
     box-shadow: none;
     border-radius: 0px;
-    margin-top: -8px;
+    margin-top: 10px;
   }
   .page-trungthuong-des .md-content{
     height: 85%;
@@ -3702,15 +3701,13 @@ p.error-2{
   .page-trungthuong .md-content .main-content .md-col-2{
     border-radius: 10px 10px 10px 0px;
   }
-  .page-quetma .md-content{
-    position: absolute;
-  }
   .page-quetma .md-content h3{
     color: #0098de;
     font-size: calc(20px + 2vw);
   }
   .page-quetma .md-content .ctn-button-quetma{
     width: 60%;
+    margin-bottom: 0px;
   }
   .page-nhanthuong-03 .md-content .main-content .md-note{
     text-align: justify;
