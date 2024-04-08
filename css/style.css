@@ -972,7 +972,7 @@ p.error-2{
   width: 100%;
 }
 .page-quetma .md-content .bot-content{
-  margin-top: 20px;
+  margin-top: 15px;
   width: 100%;
   padding: 0px 40px;
 }
@@ -3472,6 +3472,7 @@ p.error-2{
   }
   .page-quetma{
     background: transparent;
+    height: 100%;
   }
   .page-hanhtrinh .md-content h3 span{
     font-size: calc(30px + 2.5vw);
@@ -3725,7 +3726,7 @@ p.error-2{
 }
 input{
   font-family: "Montserrat", sans-serif;
-  font-weigh
+  font-weight: 500;
 }
 @media screen and (min-width: 1600px){ 
   .md-wheel-2 p.top-text{
