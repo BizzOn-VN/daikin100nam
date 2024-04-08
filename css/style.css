@@ -743,7 +743,6 @@ p.error-2{
 }
 .page-nhanthuong .md-content .main-content p{
   text-align: left;
-  color: #000;
   margin-bottom: 10px;
 }
 .page-nhanthuong .md-content .main-content .md-col{
@@ -1001,7 +1000,6 @@ p.error-2{
 }
 
 .page-nhanthuong-03 .md-content .main-content p{
-  font-weight: 300;
   font-size: calc(10px + 1vw);
   margin-bottom: 20px !important;
 }
@@ -1026,9 +1024,9 @@ p.error-2{
 }
 .page-nhanthuong-04 .md-content .main-content input[type='text']{
   float: left;
-  width: 19%;
-  margin-right: 8%;
-  padding: 10px 0px;
+  width: 15%;
+  margin-right: 12%;
+  padding: 3% 0px;
   text-align: center;
   border-radius: 15px;
   font-size: 50px;
@@ -3462,6 +3460,16 @@ p.error-2{
     background-repeat: no-repeat;
     
   }
+
+  .page-nhanthuong-03{
+     background-image: url(../images/img-thele.png), linear-gradient(to right, #7dceff, #80cfff);
+      background-size: 100% auto;
+        background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  .page-quetma{
+    background: transparent;
+  }
   .page-hanhtrinh .md-content h3 span{
     font-size: calc(30px + 2.5vw);
     
@@ -3491,6 +3499,10 @@ p.error-2{
   }
   .page-nhanthuong .md-content .main-content input::placeholder{
     font-size: calc(8px + 1vw);
+  }
+  .page-nhanthuong-04 .md-content .main-content input[type='text']{
+    width: 19%;
+    margin-right: 8%;
   }
 }
 @media screen and (max-width: 767px){
@@ -3708,6 +3720,9 @@ input{
   }
   .md-wheel-3 p.top-text{
     top: -43%;
+  }
+  .page-nhanthuong-04 .md-content .main-content input[type='text']{
+    padding: 5% 0px;
   }
 }
 @media screen and (min-width: 2000px){ 
