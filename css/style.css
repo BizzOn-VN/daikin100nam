@@ -1283,7 +1283,7 @@ p.error-2{
   font-size: calc(9px + 2vw);
 }
 .md-wheel-4 p{
-  font-size: calc(6px + 2vw);
+  font-size: calc(4px + 2vw);
 }
 .md-wheel-4 .md-text{
     margin-top: 15%;
@@ -1371,7 +1371,7 @@ p.error-2{
   .md-wheel-5{
     height: 45%;
   }
-  .md-wheel-5 p{
+  .md-wheel-4 p{
     font-size: calc(2px + 0.8vw);
     margin-bottom: 5px;
   }
