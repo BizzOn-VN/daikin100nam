@@ -1022,7 +1022,7 @@ p.error-2{
 .page-nhanthuong-05 .md-content .main-content .ctn-button-quetma img{
   width: 50%;
 }
-.page-nhanthuong-04 .md-content .main-content input[type='text']{
+.page-nhanthuong-04 .md-content .main-content input[type='tel']{
   float: left;
   width: 15%;
   margin-right: 12%;
@@ -1034,7 +1034,7 @@ p.error-2{
   font-style: normal;
   color: #001e6b;
 }
-.page-nhanthuong-04 .md-content .main-content input[type='text']:last-child{
+.page-nhanthuong-04 .md-content .main-content input[type='tel']:last-child{
   margin-right: 0%;
 }
 .page-nhanthuong-04 .md-content .main-content a{
@@ -3500,7 +3500,7 @@ p.error-2{
   .page-nhanthuong .md-content .main-content input::placeholder{
     font-size: calc(8px + 1vw);
   }
-  .page-nhanthuong-04 .md-content .main-content input[type='text']{
+  .page-nhanthuong-04 .md-content .main-content input[type='tel']{
     width: 19%;
     margin-right: 8%;
   }
@@ -3731,7 +3731,7 @@ input{
   .md-wheel-3 p.top-text{
     top: -43%;
   }
-  .page-nhanthuong-04 .md-content .main-content input[type='text']{
+  .page-nhanthuong-04 .md-content .main-content input[type='tel']{
     padding: 5% 0px;
   }
 }
