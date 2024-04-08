@@ -1349,6 +1349,9 @@ p.error-2{
   background: #000;
   opacity: 0.85;
 }
+.page-nhanthuong-06 .md-content .main-content input{
+  text-transform: uppercase;
+}
 @media screen and (min-width: 768px){
   .page-header .main-menu ul li{
     text-align: center;
