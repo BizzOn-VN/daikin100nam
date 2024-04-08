@@ -1224,7 +1224,7 @@ p.error-2{
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
-  width: 90%;
+  width: 94%;
   height: auto !important;
   background: #FFF;
   border-radius: 20px;
@@ -1240,7 +1240,7 @@ p.error-2{
   margin-top: 15%;
 }
 .md-wheel h6{
-  font-size: calc(15px + 2vw);
+  font-size: calc(13px + 2vw);
   text-align: center;
   color: #001e6b;
   text-transform: uppercase;
@@ -1289,7 +1289,7 @@ p.error-2{
     margin-top: 15%;
   }
 .md-wheel-10 p{
-    font-size: calc(6px + 2vw);
+    font-size: calc(5px + 2vw);
   }
 .md-wheel a.popup-back{
   text-align: center;
@@ -1359,7 +1359,7 @@ p.error-2{
     font-size: calc(8px + 1vw);
   }
   .md-wheel p{
-    font-size: calc(3px + 1vw);
+    font-size: calc(1px + 1vw);
   }
   
   .md-wheel-4 h6{
@@ -2399,6 +2399,9 @@ p.error-2{
     }
     .page-dieu-khoan .md-content .main-content h6 {
         margin: 0px 0px 1.7vw;
+    }
+    .md-wheel-9 p{
+      font-size: calc(5px + 2vw);
     }
 }
 
