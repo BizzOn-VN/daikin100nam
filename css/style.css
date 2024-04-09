@@ -964,7 +964,6 @@ p.error-2{
 .page-quetma .md-content p{
   color: #FFF;
   margin-bottom: 10px;
-  font-weight: 300;
 }
 .page-quetma .md-content .ctn-button-quetma{
   display: block;
@@ -980,16 +979,14 @@ p.error-2{
 .page-quetma .md-content .bot-content{
   margin-top: 0px;
   width: 100%;
-  padding: 0px 40px;
 }
-.page-quetma .md-content .bot-content .md-col-1{
+/*.page-quetma .md-content .bot-content .md-col-1{
   float: left;
   width: 35%;
 }
 .page-quetma .md-content .bot-content .md-col-2{
-  float: right;
   width: 35%;
-}
+}*/
 .page-quetma .md-content .bot-content a{
   display: block;
 }
@@ -1000,9 +997,11 @@ p.error-2{
   display: none;
 }
 .page-quetma .md-content .bot-content p{
-  float: left;
-  margin-left: 10%;
-  margin-top: 15px;
+/*  margin-left: 10%;
+  margin-top: 15px;*/
+}
+.page-quetma .md-content .bot-content .col-2{
+  margin-top: 10%;
 }
 
 .page-nhanthuong-03 .md-content .main-content p{
@@ -1845,10 +1844,6 @@ p.error-2{
     border-radius: 10px;
     cursor: pointer;
   }
-  .page-quetma .md-content .bot-content p{
-    margin-top: 12%;
-    margin-left: 12%;
-  }
   .page-quetma .md-content .md-main-content{
     padding: 0 10%;
   }
@@ -1991,7 +1986,7 @@ p.error-2{
   .page-hanhtrinh .md-content .main-content{
     overflow-y: inherit;
     height: auto;
-    padding: 0px 5%;
+    padding: 0px 10%;
   }
   .page-hanhtrinh .main-content .md-row{
     margin-bottom: 30px;
