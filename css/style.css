@@ -911,11 +911,16 @@ p.error-2{
   text-align: center;
   color: #001e6b;
   font-weight: 800;
+  font-size: calc(10px + 1vw);
 }
 .md-quetma .md-content h6{
   color: #001e6b;
   font-weight: 700;
   margin-bottom: 15px;
+  font-size: calc(6px + 1vw);
+}
+.md-quetma .md-content p{
+  font-size: calc(6px + 1vw);
 }
 .md-quetma .md-content img{
   width: 100%;
@@ -2877,6 +2882,15 @@ p.error-2{
 }
 
 @media screen and (max-width: 767px){
+  .md-quetma .md-content h6{
+    font-size: calc(7px + 2vw);
+  }
+  .md-quetma .md-content h3{
+    font-size: calc(10px + 2vw);
+  }
+  .md-quetma .md-content p{
+    font-size: calc(7px + 2vw);
+  }
   .page-home .bg-desktop{
     display: none;
   }
