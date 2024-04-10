@@ -3477,12 +3477,6 @@ p.error-2{
     
   }
 
-  .page-nhanthuong-03{
-     background-image: url(../images/img-thele.png), linear-gradient(to right, #7dceff, #80cfff);
-      background-size: 100% auto;
-        background-position: center bottom;
-    background-repeat: no-repeat;
-  }
   .page-quetma{
     background: transparent;
   }
@@ -3659,6 +3653,9 @@ p.error-2{
   text-align: left !important;
 }
 @media screen and (min-width: 768px){
+  .page-quetma{
+    height: auto  !important;
+  }
   .popup-thele{
     width: 50%;
   }
@@ -3708,6 +3705,21 @@ p.error-2{
 }
 .page-trungthuong-02 .md-content .main-content .md-col{
   border-radius: 0px;
+}
+.md-wheel-20 .fancybox-button{
+  display: block;
+  background: url(../images/ico-close.png) no-repeat;
+  background-size: 100% 100%;
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: -15%;
+  opacity: 1;
+}
+.md-wheel-20 .fancybox-button svg{
+  display: none;
 }
 @media screen and (max-width: 767px){
   .page-trungthuong .md-remain{
