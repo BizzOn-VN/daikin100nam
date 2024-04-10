@@ -66,6 +66,7 @@ App.Site = function () {
     // $("#md-wheel-10").fancybox().trigger('click'); //trang xac-nhan-sdt-1
 
     // $("#md-wheel-11").fancybox().trigger('click'); //trang nhap-otp
+    // $("#md-wheel-25").fancybox().trigger('click'); //trang nhap-otp
     
     // $("#md-wheel-12").fancybox().trigger('click'); //trang-quet-ma
     // $("#md-wheel-13").fancybox().trigger('click'); //trang-quet-ma
