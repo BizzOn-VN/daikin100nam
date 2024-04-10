@@ -854,7 +854,7 @@ p.error-2{
 }
 .page-nhanthuong01 .md-content .top-content a{
   width: 100%;
-  margin: 10px 0px 15px;
+  margin: 20px 0px 15px;
 }
 .page-nhanthuong01 .md-content .top-content a img{
   width: 100%;
@@ -1155,10 +1155,10 @@ p.error-2{
 
 .page-ketthuc-03 .md-content img{
   width: 70%;
-  margin: 20px auto;
+  margin: 20px auto 10px auto;
 }
 .page-ketthuc-03 .md-content p{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: left;
 }
 
@@ -1815,7 +1815,7 @@ p.error-2{
     padding: 0px 10%;
   }
   .page-ketthuc-04 .md-content p{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .page-ketthuc-04 .md-content span{
     margin-bottom: 5px;
