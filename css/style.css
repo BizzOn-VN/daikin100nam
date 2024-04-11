@@ -1051,7 +1051,7 @@ p.error-2{
   font-size: calc(4px + 1vw);
 }
 .page-nhanthuong-04 .md-content .main-content .md-remind span{
-  color: #ff0000;
+  font-weight: 500;
 }
 .page-nhanthuong-05 .md-content .ui.dropdown{
   width: 100%;
