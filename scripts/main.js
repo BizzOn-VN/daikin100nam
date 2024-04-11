@@ -117,14 +117,14 @@ App.Site = function () {
        window.addEventListener('resize', function(event) {
           set_height_quetma();
       });
-     //   function set_height_quetma(){
-     //     var auto_height=$("html").height();
-     //     $(".page-setheight-2").css("height",auto_height);
-     // }
-     //  set_height_quetma();
-     //   window.addEventListener('resize', function(event) {
-     //      set_height_quetma();
-     //  });
+       function set_height_quetma(){
+         var auto_height=$(document).height();
+         $(".page-setheight-2").css("height",auto_height);
+     }
+      set_height_quetma();
+       window.addEventListener('resize', function(event) {
+          set_height_quetma();
+      });
    }
 
 
