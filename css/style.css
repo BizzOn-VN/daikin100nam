@@ -3735,7 +3735,23 @@ p.error-2{
 .page-ketthuc-04 .md-content .md-ct-text::-webkit-scrollbar{
   width: 4px;
 }
+.md-chupanh h3{
+  text-transform: uppercase;
+}
+.md-chupanh h6{
+  text-transform: uppercase;
+}
+.md-chupanh img{
+  border-radius: 10px;
+  border: 1px solid #acacac;
+}
+.md-chupanh{
+  width: 85%;
+}
 @media screen and (max-width: 767px){
+  .md-chupanh{
+    width: 100%;
+  }
   .page-ketthuc-04 .md-content .md-ct-text{
     height: 150px;
   }
@@ -3805,3 +3821,4 @@ input{
     height: 200px;
   }
 }
+
