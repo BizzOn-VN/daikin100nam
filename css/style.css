@@ -904,7 +904,7 @@ p.error-2{
 
 .md-quetma .md-content{
   background: #FFF;
-  padding: 15px;
+  padding: 0px 15px 15px 15px;
   border-radius: 20px;
 }
 .md-quetma  h3{
@@ -3798,6 +3798,36 @@ input{
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
+.md-quetma{
+  height: 100%;
+  overflow: inherit;
+  border-radius: 20px;
+  background: #FFF;
+}
+.md-quetma .md-content{
+  overflow-y: scroll;
+  height: 82%;
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+}
+.md-quetma .md-content::-webkit-scrollbar-track{
+  background: #FFF;
+  border-radius: 20px;
+}
+.md-quetma .md-content::-webkit-scrollbar{
+  width: 4px;
+
+}
+.fancybox-slide{
+  overflow: inherit;
+}
+@media screen and (max-width: 767px){
+  .md-quetma .md-content{
+    height: 82%;
+  }
+}
 
 @media screen and (min-width: 1600px){ 
   .md-wheel-2 p.top-text{
@@ -3826,35 +3856,8 @@ input{
   .page-ketthuc-04 .md-content .md-ct-text{
     height: 200px;
   }
-}
-
-.md-quetma{
-  height: 100%;
-  overflow: inherit;
-  border-radius: 20px;
-  background: #FFF;
-}
-.md-quetma .md-content{
-  overflow-y: scroll;
-  height: 83%;
-  position: absolute;
-  left: 0;
-  bottom: 0%;
-  width: 100%;
-}
-.md-quetma .md-content::-webkit-scrollbar-track{
-  background: #FFF;
-  border-radius: 20px;
-}
-.md-quetma .md-content::-webkit-scrollbar{
-  width: 4px;
-
-}
-.fancybox-slide{
-  overflow: inherit;
-}
-@media screen and (max-width: 767px){
   .md-quetma .md-content{
-    height: 90%;
+    height: 88%;
   }
 }
+
