@@ -907,7 +907,7 @@ p.error-2{
   padding: 15px;
   border-radius: 20px;
 }
-.md-quetma .md-content h3{
+.md-quetma  h3{
   text-align: center;
   color: #001e6b;
   font-weight: 800;
@@ -930,11 +930,14 @@ p.error-2{
   margin-bottom: 20px;
 }
 .md-quetma .fancybox-button{
-  background: url(../images/ico-close.png) no-repeat;
+  background: url(../images/button-close.png) no-repeat;
   background-size: 100% 100%;
   width: 30px;
   height: 30px;
   display: block;
+  right: 1%;
+  top: 1%;
+  opacity: 1;
 }
 .md-quetma .fancybox-button svg{
   display: none;
@@ -3753,7 +3756,7 @@ p.error-2{
 }
 @media screen and (max-width: 767px){
   .md-chupanh{
-    width: 100%;
+    width: 90%;
   }
   .page-ketthuc-04 .md-content .md-ct-text{
     height: 150px;
@@ -3825,3 +3828,33 @@ input{
   }
 }
 
+.md-quetma{
+  height: 100%;
+  overflow: inherit;
+  border-radius: 20px;
+  background: #FFF;
+}
+.md-quetma .md-content{
+  overflow-y: scroll;
+  height: 83%;
+  position: absolute;
+  left: 0;
+  bottom: 0%;
+  width: 100%;
+}
+.md-quetma .md-content::-webkit-scrollbar-track{
+  background: #FFF;
+  border-radius: 20px;
+}
+.md-quetma .md-content::-webkit-scrollbar{
+  width: 4px;
+
+}
+.fancybox-slide{
+  overflow: inherit;
+}
+@media screen and (max-width: 767px){
+  .md-quetma .md-content{
+    height: 90%;
+  }
+}
