@@ -972,7 +972,7 @@ p.error-2{
 .page-quetma .md-content .ctn-button-quetma{
   display: block;
   width: 70%;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .page-quetma .md-content .ctn-button-quetma img{
   width: 100%;
@@ -1009,13 +1009,13 @@ p.error-2{
 
 .page-nhanthuong-03 .md-content .main-content p{
   font-size: calc(10px + 1vw);
-  margin-bottom: 5px !important;
+/*  margin-bottom: 5px !important;*/
 }
 .page-nhanthuong-03 .md-content .main-content p span{
   font-weight: 800;
 }
 .page-nhanthuong-03 .md-content .main-content .md-col{
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .page-nhanthuong-03 .md-content .main-content input[type='button']{
@@ -1699,7 +1699,7 @@ p.error-2{
     left: 50% !important;
   }*/
   .fancybox-content a{
-    padding: 10px 0px;
+    padding: 5% 0px;
     font-size: calc(4px + 0.8vw);
   }
   
@@ -1783,7 +1783,7 @@ p.error-2{
     margin: 10px auto;
   }
   .page-nhanthuong-03 .md-content .main-content p.md-remind{
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     font-size: calc(4px + 1vw);
   }
   .page-nhanthuong-03 .md-content .main-content p{
@@ -1818,7 +1818,7 @@ p.error-2{
     padding: 0px 10%;
   }
   .page-ketthuc-04 .md-content p{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   .page-ketthuc-04 .md-content span{
     margin-bottom: 5px;
@@ -1952,7 +1952,7 @@ p.error-2{
   .page-nhanthuong-05 .md-content .main-content p{
     font-size: calc(6px + 1vw);
     text-align: left;
-    margin-bottom: 20px !important;
+    margin-bottom: 15px !important;
   }
   .page-nhanthuong-05 .md-content .main-content .md-note{
     text-align: left;
@@ -2241,7 +2241,7 @@ p.error-2{
      font-weight: 800;
  }
  .page-thele .md-content .main-content p{
-     margin: 0px 0px 5px;
+     margin: 0px 0px 10px;
  }
  .page-thele .md-content .main-content h6{
     margin: 0.5rem 0 0.5rem;
@@ -3846,6 +3846,24 @@ input{
   .page-ketthuc-04 .md-content .md-ct-text{
     height: 200px;
     margin: 10px 0px;
+  }
+  .page-nhanthuong-03 .md-content .main-content .md-col{
+    margin-bottom: 25px;
+  }
+  .page-thele .md-content .main-content p{
+    margin-bottom: 20px;
+  }
+  .page-nhanthuong-03 .md-content .main-content input[type='button']{
+    margin-top: 20px;
+  }
+  .page-nhanthuong01 .md-content .top-content a{
+    margin-top: 20px;
+  }
+  .page-ketthuc-04 .md-content .top-content h3{
+    margin-bottom: 10px;
+  }
+  .page-ketthuc-04 .md-content p{
+    margin-bottom: 15px;
   }
 }
 @media screen and (min-width: 2000px){ 
