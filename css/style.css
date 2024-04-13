@@ -1680,7 +1680,7 @@ p.error-2{
   }
   .page-nhanthuong .md-content h3{
     font-size: calc(6px + 2vw);
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     text-align: left;
   }
   .page-nhanthuong01 .md-content .top-content a{
@@ -1952,7 +1952,6 @@ p.error-2{
   .page-nhanthuong-05 .md-content .main-content p{
     font-size: calc(6px + 1vw);
     text-align: left;
-    margin-bottom: 15px !important;
   }
   .page-nhanthuong-05 .md-content .main-content .md-note{
     text-align: left;
@@ -2199,11 +2198,8 @@ p.error-2{
   .page-nhanthuong-08 .md-content h3{
     text-align: center;
   }
-  .page-nhanthuong-08 .md-content .main-content p{
-    margin-bottom: 0px !important;
-  }
   .page-nhanthuong-08 .md-content .main-content .ctn-button-quetma{
-    margin: 5px 0 10px;
+    margin: 0px 0 15px;
   }
   .page-nhanthuong-08 .md-content .main-content .ctn-button-quetma img{
     width: 35%;
@@ -2241,7 +2237,7 @@ p.error-2{
      font-weight: 800;
  }
  .page-thele .md-content .main-content p{
-     margin: 0px 0px 10px;
+     margin: 0px 0px 15px;
  }
  .page-thele .md-content .main-content h6{
     margin: 0.5rem 0 0.5rem;
@@ -3851,10 +3847,10 @@ input{
     margin-bottom: 25px;
   }
   .page-thele .md-content .main-content p{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   .page-nhanthuong-03 .md-content .main-content input[type='button']{
-    margin-top: 20px;
+    margin-top: 25px;
   }
   .page-nhanthuong01 .md-content .top-content a{
     margin-top: 20px;
@@ -3864,6 +3860,9 @@ input{
   }
   .page-ketthuc-04 .md-content p{
     margin-bottom: 15px;
+  }
+  .page-nhanthuong-08 .md-content .main-content .ctn-button-quetma{
+    margin-bottom: 25px;
   }
 }
 @media screen and (min-width: 2000px){ 
