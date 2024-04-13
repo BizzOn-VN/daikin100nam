@@ -297,7 +297,7 @@ p.error-2{
 
 .btn-cl{
   background: linear-gradient(90deg, rgba(255,217,95,1) 50%, rgba(255,238,155,1) 100%);
-  padding: 12px 0px;
+  padding: 2% 0px;
   border-radius: 5px;
   width: 80%;
   display: block;
@@ -766,7 +766,7 @@ p.error-2{
   color: #a7e0ff;
   border-radius: 5px;
   text-transform: uppercase;
-  padding: 15px;
+  padding: 4% 15px;
   font-style: normal;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -837,7 +837,7 @@ p.error-2{
 
 
 .page-nhanthuong01 .md-content .top-content h3{
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-weight: 800;
 }
 .page-nhanthuong01 .md-content p{
@@ -1161,7 +1161,7 @@ p.error-2{
   margin: 20px auto 10px auto;
 }
 .page-ketthuc-03 .md-content p{
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   text-align: left;
 }
 
@@ -1780,7 +1780,7 @@ p.error-2{
     text-align: left;
   }
   .page-nhanthuong-03 .md-content .main-content input[type='button']{
-    margin: 10px auto;
+    margin: 15px auto 10px auto;
   }
   .page-nhanthuong-03 .md-content .main-content p.md-remind{
     margin-bottom: 5px;
@@ -3882,3 +3882,6 @@ input{
   }
 }
 
+.page-nhanthuong-08 .md-content .main-content input[type='button']{
+  padding: 2% 15px;
+}
