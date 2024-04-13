@@ -907,11 +907,12 @@ p.error-2{
   padding: 0px 15px 15px 15px;
   border-radius: 20px;
 }
-.md-quetma  h3{
+.md-quetma h3{
   text-align: center;
   color: #001e6b;
   font-weight: 800;
-  font-size: calc(10px + 1vw);
+  font-size: calc(12px + 1vw);
+  text-transform: uppercase;
 }
 .md-quetma .md-content h6{
   color: #001e6b;
@@ -2891,6 +2892,9 @@ p.error-2{
   .md-quetma .md-content p{
     font-size: calc(7px + 2vw);
   }
+  .md-quetma{
+    width: 90%;
+  }
   .page-home .bg-desktop{
     display: none;
   }
@@ -3806,7 +3810,7 @@ input{
 }
 .md-quetma .md-content{
   overflow-y: scroll;
-  height: 82%;
+  height: 80%;
   position: absolute;
   left: 0;
   bottom: 0%;
