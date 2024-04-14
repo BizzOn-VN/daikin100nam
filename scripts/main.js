@@ -72,6 +72,8 @@ App.Site = function () {
     // $("#md-wheel-13").fancybox().trigger('click'); //trang-quet-ma
     // $("#md-wheel-14").fancybox().trigger('click'); //trang-quet-ma
     //  $("#md-wheel-24").fancybox().trigger('click'); //trang-quet-ma
+
+    //  $("#md-wheel-26").fancybox().trigger('click');
   }
 
   
