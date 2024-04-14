@@ -478,8 +478,9 @@ p.error-2{
   top: 0%;
 }
 .page-trungthuong-02 .md-content .img-title-2{
-  top: 8%;
+  top: 10%;
 }
+
 .page-trungthuong-02{
   overflow: hidden;
 }
@@ -3872,6 +3873,9 @@ input{
   }
   .page-nhanthuong-08 .md-content .main-content .ctn-button-quetma{
     margin-bottom: 25px;
+  }
+  .page-trungthuong-02 .md-content .img-title-2{
+    top: 15%;
   }
 }
 @media screen and (min-width: 2000px){ 
