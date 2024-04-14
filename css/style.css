@@ -477,6 +477,9 @@ p.error-2{
   right: 5%;
   top: 0%;
 }
+.page-trungthuong-02 .md-content .img-title-2{
+  top: 8%;
+}
 .page-trungthuong-02{
   overflow: hidden;
 }
@@ -484,7 +487,7 @@ p.error-2{
   margin-bottom: 20px;
 }
 .page-trungthuong-02 .md-content h3{
-  width: 60%;
+  width: 55%;
 }
 .page-trungthuong-02 .md-content .main-content{
   margin-top: 40px;
@@ -1363,6 +1366,9 @@ p.error-2{
   .page-header .main-menu ul li{
     text-align: center;
   }
+  .page-trungthuong-02 .md-content h3{
+    width: 60%;
+  }
   .md-wheel{
     width: 30%;
   }
@@ -1531,6 +1537,9 @@ p.error-2{
     right: 19%;
     top: 0%;
     max-width: 400px;
+  }
+  .page-trungthuong-02 .md-content .img-title-2{
+    top: 10%;
   }
   .page-nhanthuong .md-content .md-back{
     position: absolute;
@@ -3599,7 +3608,7 @@ p.error-2{
       padding: 10px 10px 0px 0px;
      }
      .page-thele .md-content h3{
-      font-size: calc(13px + 2vw);
+      font-size: calc(12px + 2vw);
      }
 }
 
