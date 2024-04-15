@@ -1980,7 +1980,7 @@ p.error-2{
     text-align: center;
     font-size: calc(10px + 1vw);
     margin-top: -3%;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   .page-hanhtrinh .btn-cl{
     width: 40%;
@@ -2002,7 +2002,7 @@ p.error-2{
     padding: 0px 0px 0px 6%;
   }
   .page-hanhtrinh .main-content .md-row{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .page-hanhtrinh .main-content .md-row-2{
     margin-bottom: 0px;
@@ -2020,7 +2020,7 @@ p.error-2{
     margin-right: 0px;
   }
   .page-hanhtrinh .main-content .md-row .md-col img{
-    width: 100%;  
+    width: 92%;  
     padding: 0px 10px 0px 10px;
     margin-top: -9%;
   }
@@ -3250,9 +3250,9 @@ p.error-2{
     background-size: 100% 100%;
     min-height: calc(100vh - 10vw);
    }
-   .page-home .top-banner{
+/*   .page-home .top-banner{
     position: initial;
-   }
+   }*/
    .page-home .bg-opacity{
     z-index: 4;
     position: absolute;
@@ -3687,7 +3687,7 @@ p.error-2{
    margin-left: 12%;
   }
   .page-hanhtrinh-02 .md-content .main-content .md-col{
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
 }
 .page-trungthuong .md-remain{
