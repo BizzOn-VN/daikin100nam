@@ -3893,3 +3893,6 @@ input{
 .page-nhanthuong-08 .md-content .main-content input[type='button']{
   padding: 2% 15px;
 }
+.fancybox-content a{
+  padding: 5% 0px;
+}
