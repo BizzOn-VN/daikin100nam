@@ -39,14 +39,14 @@ body {
      url(../fonts/UTMNeutra/UTMNeutra.woff) format("woff"); }
 
 a {
-  color: #0bb4b7;
+  color: #001e6b;
   -webkit-transition-duration: 0.2s;
        -o-transition-duration: 0.2s;
           transition-duration: 0.2s;
 }
 a:hover {
   text-decoration: none;
-  color: #0bb4b7;
+  color: #001e6b;
 }
 a:focus {
   outline: none;
