@@ -3250,9 +3250,9 @@ p.error-2{
     background-size: 100% 100%;
     min-height: calc(100vh - 10vw);
    }
-/*   .page-home .top-banner{
-    position: initial;
-   }*/
+   .page-home .top-banner{
+    height: auto !important;
+   }
    .page-home .bg-opacity{
     z-index: 4;
     position: absolute;
