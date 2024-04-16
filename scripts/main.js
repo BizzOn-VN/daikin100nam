@@ -115,9 +115,9 @@ App.Site = function () {
          var max_height=$("html").height()- $(".page-header").height();
          $(".page-home .top-banner").css("height",max_height);
      }
-      set_height_quetma();
+      set_height_top_banner();
        window.addEventListener('resize', function(event) {
-          set_height_quetma();
+          set_height_top_banner();
       });
        function set_height_quetma(){
          var auto_height=$(document).height();
