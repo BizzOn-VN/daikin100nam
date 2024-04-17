@@ -2887,6 +2887,9 @@ p.error-2{
 }
 
 @media screen and (max-width: 767px){
+  .btn-cl{
+    padding: 5% 0px;
+  }
   .md-quetma .md-content h6{
     font-size: calc(7px + 2vw);
   }
@@ -3555,6 +3558,10 @@ p.error-2{
         height: 0px;
         box-shadow: 0px -8px 20px 20px rgb(255 255 255);
      }
+     .page-hanhtrinh .md-content .md-line-bottom-2{
+      bottom: 140%;
+     }
+
      .page-50k .md-content .md-back{
       width: 35.7%;
      }
@@ -3762,6 +3769,10 @@ p.error-2{
 .md-chupanh{
   width: 85%;
 }
+
+.page-nhanthuong-08 .md-content .main-content input[type='button']{
+  padding: 2% 15px;
+}
 @media screen and (max-width: 767px){
   .md-chupanh{
     width: 90%;
@@ -3793,6 +3804,9 @@ p.error-2{
   .page-hanhtrinh-02 .md-content .main-content .md-col .img-giaithuong{
     margin-top: 8px;
   }
+  .page-nhanthuong-08 .md-content .main-content input[type='button']{
+      padding: 5% 15px;
+     }
 }
 .page-hanhtrinh .md-content .main-content .md-col-2{
   background: transparent;
@@ -3890,9 +3904,6 @@ input{
   }
 }
 
-.page-nhanthuong-08 .md-content .main-content input[type='button']{
-  padding: 2% 15px;
-}
 .fancybox-content a{
   padding: 5% 0px;
 }
