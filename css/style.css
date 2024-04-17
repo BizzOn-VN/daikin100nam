@@ -2888,7 +2888,7 @@ p.error-2{
 
 @media screen and (max-width: 767px){
   .btn-cl{
-    padding: 5% 0px;
+    padding: 13px 0px;
   }
   .md-quetma .md-content h6{
     font-size: calc(7px + 2vw);
@@ -3805,7 +3805,7 @@ p.error-2{
     margin-top: 8px;
   }
   .page-nhanthuong-08 .md-content .main-content input[type='button']{
-      padding: 5% 15px;
+      padding: 15px;
      }
 }
 .page-hanhtrinh .md-content .main-content .md-col-2{
