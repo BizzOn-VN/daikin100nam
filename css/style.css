@@ -978,23 +978,23 @@ p.error-2{
   color: #FFF;
   margin-bottom: 10px;
 }
-.page-quetma .md-content .ctn-button-quetma{
+.ctn-button-quetma{
   display: block;
   width: 100%;
   margin-bottom: 20px;
 }
-.page-quetma .md-content .ctn-button-quetma .md-button-quetma img{
+.ctn-button-quetma .md-button-quetma img{
   width: 5%;
   margin-right: 7px;
   float: left;
 }
-.page-quetma .md-content .ctn-button-quetma .md-button-quetma p{
+.ctn-button-quetma .md-button-quetma p{
   float: left;
   text-decoration: underline;
   color: #052167;
   font-weight: 600;
 }
-.page-quetma .md-content .ctn-button-quetma img{
+.ctn-button-quetma img{
   width: 100%;
 }
 .page-quetma .md-content .img-camera{
@@ -1048,7 +1048,8 @@ p.error-2{
   font-weight: 700;
 }
 .page-nhanthuong-05 .md-content .main-content .ctn-button-quetma img{
-  width: 50%;
+  width: 7%;
+  margin-right: 10px;
 }
 .page-nhanthuong-04 .md-content .main-content input[type='tel']{
   float: left;
@@ -1130,11 +1131,15 @@ p.error-2{
 }
 .page-nhanthuong-05 .md-content .main-content .ctn-button-quetma{
   display: block;
-  margin: 0 0 15px 0;
+  margin: 0 0 5px 0;
 }
 .page-nhanthuong-05 .md-content .main-content .ctn-button-quetma img{
   display: block;
-  margin: 0;
+  margin: 0 7px 0 0;
+}
+.page-nhanthuong-05 .md-content .main-content .ctn-button-quetma p{
+  font-size: calc(4px + 1vw);
+  margin-bottom: 0px;
 }
 
 .page-nhanthuong-08 .md-content .main-content input[type="file"]{
@@ -1372,6 +1377,7 @@ p.error-2{
 }
 .page-nhanthuong-08 .md-content .main-content .ctn-button-quetma img{
   width: 60%;
+  margin-bottom: 15px;
 }
 .fancybox-is-open .fancybox-bg{
   background: #000;
@@ -1733,28 +1739,29 @@ p.error-2{
   .page-vongquay .img-wheel{
     position: absolute;
     left: 34.5%;
-    top: 26%;
+    top: 25%;
     width: 31%;
   }
   .page-vongquay .img-wheel-2{
     width: 23%;
+    bottom: 1%;
   }
   .page-vongquay .img-quay{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 52%;
+    top: 51%;
     width: 5%;
   }
   .page-vongquay .img-arrow{
-    top: 83%;
+    top: 81%;
     width: 4%;
   }
   .page-vongquay .img-wheel-4{
      position: absolute;
     left: 34.5%;
     transform: rotate(0deg);
-    top: 26%;
+    top: 25%;
     width: 31%;
     z-index: 1000;
   }
@@ -2906,6 +2913,9 @@ p.error-2{
 }
 
 @media screen and (max-width: 767px){
+  .page-nhanthuong-05 .md-content .main-content .ctn-button-quetma p{
+    font-size: calc(10px + 1vw) !important;
+  }
   .page-vongquay{
     height: auto !important;
     min-height: auto !important;
