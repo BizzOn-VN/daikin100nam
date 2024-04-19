@@ -1876,6 +1876,7 @@ p.error-2{
     margin: 0px 5%;
     border-radius: 10%;
     box-shadow: 10px 15px 40px -20px rgba(0,0,0);
+    height: 100%;
   }
   .page-quetma .md-content .bot-content .btn-cl-quetma img{
     cursor: pointer;
@@ -2390,6 +2391,9 @@ p.error-2{
  @media screen and (min-width: 768px){
   .page-header .main-menu a.hotline{
     display: none;
+  }
+  .page-quetma .md-content .bot-content a{
+    height: 100%;
   }
     .page-thele .md-content .main-content h6{
        margin: 0.5rem 0 0.5rem;
