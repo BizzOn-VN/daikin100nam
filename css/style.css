@@ -473,7 +473,8 @@ p.error-2{
   font-size: calc(2px + 0.8vw);
   margin-bottom: 0px;
   font-weight: 600;
-  text-decoration: underline;
+  border-bottom: 1px solid #001e6b;
+  line-height: 1.1;
   font-style: italic;
   display: inline-block;
 }
@@ -485,9 +486,9 @@ p.error-2{
 }
 .page-trungthuong-02 .md-content .img-title{
   position: absolute;
-  width: 45%;
-  right: 5%;
-  top: 5%;
+  width: 40%;
+  right: 0%;
+  top: 2%;
 }
 
 
@@ -498,7 +499,8 @@ p.error-2{
   margin-bottom: 20px;
 }
 .page-trungthuong-02 .md-content h3{
-  width: 55%;
+  width: 65%;
+  font-size: calc(4px + 2vw);
 }
 .page-trungthuong-02 .md-content .main-content{
   margin-top: 40px;
@@ -523,6 +525,7 @@ p.error-2{
 .page-trungthuong-02 .md-content .main-content .md-col p{
   font-weight: 700;
   color: #001e6b;
+  margin-bottom: 0px;
 }
 .page-trungthuong-02 .md-content .main-content .md-col span{
   display: block;
@@ -1588,7 +1591,7 @@ p.error-2{
     position: absolute;
     width: 18%;
     right: 17%;
-    top: 15%;
+    top: 10%;
     max-width: 400px;
   }
   .page-trungthuong-02 .md-content .img-title-2{
@@ -1674,7 +1677,7 @@ p.error-2{
     font-size: calc(2px + 0.8vw);
   }
   .page-trungthuong-02 .md-content .main-content{
-    height: 62%;
+    height: 85%;
   }
   .page-trungthuong-des .md-content .main-content{
     overflow: visible;
@@ -2965,6 +2968,7 @@ p.error-2{
 }
 
 @media screen and (max-width: 767px){
+
   .page-trungthuong .md-content .main-content .md-col a p{
     font-size: calc(7px + 1vw);
   }
@@ -3722,6 +3726,9 @@ p.error-2{
      .page-thele .md-content h3{
       font-size: calc(12px + 2vw);
      }
+     .page-trungthuong-02 .md-content h3{
+       font-size: calc(6px + 2vw);
+     }
 }
 
 @media screen and (max-width: 360px){
@@ -3949,7 +3956,10 @@ input{
 
 @media screen and (min-width: 1600px){ 
   .page-trungthuong-02 .md-content .img-title{
-    top: 8%;
+    top: 5%;
+  }
+  .page-trungthuong-02 .md-content .main-content{
+    height: 90%;
   }
   .md-wheel-2 p.top-text{
     top: -55%;
