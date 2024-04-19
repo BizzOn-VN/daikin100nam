@@ -864,10 +864,6 @@ p.error-2{
   color: #052167;
   font-weight: 700;
   font-size: calc(12px + 1vw);
-  text-align: center;
-}
-.page-nhanthuong01 .md-content .top-content p{
-  text-align: center;
 }
 .page-nhanthuong01 .bot-content{
   background: url(../images/bg-bottom-2.png) no-repeat;
@@ -3970,4 +3966,7 @@ input{
 }
 .page-vongquay .top-content{
   position: relative;
+}
+.text-ct{
+  text-align: center;
 }
