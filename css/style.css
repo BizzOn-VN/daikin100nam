@@ -203,11 +203,7 @@ input[type=submit] {
         display: block;
     }
     .page-header .main-menu a.hotline{
-      width: 80%;
-      position: absolute;
-      left: 50%;
-      bottom: 20%;
-      transform: translateX(-50%);
+
     }
     .page-header .main-menu a.hotline img{
       width: 100%;
@@ -671,7 +667,7 @@ p.error-2{
     top: 34%;
     width: 92%;
     animation: wheel-4 infinite 1s;
-    z-index: 1000;
+    z-index: 10;
 }
 .page-vongquay .md-tagline{
   position: absolute;
@@ -2378,6 +2374,9 @@ p.error-2{
   min-width: 20vw;
  }
  @media screen and (min-width: 768px){
+  .page-header .main-menu a.hotline{
+    display: none;
+  }
     .page-thele .md-content .main-content h6{
        margin: 0.5rem 0 0.5rem;
        font-size: calc(6px + 1.2vw);
