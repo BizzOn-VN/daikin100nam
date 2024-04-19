@@ -127,6 +127,14 @@ App.Site = function () {
        window.addEventListener('resize', function(event) {
           set_height_quetma();
       });
+         function set_height_ico(){
+         var ico_height=$('.quetma-left').outerHeight();
+         $(".quetma-right").css("height",ico_height);
+     }
+      set_height_ico();
+       window.addEventListener('resize', function(event) {
+          set_height_ico();
+      });
    }
 
 
