@@ -455,17 +455,30 @@ p.error-2{
   position: absolute;
   left: 3%;
   bottom: 5%;
-  width: 48%;
+  width: 100%;
 }
 .page-trungthuong .md-content .main-content .md-col-2 a{
   position: absolute;
+  bottom: 5%;
+  width: 100%;
   left: auto;
   right: 3%;
-  bottom: 5%;
-  width: 50%;
 }
 .page-trungthuong .md-content .main-content .md-col a img{
-  width: 100%;
+  width: 5%;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+.page-trungthuong .md-content .main-content .md-col a p{
+  font-size: calc(2px + 0.8vw);
+  margin-bottom: 0px;
+  font-weight: 600;
+  text-decoration: underline;
+  font-style: italic;
+  display: inline-block;
+}
+.page-trungthuong .md-content .main-content .bot-content .md-col a p{
+  font-size: calc(2px + 0.6vw);
 }
 .page-trung-thuong-02 .md-content{
   position: absolute;
@@ -1377,12 +1390,37 @@ p.error-2{
 .page-nhanthuong-06 .md-content .main-content input{
   text-transform: uppercase;
 }
+.page-nhanthuong01 .md-content .md-ct-text{
+  overflow-y: scroll;
+  height: 120px;
+  margin: 5px 0px;
+  padding-right: 5px;
+}
+.page-ketthuc-04 .md-content .md-ct-text p{
+  margin-bottom: 5px;
+}
+.page-nhanthuong01 .md-content .md-ct-text::-webkit-scrollbar-track{
+  background: #FFF;
+}
+.page-nhanthuong01 .md-content .md-ct-text::-webkit-scrollbar{
+  width: 4px;
+}
+.page-nhanthuong01 .md-content .md-ct-text a{
+  margin: 0px;
+  display: inline-block;
+}
 @media screen and (min-width: 768px){
+  .page-nhanthuong01 .md-content .md-ct-text{
+    overflow-y: auto;
+  }
+  .page-ketthuc-04 .md-content .md-ct-text{
+    overflow-y: scroll;
+  }
   .page-header .main-menu ul li{
     text-align: center;
   }
   .page-trungthuong-02 .md-content h3{
-    width: 60%;
+    width: 80%;
   }
   .md-wheel{
     width: 30%;
@@ -1548,9 +1586,9 @@ p.error-2{
   }
   .page-trungthuong-02 .md-content .img-title{
     position: absolute;
-    width: 22%;
-    right: 19%;
-    top: 0%;
+    width: 18%;
+    right: 17%;
+    top: 15%;
     max-width: 400px;
   }
   .page-trungthuong-02 .md-content .img-title-2{
@@ -1571,7 +1609,7 @@ p.error-2{
     font-size: calc(4px + 1vw);
   }
   .page-trungthuong-02 form input[type="search"]{
-    width: 69%;
+    width: 79%;
   }
   .page-trungthuong-02 form input[type="button"]{
     left: 2%;
@@ -1666,6 +1704,7 @@ p.error-2{
     right: auto;
     left: 3%;
   }
+
   .page-trungthuong-des .md-content .main-content .bot-content .md-col:last-child{
     margin-right: 0%;
   }
@@ -2926,6 +2965,22 @@ p.error-2{
 }
 
 @media screen and (max-width: 767px){
+  .page-trungthuong .md-content .main-content .md-col a p{
+    font-size: calc(7px + 1vw);
+  }
+  .page-trungthuong .md-content .main-content .md-col a img{
+    margin-top: 0px;
+  }
+  .page-trungthuong .md-content .main-content .md-col-2 a{
+    text-align: right;
+  }
+  .page-trungthuong .md-content .main-content .bot-content .md-col a p{
+    font-size: calc(7px + 1vw);
+  }  
+  .page-trungthuong .md-content .main-content .md-col-2 a{
+    /*left: 50%;
+    width: 50%;*/
+  }
   .page-nhanthuong-05 .md-content .main-content .ctn-button-quetma p{
     font-size: calc(10px + 1vw) !important;
   }
@@ -3796,20 +3851,7 @@ p.error-2{
 .md-wheel-20 .fancybox-button svg{
   display: none;
 }
-.page-ketthuc-04 .md-content .md-ct-text{
-  overflow-y: scroll;
-  height: 120px;
-  margin: 5px 0px;
-}
-.page-ketthuc-04 .md-content .md-ct-text p{
-  margin-bottom: 5px;
-}
-.page-ketthuc-04 .md-content .md-ct-text::-webkit-scrollbar-track{
-  background: #FFF;
-}
-.page-ketthuc-04 .md-content .md-ct-text::-webkit-scrollbar{
-  width: 4px;
-}
+
 .md-chupanh h3{
   text-transform: uppercase;
 }
@@ -3906,6 +3948,9 @@ input{
 }
 
 @media screen and (min-width: 1600px){ 
+  .page-trungthuong-02 .md-content .img-title{
+    top: 8%;
+  }
   .md-wheel-2 p.top-text{
     top: -55%;
   }
