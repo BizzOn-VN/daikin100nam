@@ -3801,6 +3801,9 @@ p.error-2{
   height: 120px;
   margin: 5px 0px;
 }
+.page-ketthuc-04 .md-content .md-ct-text p{
+  margin-bottom: 5px;
+}
 .page-ketthuc-04 .md-content .md-ct-text::-webkit-scrollbar-track{
   background: #FFF;
 }
