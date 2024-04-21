@@ -3790,9 +3790,6 @@ p.error-2{
   text-align: left !important;
 }
 @media screen and (min-width: 768px){
-  .page-quetma{
-    height: auto  !important;
-  }
   .popup-thele{
     width: 50%;
   }
