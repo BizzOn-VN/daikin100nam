@@ -121,7 +121,16 @@ App.Site = function () {
       });
        function set_height_quetma(){
          var auto_height=$(document).height();
-         $(".page-setheight-2").css("height",auto_height);
+         var auto_height_2=$(document).height() - $('.page-header').height();
+         
+         $(document).ready(function () {
+           if ( $(window).innerWidth() < 767){
+           $(".page-setheight-2").css("height",auto_height);
+         }
+         else{
+           $(".page-setheight-2").css("height",auto_height_2);
+         }
+       });
      }
       set_height_quetma();
        window.addEventListener('resize', function(event) {
