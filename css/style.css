@@ -507,7 +507,7 @@ p.error-2{
   background: #FFF;
   border-radius: 10px 0px 10px 10px;
   padding: 15px 5px 15px 15px;
-  height: 90%;
+  height: calc(100% - 50px);
 }
 .page-trungthuong-02 .md-content .main-content .md-col{
   border-bottom: 1px solid #7d7d7d;
@@ -1677,7 +1677,7 @@ p.error-2{
     font-size: calc(2px + 0.8vw);
   }
   .page-trungthuong-02 .md-content .main-content{
-    height: 85%;
+    height: calc(100% - 75px);
   }
   .page-trungthuong-des .md-content .main-content{
     overflow: visible;
@@ -3678,12 +3678,11 @@ p.error-2{
      .page-dapdung .md-content .md-back{
       width: 35.7%;
      }
-<<<<<<< HEAD
-=======
+
      .page-quetma .md-content .md-back{
       width: 35.5%;
      }
->>>>>>> html-view
+
      .page-trungthuong-des .md-content .md-back{
       width: 35.5%;
      }
@@ -3954,9 +3953,6 @@ input{
 @media screen and (min-width: 1600px){ 
   .page-trungthuong-02 .md-content .img-title{
     top: 5%;
-  }
-  .page-trungthuong-02 .md-content .main-content{
-    height: 90%;
   }
   .md-wheel-2 p.top-text{
     top: -55%;
