@@ -80,20 +80,9 @@ input[type=submit] {
           transition-duration: 0.2s;
 }
 
-.md-desktop{
-    display: block;
-}
-.md-mobile{
-    display: none;
-}
 
 @media screen and (max-width: 767px){
-    .md-desktop{
-        display: none;
-    }
-    .md-mobile{
-        display: block;
-    }
+   
     body{
         font-size: calc(10px + 1vw);
     }
@@ -1858,12 +1847,15 @@ p.error-2{
     font-size: calc(6px + 1vw);
   }
   .page-nhanthuong-08 .md-content .main-content .md-col{
-    float: left;
+    /*float: left;
     width: 48%;
-    margin-right: 4%;
+    margin-right: 4%;*/
   }
   .page-nhanthuong-08 .md-content .main-content .ctn-button-quetma img{
     width: 25%;
+  }
+  .page-nhanthuong-08 .md-content .main-content .ctn-button-quetma{
+    display: none;
   }
   .page-nhanthuong-08 .md-content .main-content .md-col-2{
     margin-right: 0%;
@@ -1871,12 +1863,13 @@ p.error-2{
   .page-nhanthuong-08 .md-content .main-content input[type='button']{
     display: table;
     margin: 10px auto;
-    width: 50%;
+    width: 100%;
   }
   .page-nhanthuong-08 .md-content .main-content p.md-note{
     width: 50%;
     display: table;
     margin: 0 auto;
+    display: none;
   }
   .page-ketthuc-03 .md-content img{
     width: 38%;
@@ -2274,18 +2267,19 @@ p.error-2{
   .page-sdt-02 .md-content .main-content p{
     text-align: center;
   }
-  .page-nhanthuong-08 .md-content .main-content{
+ /* .page-nhanthuong-08 .md-content .main-content{
     float: none;
     width: 100%;
-  }
+  }*/
   .page-nhanthuong-08 .md-content h3{
-    text-align: center;
+    text-align: left;
+    font-size: calc(4px + 2vw);
   }
-  .page-nhanthuong-08 .md-content .main-content .ctn-button-quetma{
+  .page-nhanthuong-08 .md-content .ctn-button-quetma{
     margin: 0px 0 15px;
   }
-  .page-nhanthuong-08 .md-content .main-content .ctn-button-quetma img{
-    width: 35%;
+  .page-nhanthuong-08 .md-content .ctn-button-quetma img{
+    width: 70%;
   }
 /*  .page-nhanthuong01{
     height: auto !important;
@@ -3870,7 +3864,7 @@ p.error-2{
 }
 
 .page-nhanthuong-08 .md-content .main-content input[type='button']{
-  padding: 2% 15px;
+  padding: 4% 15px;
 }
 @media screen and (max-width: 767px){
   .md-chupanh{
@@ -3944,9 +3938,49 @@ input{
 .fancybox-slide{
   overflow: inherit;
 }
+.page-nhanthuong-08 .md-text-08{
+  background: #e9f7ff;
+  border: 2px solid #f7fcff;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.page-nhanthuong-08 .md-text-08 p{
+  float: left;
+  width: 50%;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-size: calc(2px + 1vw);
+}
+.page-nhanthuong-08 .md-text-08 p:first-child{
+  border-right: 2px solid #000;
+  width: 45%;
+  margin-right: 5%;
+}
+.page-nhanthuong-08 .md-text-08 p span{
+  color: #001e6b;
+  display: block;
+  font-size: calc(10px + 1vw);
+  padding-top: 5px;
+}
 @media screen and (max-width: 767px){
   .md-quetma .md-content{
     height: 82%;
+  }
+  .page-nhanthuong-08 .md-content .ctn-button-quetma img{
+    width: 70%;
+  }
+  .page-nhanthuong-08 .md-content .main-content p{
+    margin-bottom: 10px;
+  }
+  .page-nhanthuong-08 .md-content .main-content .md-col p{
+    width: 100%;
+  }
+  .page-nhanthuong-08 .md-text-08 p{
+    font-size: calc(7px + 1vw);
+  }
+  .page-nhanthuong-08 .md-text-08 p span{
+    font-size: calc(15px + 1vw);
   }
 }
 
@@ -4020,4 +4054,18 @@ input{
 }
 .text-ct{
   text-align: center;
+}
+.md-desktop{
+    display: block;
+}
+.md-mobile{
+    display: none;
+}
+@media screen and (max-width: 767px){
+  .md-desktop{
+      display: none;
+  }
+  .md-mobile{
+      display: block;
+  }
 }
