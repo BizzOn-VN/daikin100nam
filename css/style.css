@@ -1757,7 +1757,9 @@ p.error-2{
     padding: 5% 0px;
     font-size: calc(4px + 0.8vw);
   }
-  
+  .md-the-le a{
+    font-size: calc(6px + 1vw);
+  }
   .page-vongquay .img-wheel{
     position: absolute;
     left: 34.5%;
