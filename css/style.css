@@ -3566,10 +3566,10 @@ p.error-2{
 
 .page-hanhtrinh-03 .md-note{
   position: absolute;
-  left: 20%;
-  top: 94%;
-  width: 15%;
-  font-size: calc(2px + 0.5vw);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0%;
+  font-size: calc(1px + 0.5vw);
   color: #FFF;
   margin-bottom: 0;
 }
@@ -4009,7 +4009,7 @@ input{
   }
   .page-hanhtrinh-03 .md-note{
     width: 80%;
-    font-size: calc(5px + 1vw);
+    font-size: calc(6px + 1vw);
     left: 50%;
     transform: translateX(-50%);
     color: #000;
@@ -4019,7 +4019,7 @@ input{
 
 @media screen and (min-width: 1600px){ 
   .page-hanhtrinh-03 .md-note{
-    left: 25%;
+    bottom: 3%;
   }
   .page-trungthuong-02 .md-content .img-title{
     top: 5%;
