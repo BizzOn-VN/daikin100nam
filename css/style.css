@@ -2052,6 +2052,9 @@ p.error-2{
     margin-top: -3%;
     margin-bottom: 15px;
   }
+  .page-hanhtrinh-03 .md-content h3{
+    margin-bottom: 20px;
+  }
   .page-hanhtrinh .btn-cl{
     width: 40%;
   }
@@ -2074,6 +2077,9 @@ p.error-2{
   .page-hanhtrinh .main-content .md-row{
     margin-bottom: 15px;
   }
+  .page-hanhtrinh-03 .main-content .md-row{
+    margin-bottom: 20px;
+  }
   .page-hanhtrinh .main-content .md-row-2{
     margin-bottom: 0px;
   }
@@ -2093,6 +2099,9 @@ p.error-2{
     width: 92%;  
     padding: 0px 10px 0px 10px;
     margin-top: -9%;
+  }
+  .page-hanhtrinh-03 .main-content .md-row .md-col img{
+    padding: 0px 10px 10px 10px;
   }
   .page-hanhtrinh .main-content .md-row .md-col .md-year{
     text-align: right;
@@ -3555,7 +3564,18 @@ p.error-2{
 }
 
 
-
+.page-hanhtrinh-03 .md-note{
+  position: absolute;
+  left: 20%;
+  top: 94%;
+  width: 15%;
+  font-size: calc(2px + 0.5vw);
+  color: #FFF;
+  margin-bottom: 0;
+}
+.page-hanhtrinh-03 .md-note a{
+  color: #54c3f1;
+}
 @media screen and (max-width: 767px){
   .page-main{
      background-image: url(../images/bg-gift.png), linear-gradient(to right, #7dceff, #80cfff);
@@ -3629,6 +3649,9 @@ p.error-2{
     box-shadow: none;
     border-radius: 0px;
     margin-top: -8px;
+  }
+  .page-hanhtrinh-03 .md-content .main-content .md-col .img-giaithuong{
+    margin-top: 5px;
   }
   .page-trungthuong-des .md-content{
     height: 85%;
@@ -3984,9 +4007,20 @@ input{
   .page-nhanthuong-08 .md-text-08 p span{
     font-size: calc(15px + 1vw);
   }
+  .page-hanhtrinh-03 .md-note{
+    width: 80%;
+    font-size: calc(5px + 1vw);
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    top: 95%;
+  }
 }
 
 @media screen and (min-width: 1600px){ 
+  .page-hanhtrinh-03 .md-note{
+    left: 25%;
+  }
   .page-trungthuong-02 .md-content .img-title{
     top: 5%;
   }
