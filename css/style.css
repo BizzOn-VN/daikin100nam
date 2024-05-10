@@ -3673,7 +3673,7 @@ p.error-2{
      }
      .page-hanhtrinh .md-content .md-line-bottom{
       position: relative;
-      margin-top: 15px;
+      margin-top: 10px;
      }
      .page-hanhtrinh .md-content .main-content{
       height: 90%;
@@ -3688,7 +3688,7 @@ p.error-2{
         box-shadow: 0px -8px 20px 20px rgb(255 255 255);
      }
      .page-hanhtrinh .md-content .md-line-bottom-2{
-      bottom: 120%;
+      bottom: 100%;
      }
 
      .page-50k .md-content .md-back{
@@ -4009,11 +4009,12 @@ input{
   }
   .page-hanhtrinh-03 .md-note{
     width: 80%;
-    font-size: calc(6px + 1vw);
+    font-size: calc(3px + 1vw);
     left: 50%;
     transform: translateX(-50%);
     color: #000;
-    top: 95%;
+    bottom: 0%;
+    line-height: 1;
   }
 }
 
