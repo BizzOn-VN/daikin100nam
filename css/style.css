@@ -4013,8 +4013,8 @@ input{
     left: 50%;
     transform: translateX(-50%);
     color: #000;
-    bottom: 0%;
-    line-height: 1;
+    bottom: 1%;
+    line-height: 1.2;
   }
 }
 
@@ -4104,5 +4104,11 @@ input{
   }
   .md-mobile{
       display: block;
+  }
+}
+@media screen and (max-width: 375px) and (max-height: 780px){
+  .page-hanhtrinh-03 .md-note{
+    line-height: 1;
+    bottom: 0.2%;
   }
 }
