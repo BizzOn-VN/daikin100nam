@@ -3570,12 +3570,14 @@ p.error-2{
   bottom: 13%;
   font-size: calc(2px + 0.4vw);
   color: #000;
-  line-height: 1.2;
+  line-height: 1.4;
   margin-bottom: 0 !important;
   width: 10%;
+  letter-spacing: -0.5px !important;
 }
 .page-hanhtrinh-03 .md-note a{
-  color: #54c3f1;
+  color: #000;
+  text-decoration: underline;
 }
 @media screen and (max-width: 767px){
   .page-main{
@@ -4015,7 +4017,7 @@ input{
     transform: translateX(-50%);
     color: #000;
     bottom: 1%;
-    line-height: 1.2;
+    line-height: 1.4;
     position: relative;
     margin-top: 10px !important;
   }
