@@ -4012,7 +4012,7 @@ input{
   }
   .page-hanhtrinh-03 .md-note{
     width: 80%;
-    font-size: calc(8px + 1vw);
+    font-size: calc(6px + 1vw);
     left: 50%;
     transform: translateX(-50%);
     color: #000;
