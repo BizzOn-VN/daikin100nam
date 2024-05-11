@@ -3566,15 +3566,18 @@ p.error-2{
 
 .page-hanhtrinh-03 .md-note{
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0%;
-  font-size: calc(1px + 0.5vw);
-  color: #FFF;
-  margin-bottom: 0;
+  left: 24.6%;
+  bottom: 13%;
+  font-size: calc(2px + 0.4vw);
+  color: #000;
+  line-height: 1.4;
+  margin-bottom: 0 !important;
+  width: 10%;
+  letter-spacing: -0.5px !important;
 }
 .page-hanhtrinh-03 .md-note a{
-  color: #54c3f1;
+  color: #103078;
+  text-decoration: underline;
 }
 @media screen and (max-width: 767px){
   .page-main{
@@ -3598,7 +3601,7 @@ p.error-2{
     background-repeat: no-repeat;
   }
   .page-hanhtrinh{
-     background-image: url(../images/bg-hanhtrinh-mb.jpg), linear-gradient(to right, #7dceff, #80cfff);
+     background-image: url(../images/bg-hanhtrinh-mb.jpg), linear-gradient(to right, #64ceff, #74d3ff);
       background-size: 100% auto;
         background-position: center bottom;
     background-repeat: no-repeat;
@@ -3673,7 +3676,7 @@ p.error-2{
      }
      .page-hanhtrinh .md-content .md-line-bottom{
       position: relative;
-      margin-top: 10px;
+      margin-top: 15px;
      }
      .page-hanhtrinh .md-content .main-content{
       height: 90%;
@@ -3688,7 +3691,7 @@ p.error-2{
         box-shadow: 0px -8px 20px 20px rgb(255 255 255);
      }
      .page-hanhtrinh .md-content .md-line-bottom-2{
-      bottom: 100%;
+      bottom: 115%;
      }
 
      .page-50k .md-content .md-back{
@@ -4009,18 +4012,24 @@ input{
   }
   .page-hanhtrinh-03 .md-note{
     width: 80%;
-    font-size: calc(3px + 1vw);
+    font-size: calc(6px + 1vw);
     left: 50%;
     transform: translateX(-50%);
     color: #000;
     bottom: 1%;
-    line-height: 1.2;
+    line-height: 1.4;
+    position: relative;
+    margin-top: 10px !important;
   }
 }
 
 @media screen and (min-width: 1600px){ 
-  .page-hanhtrinh-03 .md-note{
-    bottom: 3%;
+  .page-hanhtrinh-03 .md-content h3{
+    margin-top: -4%;
+    margin-bottom: 35px;
+  }
+  .page-hanhtrinh-03 .main-content .md-row{
+    margin-bottom: 40px;
   }
   .page-trungthuong-02 .md-content .img-title{
     top: 5%;
