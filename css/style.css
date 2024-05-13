@@ -623,7 +623,7 @@ p.error-2{
    font-family: "Montserrat", sans-serif;
 }
 .page-dapdung .md-content .ui.form .grouped.fields>label{
-  font-weight: 600;
+  font-weight: 700;
    font-family: "Montserrat", sans-serif;
 }
 .page-dapdung .md-content .ui.form .grouped.fields .field{
@@ -2980,11 +2980,8 @@ p.error-2{
 }
 
 @media screen and (max-width: 767px){
-  .page-dapdung .md-content .main-content .ui.radio label{
-    font-size: calc(12px + 1vw);
-  }
   .page-dapdung .md-content .ui.form .grouped.fields>label{
-    font-size: calc(12px + 1vw);
+    font-size: calc(15px + 1vw);
   }
   .page-dapdung .md-note-2{
     font-size: calc(6px + 1vw);
