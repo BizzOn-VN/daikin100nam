@@ -623,7 +623,7 @@ p.error-2{
    font-family: "Montserrat", sans-serif;
 }
 .page-dapdung .md-content .ui.form .grouped.fields>label{
-  font-weight: 500;
+  font-weight: 700;
    font-family: "Montserrat", sans-serif;
 }
 .page-dapdung .md-content .ui.form .grouped.fields .field{
@@ -3757,7 +3757,7 @@ p.error-2{
       font-size: calc(12px + 2vw);
      }
      .page-trungthuong-02 .md-content h3{
-       font-size: calc(6px + 2vw);
+       font-size: calc(13px + 2vw);
      }
 }
 
