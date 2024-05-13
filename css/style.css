@@ -2980,9 +2980,6 @@ p.error-2{
 }
 
 @media screen and (max-width: 767px){
-  .page-dapdung .md-content .ui.form .grouped.fields>label{
-    font-size: calc(15px + 1vw);
-  }
   .page-dapdung .md-note-2{
     font-size: calc(6px + 1vw);
   }
@@ -3760,7 +3757,7 @@ p.error-2{
       font-size: calc(12px + 2vw);
      }
      .page-trungthuong-02 .md-content h3{
-       font-size: calc(6px + 2vw);
+       font-size: calc(13px + 2vw);
      }
 }
 
