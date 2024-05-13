@@ -600,10 +600,10 @@ p.error-2{
   font-family: 'UTMNeutra';
 }
 .page-dapdung .md-note-2{
-  font-size: calc(3px + 0.5vw);
+  font-size: calc(4px + 0.5vw);
 }
 .page-dapdung .md-note-2 a{
-  color: #333;
+  color: #103078;
   text-decoration: underline;
 }
 .page-dapdung .md-content .main-content{
@@ -2981,7 +2981,7 @@ p.error-2{
 
 @media screen and (max-width: 767px){
   .page-dapdung .md-note-2{
-    font-size: calc(5px + 1vw);
+    font-size: calc(6px + 1vw);
   }
   .page-trungthuong .md-content .main-content .md-col a p{
     font-size: calc(7px + 1vw);
