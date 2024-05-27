@@ -4147,3 +4147,9 @@ input{
     bottom: 0.2%;
   }
 }
+@media screen and (min-height: 700px){
+  .page-nhanthuong01 .md-content .md-ct-text{
+    overflow-y: auto;
+    height: auto;
+  }
+}
