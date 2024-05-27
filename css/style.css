@@ -888,8 +888,13 @@ p.error-2{
   padding: 15px 30px 0px 30px;
 }
 .page-nhanthuong01 .bot-content a img{
-  width: 40%;
+  width: 25%;
   margin: 0px 0px 0px -15px;
+}
+.page-nhanthuong01 .bot-content a{
+  color: #fff;
+  text-decoration: underline;
+  font-size: calc(2px + 0.8vw);
 }
 .page-nhanthuong01 .bot-content p{
   margin-bottom: 0px;
@@ -1411,6 +1416,7 @@ p.error-2{
 @media screen and (min-width: 768px){
   .page-nhanthuong01 .md-content .md-ct-text{
     overflow-y: auto;
+    height: auto;
   }
   .page-ketthuc-04 .md-content .md-ct-text{
     overflow-y: scroll;
@@ -1749,6 +1755,11 @@ p.error-2{
     width: 50%;
     display: table;
     margin: 10px auto;
+  }
+  .page-nhanthuong01 .md-content .top-content .md-ct-text a{
+    width: auto;
+    margin: 0;
+    display: inline-block;
   }
   .page-nhanthuong01 .md-content .top-content a img{
     margin-bottom: 0px;
@@ -2971,7 +2982,7 @@ p.error-2{
   padding: 0 2vw;
 }
 .page-main .md-bt-2{
-  top: 122vw;
+  top: 121vw;
   font-size: 4vw;
   height: 12vw;
   line-height: 12vw;
@@ -2980,6 +2991,12 @@ p.error-2{
 }
 
 @media screen and (max-width: 767px){
+  .page-nhanthuong01 .bot-content a img{
+    width: 15%;
+  }
+  .page-nhanthuong01 .bot-content a{
+    font-size: calc(10px + 0.8vw);
+  }
   .page-dapdung .md-note-2{
     font-size: calc(6px + 1vw);
   }
@@ -3363,7 +3380,7 @@ p.error-2{
    .page-main .bot-banner-2 .md-desktop{
     color: #FFF;
     position: absolute;
-    bottom: 1vw;
+    bottom: 0.5vw;
     left: 52%;
     font-size: 0.7vw;
      font-family: "Montserrat", sans-serif;
@@ -3562,7 +3579,7 @@ p.error-2{
   }
   .text-hl{
     font-family: "Montserrat", sans-serif;
-    top: 138vw;
+    top: 135.5vw;
     position: absolute;
     color: #FFF;
     font-weight: 300;
