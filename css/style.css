@@ -1414,10 +1414,7 @@ p.error-2{
   display: inline-block;
 }
 @media screen and (min-width: 768px){
-  .page-nhanthuong01 .md-content .md-ct-text{
-    overflow-y: auto;
-    height: auto;
-  }
+
   .page-ketthuc-04 .md-content .md-ct-text{
     overflow-y: scroll;
   }
@@ -4147,9 +4144,16 @@ input{
     bottom: 0.2%;
   }
 }
-@media screen and (min-height: 700px){
+@media screen and (min-height: 750px){
   .page-nhanthuong01 .md-content .md-ct-text{
     overflow-y: auto;
     height: auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1700px){
+  .page-nhanthuong01 .md-content .md-ct-text{
+    height: 90px;
+    position: relative;
+    z-index: 2;
   }
 }
