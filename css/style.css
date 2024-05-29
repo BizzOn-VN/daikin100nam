@@ -1411,13 +1411,11 @@ p.error-2{
 }
 .page-nhanthuong01 .md-content .md-ct-text a{
   margin: 0px;
+  width: auto;
   display: inline-block;
 }
 @media screen and (min-width: 768px){
-  .page-nhanthuong01 .md-content .md-ct-text{
-    overflow-y: auto;
-    height: auto;
-  }
+
   .page-ketthuc-04 .md-content .md-ct-text{
     overflow-y: scroll;
   }
@@ -4149,7 +4147,20 @@ input{
 }
 @media screen and (min-height: 700px){
   .page-nhanthuong01 .md-content .md-ct-text{
+    height: 170px;
+  }
+}
+@media screen and (min-height: 750px){
+  .page-nhanthuong01 .md-content .md-ct-text{
     overflow-y: auto;
     height: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1700px){
+  .page-nhanthuong01 .md-content .md-ct-text{
+    height: 90px;
+    position: relative;
+    z-index: 2;
   }
 }
