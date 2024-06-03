@@ -3638,6 +3638,14 @@ p.error-2{
     background-repeat: no-repeat;
     
   }
+  .page-nhanthuong-200{
+    background-image: url(../images/bg-form-gift-2.png), linear-gradient(to right, #7dceff, #80cfff);
+      background-size: 100% auto;
+        background-position: center bottom;
+    background-repeat: no-repeat;
+    
+  }
+
   .page-ketthuc-03{
     background-image: url(../images/img-thele.png), linear-gradient(to right, #7dceff, #80cfff);
       background-size: 100% auto;
