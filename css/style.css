@@ -4133,6 +4133,9 @@ input{
 .text-ct{
   text-align: center;
 }
+.page-nhanthuong01 .md-content .text-ct{
+  text-align: center !important;
+}
 .md-desktop{
     display: block;
 }
